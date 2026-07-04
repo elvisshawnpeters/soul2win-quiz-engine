@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="quiz-app">
+        <section id="neet-intro" class="screen screen-intro active">
+            <div class="intro-screen">
+                <h1>NEET Physics Practice Test – Beta v0.1</h1>
+                <p>Practice 10 Physics Questions.<br />Get instant feedback after completing the test.</p>
+                <button id="start-btn" class="primary-btn"> Start Practice → </button>
+            </div>
+        </section>
+        <section id="instructions-screen" class="screen">
+            <div class="instructions-container">
+                <h2>10 Questions</h2>
+                <p>Choose the best answer.</p>
+                <p class="soft-note">Review explanations at the end.</p>
+                <div class="final-actions">
+                    <button id="begin-btn" class="primary-btn"> I’m ready → </button> 
+                    <button id="cancel-btn" class="neutral-btn"> Cancel </button>
+                </div>
+            </div>
+        </section>
+        <div class="screen quiz-header">
+            <div class="quiz-header-row">
+                <span class="quiz-title">NEET Physics Practice Test</span> 
+                <span class="quiz-progress">2 / 10</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill"> </div>
+            </div>
+        </div>
+
+        <div id="question-screen" class="screen">
+            <div class="question-topic"> </div>
+            <h2 class="question-text"> </h2>
+            <div class="options"> </div>
+            <div class="nav-buttons">
+                <button id="prev-btn" class="secondary-btn" disabled="disabled">← Previous</button> 
+                <button id="next-btn" class="primary-btn" disabled="disabled">Next →</button>
+            </div>
+        </div>
+    
+        <!-- SCREEN 5 — RESULT -->
+        <section id="result-screen" class="screen">
+            <div class="result-container">
+                <!-- Result Title -->
+                <h2 id="result-title">Your Score:</h2>
+                <!-- Reflection Blocks -->
+                <div class="reflection">
+                    <div class="reflection-block">
+                        <p id="result-meaning"> </p>
+                    </div>
+                    <div class="reflection-block">
+                        <p id="result-affirmation"> </p>
+                    </div>
+                    <div class="reflection-block">
+                        <p id="result-cost"> </p>
+                    </div>
+                    <div class="reflection-block">
+                        <p id="result-step"> </p>
+                        <div id="scripture"></div>
+                    </div>
+                </div>
+                <div class="final-actions">
+                    <button id="restart-btn" class="secondary-btn"> Restart Practice </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

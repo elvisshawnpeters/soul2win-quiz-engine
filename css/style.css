@@ -1,0 +1,524 @@
+html {
+  scroll-behavior: smooth;
+	scroll-padding-top: 80px; /* height of sticky header */
+}
+
+.single-post .entry-meta {
+  font-size: 1rem;
+  color: #888;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.seo-intro {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.intro-screen p {
+  text-align: center;
+}
+
+/* quiz APP */
+#quiz-app {
+  max-width: 480px;
+  margin: -10px auto 10px;
+  padding: 0 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.screen {
+	padding: 10px 0;
+	display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+.screen-intro .quiz-header {
+  display: none;
+}
+
+#quiz-app h1,
+#quiz-app h2 {
+  line-height: 1.3;
+  word-break: break-word;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quiz-header {
+  margin-bottom: 20px;
+}
+
+.quiz-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 0.8rem;
+  color: #6b7280;
+
+  min-height: 32px; /* reserves space */
+	margin-bottom: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.quiz-header.active .quiz-header-row {
+  opacity: 1;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #2f6fed;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.quiz-title {
+  font-weight: 500;
+	letter-spacing: 0.01em;
+}
+
+.quiz-progress {
+  font-variant-numeric: tabular-nums;
+	font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+/* Question topic */
+.question-topic {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+
+#quiz-app p {
+  color: #555;
+  margin-bottom: 24px;
+}
+
+/* Answer Options */
+.option {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 14px 16px;
+  line-height: 1.4;
+  text-align: left;
+  white-space: normal;
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+/* Selected state */
+.option.selected {
+  border-color: #2f6fed;
+  background: #f0f5ff;
+  color: #111827;
+}
+
+/* Desktop hover only */
+@media (hover: hover) and (pointer: fine) {
+  .option:hover {
+    border-color: #9db5ff;
+  }
+}
+
+/* Accordion Headers */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 18px;
+  min-height: 52px;
+  margin-bottom: 6px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #111827;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Chevron animation */
+.accordion-header .chevron {
+  font-size: 1rem;
+  opacity: 0.7;
+  line-height: 1;
+  margin-left: 12px;
+  color: #6b7280;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+/* Hover / Open */
+.accordion-header:hover .chevron,
+.accordion-header.open .chevron {
+  color: #ffffff;
+}
+
+.accordion-header.open .chevron {
+  color: #e5e7eb;
+  transform: rotate(180deg);
+}
+
+.accordion-content {
+  padding: 14px 16px;
+  background: #ffffff;
+  border-left: 2px solid #e5e7eb;
+  margin-bottom: 14px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Primary / Secondary / Neutral Buttons */
+.primary-btn {
+  width: 100%;
+  background: #2f6fed;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: #2458c6;
+}
+
+.primary-btn:focus,
+.primary-btn:focus-visible,
+.primary-btn:active {
+  outline: none;
+  background: #2458c6;   /* same as hover */
+  color: #ffffff;
+}
+
+/* Secondary button — stable in all states */
+.secondary-btn {
+  width: 100%;
+  background: #ffffff;
+  color: #2f6fed;
+  border: 1px solid #2f6fed;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Lock background — prevents primary bleed */
+.secondary-btn,
+.secondary-btn:hover,
+.secondary-btn:active,
+.secondary-btn:focus,
+.secondary-btn:focus-visible {
+	color: #2f6fed;
+  background: #ffffff;
+}
+
+/* Hover — soft, readable */
+.secondary-btn:hover {
+  background: #eef2ff;
+  color: #2f6fed;
+  border-color: #2f6fed;
+}
+
+/* Active (mouse down) */
+.secondary-btn:active {
+  background: #e0e7ff;
+  color: #2f6fed;
+}
+
+/* Focus ring — keyboard accessibility */
+.secondary-btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.25);
+}
+
+/* Disabled — no hover confusion */
+.secondary-btn:disabled,
+.secondary-btn[disabled] {
+  background: #f3f4f6;
+  color: #9ca3af;
+  border-color: #d1d5db;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Disabled hover safeguard */
+.secondary-btn:disabled:hover,
+.secondary-btn[disabled]:hover {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
+.neutral-btn {
+  width: 100%;
+  background: #f9fafb;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.neutral-btn:hover {
+  color: #111827;
+  background: #f3f4f6;
+}
+
+.neutral-btn:focus,
+.neutral-btn:focus-visible,
+.neutral-btn:active {
+  outline: none;
+  background: #f3f4f6;
+  color: #111827;
+  border-color: #d1d5db;
+}
+
+.primary-btn:focus-visible,
+.secondary-btn:focus-visible,
+.neutral-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.25);
+}
+
+.primary-btn:focus-visible,
+.secondary-btn:focus-visible,
+.neutral-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(47, 111, 237, 0.25);
+}
+
+/* Result Screen */
+#result-screen {
+  width: 100%;
+  max-width: 100%;      /* override any Elementor container limits */
+  padding: 0;        /* optional, for some breathing space */
+  margin: 0 auto;       /* center if any leftover constraints */
+  box-sizing: border-box; /* ensures padding doesn’t push it out */
+	text-align: left;
+}
+
+.result-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 5px;
+  text-align: center;
+}
+
+#result-title {
+  font-size: 1.6rem;
+  margin: 24px 0 32px;
+  font-weight: 600;
+}
+
+/* quiz */
+.quiz-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.quiz-circle {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  border: 2px solid #ddd;
+  border-bottom: none;
+  position: relative;
+  background: #fff;
+}
+
+#quiz-needle {
+  width: 2px;
+  height: 80px;
+  background: #444;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform-origin: bottom center;
+  transform: translateX(-50%) rotate(0deg);
+  transition: transform 1.4s ease-out;
+}
+
+.quiz-label {
+  position: absolute;
+  top: 80px;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.quiz-label.left { 
+  left: 5px; 
+}
+
+.quiz-label.right { 
+  right: 5px; 
+}
+
+/* Reflection */
+.reflection {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.reflection-block {
+  margin-bottom: 1.2rem;
+}
+
+.reflection-block h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+	color: #111;
+}
+
+.reflection-block p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* Nav / Final Actions */
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.nav-buttons button {
+  flex: 1;
+}
+
+.nav-buttons button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.final-actions {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Instructions Screen */
+.instructions-container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.instructions-container h2 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+}
+
+.instructions-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.instructions-container .soft-note {
+  font-style: italic;
+  color: #777;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.close-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: #2f6bff;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.close-btn:hover,
+.close-btn:focus,
+.close-btn:active {
+	color: #fff;
+  text-decoration: none !important;
+}
+
+.close-btn:hover {
+  background: #1f54e0;
+  transform: translateY(-1px);
+}
+
+/* Utilities */
+.hidden {
+  display: none;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  #quiz-app h1 {
+    white-space: nowrap;
+  }
+	
+  .option {
+    padding: 16px 18px;
+    line-height: 1.55;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+	.intro-screen, .instructions-container {
+		padding-top: 20px;
+	}
+	
+	#result-title {
+    font-size: 1.35rem;
+    margin: 20px 0 24px;
+  }
+
+  .reflection-block p,
+  .accordion-content {
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+}
