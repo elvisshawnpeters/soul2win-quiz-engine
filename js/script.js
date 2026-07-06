@@ -1,15 +1,25 @@
 document.addEventListener('DOMContentLoaded', function () {
+  let questions = [];
+  let answers = [];
+
   let currentScreen = "neet-intro";
   let currentQuestionIndex = 0;
   let score = 0;	
-  let answers = new Array(questions.length).fill(null);
+  
   const quizReviewContainer = document.getElementById("quiz-review");
+
+  async function loadQuestions() {
+    const response = await fetch("data/en/questions.json");
+    questions = await response.json();
+  }
 
   function showInstructions() {
     showScreen("instructions-screen");
   }
 
-  function startQuestions() {
+  async function startQuestions() {
+    await loadQuestions();
+    answers = new Array(questions.length).fill(null);
     currentQuestionIndex = 0;
 
     showScreen("question-screen");
