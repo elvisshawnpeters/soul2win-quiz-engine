@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
   let currentScreen = "neet-intro";
   let currentQuestionIndex = 0;
-  let score = 0;
-	
+  let score = 0;	
   let answers = new Array(questions.length).fill(null);
+  const quizReviewContainer = document.getElementById("quiz-review");
 
   function showInstructions() {
     showScreen("instructions-screen");
@@ -133,22 +133,37 @@ document.addEventListener('DOMContentLoaded', function () {
   function showResults() {
     calculateScores();
 	  const total = questions.length;
-    const incorrect = total - score;
-    const percentage = Math.round((score / total) * 100);
-
+    
     document.getElementById("result-title").innerText =
   `Your Score: ${score} / ${total}`;
-    document.getElementById("result-meaning").innerText =
-  `Correct Answers: ${score}`;percentage
-      document.getElementById("result-affirmation").innerText =
-  `Incorrect Answers: ${incorrect}`;
-    document.getElementById("result-cost").innerText =
-  `Percentage: ${percentage}%`;percentage
-      document.getElementById("result-step").innerText =
-  "Thank you for taking this practice test. More NEET questions will be added soon.";
-    document.getElementById("scripture").innerText =
-  "Detailed explanations for each question will be available in the next version.";
-    
+
+    let html = `
+        <div>
+          <h3 class="mb-3">Review Your Answers</h3>
+          <p>Compare your answers with the correct answers and read the explanations below.</p>
+        `;
+
+    questions.forEach(
+        (question, index) => {
+            html += `
+                <hr>
+                <h5>Question ${index + 1}</h5>
+                <p>${question.text}</p>
+                <p>Your Answer: <strong>${question.options[answers[index]].text}</strong></p>
+                <p>Correct Answer: <strong>${question.options[question.correctAnswer].text}</strong></p>
+                <p>${(answers[index] === question.correctAnswer) ? "✅ Correct" : "❌ Wrong"}</p>
+                <p>${question.explanation}</p>
+            `;            
+        }
+    );
+
+    html += `
+               <hr>                
+            </div>
+        </div>
+    `;
+
+    quizReviewContainer.innerHTML = html;
 	  showScreen("result-screen");
   }
 

@@ -1,141 +1,142 @@
 const questions = [
 	{
-	  subject: "Physics",
-	  topic: "Units & Measurements",
-	  text: "What is the SI unit of Force?",
-	  options: [
-		{ text: "Joule" },
-		{ text: "Newton" },
-		{ text: "Pascal" },
-		{ text: "Watt" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "Force is measured in Newtons (N). One Newton is the force required to accelerate a 1 kg mass at 1 m/s²."
-	},
-
-	{
-	  subject: "Kinematics",
-	  topic: "Motion",
-	  text: "A body moving with constant velocity has:",
-	  options: [
-		{ text: "Constant acceleration" },
-		{ text: "Zero acceleration" },
-		{ text: "Increasing acceleration" },
-		{ text: "Variable acceleration" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "Constant velocity means both speed and direction remain unchanged. Therefore, acceleration is zero."
-	},
-
-	{
-	  subject: "Newton's Laws",
-	  topic: "Dynamics",
-	  text: "According to Newton's Second Law, force is equal to:",
-	  options: [
-		{ text: "Mass × Velocity" },
-		{ text: "Mass × Acceleration" },
-		{ text: "Weight × Height" },
-		{ text: "Mass × Time" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "Newton's Second Law states F = ma."
-	},
-
-	{
-	  subject: "Work, Energy & Power",
-	  topic: "Energy",
-	  text: "The SI unit of Work is:",
-	  options: [
-		{ text: "Newton" },
-		{ text: "Pascal" },
-		{ text: "Joule" },
-		{ text: "Watt" }
-	  ],
-	  correctAnswer: 2,
-	  explanation: "Work is measured in Joules (J). One Joule equals one Newton-meter."
-	},
-
-	{
-	  subject: "Gravitation",
-	  topic: "Gravity",
-	  text: "The acceleration due to gravity on Earth is approximately:",
-	  options: [
-		{ text: "9.8 m/s²" },
-		{ text: "4.9 m/s²" },
-		{ text: "10.8 m/s²" },
-		{ text: "8.9 m/s²" }
-	  ],
-	  correctAnswer: 0,
-	  explanation: "The standard value of acceleration due to gravity near Earth's surface is approximately 9.8 m/s²."
-	},
-
-	{
-	  subject: "Thermodynamics",
-	  topic: "Heat",
-	  text: "Heat always flows naturally from:",
-	  options: [
-		{ text: "Cold body to hot body" },
-		{ text: "Hot body to cold body" },
-		{ text: "Lower pressure to higher pressure" },
-		{ text: "Vacuum to matter" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "Heat naturally flows from a higher temperature body to a lower temperature body."
-	},
-
-	{
-	  subject: "Current Electricity",
-	  topic: "Electricity",
-	  text: "The SI unit of electric current is:",
-	  options: [
-		{ text: "Volt" },
-		{ text: "Ampere" },
-		{ text: "Ohm" },
-		{ text: "Coulomb" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "Electric current is measured in Amperes (A)."
-	},
-
-	{
-	  subject: "Magnetism",
-	  topic: "Magnetic Effects",
-	  text: "The SI unit of magnetic field strength (magnetic flux density) is:",
-	  options: [
-		{ text: "Tesla" },
-		{ text: "Weber" },
-		{ text: "Henry" },
-		{ text: "Gauss" }
-	  ],
-	  correctAnswer: 0,
-	  explanation: "Magnetic flux density is measured in Tesla (T)."
-	},
-
-	{
-	  subject: "Optics",
-	  topic: "Reflection",
-	  text: "According to the law of reflection, the angle of incidence is:",
-	  options: [
-		{ text: "Greater than the angle of reflection" },
-		{ text: "Equal to the angle of reflection" },
-		{ text: "Half the angle of reflection" },
-		{ text: "Twice the angle of reflection" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "The law of reflection states that the angle of incidence equals the angle of reflection."
-	},
-
-	{
-	  subject: "Modern Physics",
-	  topic: "Photoelectric Effect",
-	  text: "The photoelectric effect demonstrates the:",
-	  options: [
-		{ text: "Wave nature of electrons" },
-		{ text: "Particle nature of light" },
-		{ text: "Magnetic nature of photons" },
-		{ text: "Elastic nature of light" }
-	  ],
-	  correctAnswer: 1,
-	  explanation: "The photoelectric effect supports the particle nature of light, where light consists of photons."
-	}
+	  id: 1,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "Which of the following molecules has a net dipole moment despite containing polar bonds?",
+      options: [
+        { text: "BF₃" },
+        { text: "NF₃" },
+        { text: "CCl₄" },
+        { text: "CO₂" }
+      ],
+      correctAnswer: 1,
+      explanation: "NF₃ has a pyramidal geometry with a lone pair on nitrogen, preventing the individual N-F bond dipoles from canceling out completely, unlike the symmetrical planar or tetrahedral geometries of BF₃, CCl₄, and CO₂."
+    },
+    {
+	  id: 2,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "According to Molecular Orbital Theory, which of the following species is diamagnetic and has a bond order of 2?",
+      options: [
+        { text: "O₂" },
+        { text: "O₂²⁻" },
+        { text: "N₂²⁺" },
+        { text: "C₂" }
+      ],
+      correctAnswer: 3,
+      explanation: "C₂ has 12 electrons with a molecular orbital configuration where all electrons are paired in the bonding π orbitals, yielding a bond order of 2 and making the molecule diamagnetic."
+    },
+    {
+	  id: 3,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "What is the hybridization and shape of the ClF₃ molecule?",
+      options: [
+        { text: "sp³d², Octahedral" },
+        { text: "sp³d, T-shaped" },
+        { text: "sp³, Pyramidal" },
+        { text: "dsp², Square planar" }
+      ],
+      correctAnswer: 1,
+      explanation: "Chlorine in ClF₃ has 7 valence electrons, forms 3 σ bonds, and retains 2 lone pairs, leading to a steric number of 5 (sp³d hybridization) and a T-shaped geometry to minimize lone pair-lone pair repulsions."
+    },
+    {
+	  id: 4,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "Based on Fajan's rules, which of the following halides exhibits the highest covalent character?",
+      options: [
+        { text: "LiCl" },
+        { text: "NaCl" },
+        { text: "KCl" },
+        { text: "RbCl" }
+      ],
+      correctAnswer: 0,
+      explanation: "According to Fajan's rules, a smaller cation possesses a higher charge density and greater polarizing power, resulting in a higher degree of covalent character in LiCl compared to other alkali metal chlorides."
+    },
+    {
+	  id: 5,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "Which of the following pairs is isoelectronic and isostructural?",
+      options: [
+        { text: "CO₃²⁻ and NO₃⁻" },
+        { text: "ClO₃⁻ and CO₃²⁻" },
+        { text: "SO₃ and SO₃²⁻" },
+        { text: "ClF₃ and BF₃" }
+      ],
+      correctAnswer: 0,
+      explanation: "Both CO₃²⁻ and NO₃⁻ have exactly 24 valence electrons (isoelectronic) and exhibit a trigonal planar geometry (isostructural) with sp² hybridized central atoms."
+    },
+    {
+	  id: 6,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "The correct decreasing order of bond angles in the hydrides of Group 16 elements (H₂O, H₂S, H₂Se, H₂Te) is:",
+      options: [
+        { text: "H₂Te > H₂Se > H₂S > H₂O" },
+        { text: "H₂S > H₂O > H₂Se > H₂Te" },
+        { text: "H₂O > H₂S > H₂Se > H₂Te" },
+        { text: "H₂O = H₂S = H₂Se = H₂Te" }
+      ],
+      correctAnswer: 2,
+      explanation: "As the electronegativity of the central atom decreases down the group, the bond pair-bond pair electron density shifts away from the central atom, reducing repulsion and causing the bond angle to decrease."
+    },
+    {
+	  id: 7,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "What is the formal charge on the central oxygen atom in the ozone (O₃) molecule?",
+      options: [
+        { text: "0" },
+        { text: "-1" },
+        { text: "+2" },
+        { text: "+1" }
+      ],
+      correctAnswer: 3,
+      explanation: "In the Lewis structure of ozone, the central oxygen atom forms one single bond, one double bond, and retains one lone pair, giving it a formal charge calculated as 6 - 2 - 3 = +1."
+    },
+    {
+	  id: 8,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "Which type of intermolecular forces are primarily responsible for the abnormally high boiling point of water compared to hydrogen sulfide (H₂S)?",
+      options: [
+        { text: "London dispersion forces" },
+        { text: "Dipole-dipole interactions" },
+        { text: "Hydrogen bonding" },
+        { text: "Ion-dipole forces" }
+      ],
+      correctAnswer: 2,
+      explanation: "The high electronegativity of oxygen enables strong intermolecular hydrogen bonding in water, requiring significantly more thermal energy to break compared to the weaker dipole-dipole forces in H₂S."
+    },
+    {      
+	  id: 9,
+	  subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "What is the total number of sigma (σ) and pi (π) bonds present in a molecule of benzene?",
+      options: [
+        { text: "6 σ and 3 π" },
+        { text: "12 σ and 3 π" },
+        { text: "9 σ and 3 π" },
+        { text: "12 σ and 6 π" }
+      ],
+      correctAnswer: 1,
+      explanation: "Benzene (C₆H₆) has a planar ring structure containing 6 C-C σ bonds, 6 C-H σ bonds, and 3 alternating C-C π bonds, resulting in a total of 12 σ and 3 π bonds."
+    },
+    {
+	  id: 10,
+      subject: "Chemistry",
+      topic: "Chemical Bonding",
+      text: "Which of the following statements is correct regarding the bond lengths in the carbonate ion (CO₃²⁻)?",
+      options: [
+        { text: "There are two shorter bonds and one longer bond." },
+        { text: "All three C-O bond lengths are equal." },
+        { text: "There is one shorter double bond and two longer single bonds." },
+        { text: "All three C-O bonds have completely different lengths." }
+      ],
+      correctAnswer: 1,
+      explanation: "Due to resonance stabilization, the double bond character is uniformly delocalized across all three oxygen atoms, making all three C-O bond lengths identical and intermediate between a single and a double bond."
+    }
 ];
