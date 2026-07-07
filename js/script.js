@@ -5,17 +5,22 @@ document.addEventListener('DOMContentLoaded', function () {
   let currentScreen = "neet-intro";
   let currentQuestionIndex = 0;
   let score = 0;	
+  let selectedLanguage = "ta";
   
   const quizReviewContainer = document.getElementById("quiz-review");
 
   async function loadQuestions() {
-    const response = await fetch("data/en/questions.json");
+    const response = await fetch(`data/${selectedLanguage}/questions.json`);
     questions = await response.json();
   }
 
   function showInstructions() {
     showScreen("instructions-screen");
   }
+
+  const language = document.querySelector(
+    'input[name="language"]:checked'
+  ).value;
 
   async function startQuestions() {
     await loadQuestions();
@@ -195,8 +200,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hide quiz header
     document.querySelector('.quiz-header')?.classList.remove('active');
 
-    // Go back to intro
-    startQuestions();
+    // Go back to instructions
+    showInstructions();
 
     window.scrollTo({
       top: 0,
@@ -213,8 +218,12 @@ document.addEventListener('DOMContentLoaded', function () {
     showInstructions();
   });
 
-  bindButton('begin-btn', () => {
-    startQuestions();
+  bindButton('begin-btn', async () => {
+    selectedLanguage = document.querySelector(
+      'input[name="language"]:checked'
+    ).value;
+
+    await startQuestions();
   });
 
   bindButton('cancel-btn', () => {
