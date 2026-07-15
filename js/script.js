@@ -7,11 +7,24 @@ document.addEventListener('DOMContentLoaded', function () {
   let score = 0;	
   let selectedLanguage = "ta";
   
+  const DATA_PATH = "data"; // Local & "/wp-content/uploads/quiz" for WordPress
   const quizReviewContainer = document.getElementById("quiz-review");
+  const beginBtn = document.getElementById("begin-btn");
+	const beginBtnText = beginBtn.innerHTML;
 
   async function loadQuestions() {
-    const response = await fetch(`data/${selectedLanguage}/questions.json`);
-    questions = await response.json();
+    const configResponse = await fetch(`${DATA_PATH}/configs/daily-test.json`);
+    const config = await configResponse.json();
+
+    const promises = config.subjects.map(subject => {
+        return fetch(
+            `${DATA_PATH}/${selectedLanguage}/${subject.name}/${subject.file}.json`
+        );
+    });
+    const responses = await Promise.all(promises);
+    const jsonPromises = responses.map(response => response.json());
+    const questionArrays = await Promise.all(jsonPromises);
+    questions = questionArrays.flat();
   }
 
   function showInstructions() {
@@ -56,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
   function renderQuestion(index) {
     const question = questions[index];
 
-    document.querySelector('.question-topic').textContent = question.topic;
+    document.querySelector('.question-topic').textContent = question.subject + ' - ' + question.topic;
     document.querySelector('.question-text').textContent = question.text;
 
     const optionsContainer = document.querySelector('.options');
@@ -162,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function () {
         (question, index) => {
             html += `
                 <hr>
-                <h5>Question ${index + 1}</h5>
+                <h5>Question ${index + 1} (${question.subject})</h5>
                 <p>${question.text}</p>
                 <p>Your Answer: <strong>${question.options[answers[index]].text}</strong></p>
                 <p>Correct Answer: <strong>${question.options[question.correctAnswer].text}</strong></p>
@@ -200,6 +213,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Hide quiz header
     document.querySelector('.quiz-header')?.classList.remove('active');
 
+		// Reset the Begin Button
+		beginBtn.disabled = false;
+    beginBtn.innerHTML = ` I’m ready → `;
+
     // Go back to instructions
     showInstructions();
 
@@ -218,13 +235,15 @@ document.addEventListener('DOMContentLoaded', function () {
     showInstructions();
   });
 
-  bindButton('begin-btn', async () => {
-    selectedLanguage = document.querySelector(
-      'input[name="language"]:checked'
-    ).value;
+	bindButton('begin-btn', async () => {
+    	selectedLanguage = document.querySelector(
+        	'input[name="language"]:checked'
+    	).value;
 
-    await startQuestions();
-  });
+    	beginBtn.disabled = true;
+    	beginBtn.innerHTML = `<span class="loading-spinner"></span>Preparing Quiz...`;
+    	await startQuestions();
+	});
 
   bindButton('cancel-btn', () => {
     cancelTest();

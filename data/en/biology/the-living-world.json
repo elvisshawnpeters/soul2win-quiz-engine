@@ -1,0 +1,377 @@
+[
+  {
+    "id": 1,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Which of the following sets of features are considered defining characteristics of living organisms without any exception?",
+    "options": [
+      { "text": "Growth and Reproduction" },
+      { "text": "Metabolism and Cellular Organisation" },
+      { "text": "Growth and Consciousness" },
+      { "text": "Reproduction and Metabolism" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Metabolism and cellular organisation are defining features of living organisms as they occur in all living organisms without exception. Growth and reproduction have exceptions such as sterile worker bees, mules, and non-living objects growing by accretion."
+  },
+  {
+    "id": 2,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "In majority of higher animals and plants, growth and reproduction are:",
+    "options": [
+      { "text": "Mutually inclusive events" },
+      { "text": "Mutually exclusive events" },
+      { "text": "Synonymous terms" },
+      { "text": "Independent of cell division" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "In unicellular organisms, growth and reproduction are mutually inclusive (synonymous) as cell division leads to increase in both size and number. In higher plants and animals, growth occurs separately from reproduction, making them mutually exclusive events."
+  },
+  {
+    "id": 3,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Binomial nomenclature was given by Carl Linnaeus. According to this system, the scientific name consists of two components, which are:",
+    "options": [
+      { "text": "Family name and Specific epithet" },
+      { "text": "Generic name and Specific epithet" },
+      { "text": "Order name and Generic name" },
+      { "text": "Class name and Specific epithet" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binomial nomenclature provides a name with two components: the first word represents the genus (Generic name) and the second component denotes the specific epithet."
+  },
+  {
+    "id": 4,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Which of the following organizations provides the agreed principles and criteria for the scientific naming of plants?",
+    "options": [
+      { "text": "ICZN" },
+      { "text": "ICBN" },
+      { "text": "ICNB" },
+      { "text": "ICTV" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "ICBN stands for International Code for Botanical Nomenclature, which provides standardized principles and criteria for naming plants."
+  },
+  {
+    "id": 5,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Select the correctly written scientific name of Mango according to the rules of binomial nomenclature:",
+    "options": [
+      { "text": "Mangifera indica Car. Linn" },
+      { "text": "Mangifera Indica Linn." },
+      { "text": "Mangifera indica Linn." },
+      { "text": "mangifera indica Linn." }
+    ],
+    "correctAnswer": 2,
+    "explanation": "The generic name starts with a capital letter (Mangifera), specific epithet starts with a small letter (indica), and the abbreviated name of the author (Linn.) is printed at the end in Roman type."
+  },
+  {
+    "id": 6,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "The process by which anything is grouped into convenient categories based on some easily observable characters is called:",
+    "options": [
+      { "text": "Identification" },
+      { "text": "Nomenclature" },
+      { "text": "Classification" },
+      { "text": "Characterisation" }
+    ],
+    "correctAnswer": 2,
+    "explanation": "Classification is the process by which anything is grouped into convenient categories based on observable characteristics, making the study of organisms manageable."
+  },
+  {
+    "id": 7,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "The scientific term used for categories at different levels in biological classification is:",
+    "options": [
+      { "text": "Species" },
+      { "text": "Taxa" },
+      { "text": "Domain" },
+      { "text": "Phylum" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Taxa (singular: Taxon) is the scientific term used to denote categories at different hierarchical levels, such as Kingdom, Class, Order, or Species."
+  },
+  {
+    "id": 8,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Systematics refers to the study of:",
+    "options": [
+      { "text": "Nomenclature and identification of organisms only" },
+      { "text": "Diversity of organisms and their evolutionary relationships" },
+      { "text": "Internal structure and anatomy of organisms" },
+      { "text": "Habitat preference and ecological distribution" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Systematics is derived from the Latin word 'systema'. It takes into account the diverse kinds of organisms, their relationships, and evolutionary history."
+  },
+  {
+    "id": 9,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "As we go from species to kingdom in a taxonomic hierarchy, the number of common characteristics among organisms:",
+    "options": [
+      { "text": "Increases" },
+      { "text": "Decreases" },
+      { "text": "Remains constant" },
+      { "text": "First increases then decreases" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lower taxa (like species) share the maximum number of common characteristics. As we go higher up the hierarchy towards Kingdom, common characteristics decrease, and general similarities become broader."
+  },
+  {
+    "id": 10,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Which of the following taxonomic categories includes all the others listed?",
+    "options": [
+      { "text": "Genus" },
+      { "text": "Family" },
+      { "text": "Order" },
+      { "text": "Class" }
+    ],
+    "correctAnswer": 3,
+    "explanation": "The taxonomic hierarchy in ascending order is Genus → Family → Order → Class. Therefore, Class is the highest category among the options and encompasses Order, Family, and Genus."
+  },
+  {
+    "id": 11,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Solanum, Panthera, and Felis are examples of which taxonomic category?",
+    "options": [
+      { "text": "Species" },
+      { "text": "Genus" },
+      { "text": "Family" },
+      { "text": "Order" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Solanum (potato, brinjal), Panthera (lion, tiger, leopard), and Felis (cats) represent genera (singular: Genus) containing closely related species."
+  },
+  {
+    "id": 12,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "Plant families such as Convolvulaceae and Solanaceae are included in the order Polymoniales mainly based on:",
+    "options": [
+      { "text": "Vegetative characters" },
+      { "text": "Floral characters" },
+      { "text": "Anatomical characters" },
+      { "text": "Habitat and habit" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plant families like Convolvulaceae and Solanaceae are grouped together under the order Polymoniales primarily based on floral traits."
+  },
+  {
+    "id": 13,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Easy",
+    "text": "The category 'Phylum' in animal classification is equivalent to which category in plant classification?",
+    "options": [
+    { "text": "Class" },
+    { "text": "Order" },
+    { "text": "Division" },
+    { "text": "Kingdom" }
+    ],
+    "correctAnswer": 2,
+    "explanation": "Classes with similar characteristics are assigned to a higher category called Phylum in the case of animals, whereas for plants, the equivalent category used is Division."
+  },
+  {
+    "id": 14,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Which of the following statement is INCORRECT regarding non-living objects and living organisms?",
+    "options": [
+      { "text": "Growth in non-living objects is by accumulation of material on the surface." },
+      { "text": "Growth in living organisms is intrinsic (from inside)." },
+      { "text": "Isolated metabolic reactions in vitro are living things." },
+      { "text": "Photoperiod affects reproduction in seasonal breeders." }
+    ],
+    "correctAnswer": 2,
+    "explanation": "Isolated metabolic reactions in vitro are not living organisms, but they are undoubtedly living reactions because they mimic cellular biochemistry outside a cell."
+  },
+  {
+    "id": 15,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Self-consciousness (awareness of oneself) is a unique property of which living organism?",
+    "options": [
+      { "text": "All prokaryotes" },
+      { "text": "All eukaryotes" },
+      { "text": "Humans only" },
+      { "text": "All animals" }
+    ],
+    "correctAnswer": 2,
+    "explanation": "While all living organisms possess consciousness (ability to sense and respond to environmental stimuli), human beings are the only organisms who possess self-consciousness."
+  },
+  {
+    "id": 16,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Match Column I with Column II and choose the correct option for Housefly (Musca domestica):\nColumn I:\nA. Family\nB. Order\nC. Class\nD. Phylum\n\nColumn II:\ni. Diptera\nii. Arthropoda\niii. Muscidae\niv. Insecta",
+    "options": [
+      { "text": "A-iii, B-i, C-iv, D-ii" },
+      { "text": "A-i, B-iii, C-iv, D-ii" },
+      { "text": "A-iii, B-iv, C-i, D-ii" },
+      { "text": "A-ii, B-i, C-iv, D-iii" }
+    ],
+    "correctAnswer": 0,
+    "explanation": "According to the NCERT taxonomy table: Housefly belongs to Family Muscidae, Order Diptera, Class Insecta, and Phylum Arthropoda."
+  },
+  {
+    "id": 17,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Match the biological names of organisms with their respective orders:\n1. Mango — i. Sapindales\n2. Wheat — ii. Poales\n3. Man — iii. Primata\n4. Housefly — iv. Diptera",
+    "options": [
+      { "text": "1-i, 2-ii, 3-iii, 4-iv" },
+      { "text": "1-ii, 2-i, 3-iii, 4-iv" },
+      { "text": "1-i, 2-iii, 3-ii, 4-iv" },
+      { "text": "1-iv, 2-ii, 3-iii, 4-i" }
+    ],
+    "correctAnswer": 0,
+    "explanation": "The order of Mango (Mangifera indica) is Sapindales; Wheat (Triticum aestivum) is Poales; Man (Homo sapiens) is Primata; and Housefly (Musca domestica) is Diptera."
+  },
+  {
+    "id": 18,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Which of the following taxonomic categories share the LEAST common features among constituent organisms?",
+    "options": [
+      { "text": "Panthera leo and Panthera pardus" },
+      { "text": "Solanaceae and Convolvulaceae" },
+      { "text": "Mammalia and Insecta" },
+      { "text": "Felidae and Canidae" }
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mammalia and Insecta are two different classes within the same Phylum (Arthropoda/Chordata). Since Class is higher up in hierarchy than Genus, Family, or Order, constituent organisms at the Class level share fewer common traits."
+  },
+  {
+    "id": 19,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Read the following statements regarding taxonomic rules:\nI. Biological names are generally in Latin and written in italics.\nII. Both words in a biological name when handwritten are separately underlined.\nIII. The first word representing the genus starts with a small letter.\nIV. Specific epithet starts with a capital letter.\nWhich statements are correct?",
+    "options": [
+      { "text": "I and II only" },
+      { "text": "III and IV only" },
+      { "text": "I and III only" },
+      { "text": "II and IV only" }
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statements I and II are correct. Statements III and IV are incorrect because the generic name starts with a capital letter while the specific epithet starts with a small letter."
+  },
+  {
+    "id": 20,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Consider the following organisms: Planaria, Fungi, Filamentous algae, Moss protonema. What mode of asexual reproduction is common to all of them?",
+    "options": [
+      { "text": "Budding" },
+      { "text": "True regeneration" },
+      { "text": "Fragmentation" },
+      { "text": "Binary fission" }
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fungi, filamentous algae, and protonema of mosses all multiply easily by fragmentation. Planaria also exhibits regeneration of fragmented body parts."
+  },
+  {
+    "id": 21,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "A student collected a plant sample with tubers and floral structures. To place it in a plant family, the student should focus primarily on:",
+    "options": [
+      { "text": "Vegetative characteristics like leaf shape" },
+      { "text": "Reproductive and floral characters" },
+      { "text": "Anatomical arrangements of xylem" },
+      { "text": "Type of root system" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Plant families are characterized based on both vegetative and reproductive traits, but floral (reproductive) traits are conservative and heavily prioritized for placing plants into specific Families and Orders."
+  },
+  {
+    "id": 22,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Why is reproduction NOT considered an all-inclusive defining characteristic of living organisms?",
+    "options": [
+      { "text": "Because non-living things also reproduce" },
+      { "text": "Because many living organisms like mules, sterile worker bees, and infertile human couples do not reproduce" },
+      { "text": "Because reproduction takes place only in eukaryotes" },
+      { "text": "Because growth and reproduction occur simultaneously in all organisms" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "No non-living object is capable of reproducing. However, several living organisms (mules, sterile worker bees, infertile couples) fail to reproduce, so reproduction cannot be an all-inclusive defining property of life."
+  },
+  {
+    "id": 23,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Systema Naturae is the famous publication authored by:",
+    "options": [
+      { "text": "Ernst Mayr" },
+      { "text": "Carolus Linnaeus" },
+      { "text": "R.H. Whittaker" },
+      { "text": "Bentham and Hooker" }
+    ],
+    "correctAnswer": 1,
+    "explanation": "Carolus Linnaeus used 'Systema Naturae' as the title of his famous publication in which he outlined his classification system."
+  },
+  {
+    "id": 24,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Given below are two statements: One is labelled as Assertion (A) and the other is labelled as Reason (R).\nAssertion (A): Consciousness is considered a defining property of living organisms.\nReason (R): All organisms, from prokaryotes to complex eukaryotes, can sense and respond to environmental stimuli.",
+    "options": [
+      { "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)" },
+      { "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)" },
+      { "text": "(A) is true but (R) is false" },
+      { "text": "(A) is false but (R) is true" }
+    ],
+    "correctAnswer": 0,
+    "explanation": "Consciousness is a defining property because every living organism, without exception, has the ability to respond to surrounding environmental inputs (stimuli)."
+  },
+  {
+    "id": 25,
+    "subject": "Biology",
+    "topic": "The Living World",
+    "difficulty": "Moderate",
+    "text": "Which of the following options correctly orders the taxonomic categories of Wheat (Triticum aestivum) in ascending order?",
+    "options": [
+      { "text": "Triticum → Poaceae → Poales → Monocotyledonae → Angiospermae" },
+      { "text": "Angiospermae → Monocotyledonae → Poales → Poaceae → Triticum" },
+      { "text": "Poaceae → Triticum → Poales → Angiospermae → Monocotyledonae" },
+      { "text": "Poales → Poaceae → Triticum → Monocotyledonae → Angiospermae" }
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ascending order means moving from lowest rank to highest rank: Genus (Triticum) → Family (Poaceae) → Order (Poales) → Class (Monocotyledonae) → Division (Angiospermae)."
+  }
+]

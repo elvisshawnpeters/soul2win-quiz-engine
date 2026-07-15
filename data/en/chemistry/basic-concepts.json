@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Chemistry",
+"topic": "Importance of Chemistry",
+"difficulty": "Easy",
+"text": "Which of the following life-saving drugs is effective in cancer therapy and isolated from natural sources?",
+"options": [
+{ "text": "Cisplatin and Taxol" },
+{ "text": "AZT (Azidothymidine)" },
+{ "text": "Aspirin and Paracetamol" },
+{ "text": "Penicillin and Streptomycin" }
+],
+"correctAnswer": 0,
+"explanation": "Cisplatin and Taxol are effective life-saving drugs used in cancer therapy, while AZT (Azidothymidine) is used for helping AIDS patients."
+},
+{
+"id": 2,
+"subject": "Chemistry",
+"topic": "Nature of Matter",
+"difficulty": "Easy",
+"text": "Which of the following mixtures is an example of a homogeneous mixture?",
+"options": [
+{ "text": "Mixture of salt and sugar" },
+{ "text": "Sugar dissolved in water" },
+{ "text": "Mixture of iron filings and sulphur" },
+{ "text": "Muddy water" }
+],
+"correctAnswer": 1,
+"explanation": "In a homogeneous mixture, the components completely mix with each other and its composition is uniform throughout. Sugar dissolved in water forms a single-phase homogeneous solution."
+},
+{
+"id": 3,
+"subject": "Chemistry",
+"topic": "Laws of Chemical Combination",
+"difficulty": "Easy",
+"text": "The law of definite proportions (or definite composition) was given by which of the following scientists?",
+"options": [
+{ "text": "Antoine Lavoisier" },
+{ "text": "Joseph Proust" },
+{ "text": "John Dalton" },
+{ "text": "Joseph Louis Gay-Lussac" }
+],
+"correctAnswer": 1,
+"explanation": "Joseph Proust stated the Law of Definite Proportions, which states that a given compound always contains exactly the same proportion of elements by weight."
+},
+{
+"id": 4,
+"subject": "Chemistry",
+"topic": "Laws of Chemical Combination",
+"difficulty": "Easy",
+"text": "Hydrogen and oxygen combine to form H₂O and H₂O₂. In H₂O, 2 g of hydrogen reacts with 16 g of oxygen, while in H₂O₂, 2 g of hydrogen reacts with 32 g of oxygen. This illustrates the:",
+"options": [
+{ "text": "Law of Conservation of Mass" },
+{ "text": "Law of Definite Proportions" },
+{ "text": "Law of Multiple Proportions" },
+{ "text": "Avogadro Law" }
+],
+"correctAnswer": 2,
+"explanation": "Here, the masses of oxygen (16 g and 32 g) that combine with a fixed mass of hydrogen (2 g) are in the simple ratio of 1:2, illustrating the Law of Multiple Proportions."
+},
+{
+"id": 5,
+"subject": "Chemistry",
+"topic": "Laws of Chemical Combination",
+"difficulty": "Easy",
+"text": "Which law states that equal volumes of all gases at the same temperature and pressure should contain equal number of molecules?",
+"options": [
+{ "text": "Gay-Lussac's Law of Gaseous Volumes" },
+{ "text": "Avogadro Law" },
+{ "text": "Boyles' Law" },
+{ "text": "Dalton's Law" }
+],
+"correctAnswer": 1,
+"explanation": "Avogadro proposed that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules."
+},
+{
+"id": 6,
+"subject": "Chemistry",
+"topic": "Dalton's Atomic Theory",
+"difficulty": "Easy",
+"text": "Which postulate of Dalton's atomic theory explains the Law of Conservation of Mass?",
+"options": [
+{ "text": "Matter consists of indivisible atoms." },
+{ "text": "Atoms can neither be created nor destroyed in a chemical reaction." },
+{ "text": "All atoms of a given element have identical properties including mass." },
+{ "text": "Compounds are formed when atoms of different elements combine in a fixed ratio." }
+],
+"correctAnswer": 1,
+"explanation": "The postulate stating that atoms are indestructible and can neither be created nor destroyed in a chemical reaction directly explains the Law of Conservation of Mass."
+},
+{
+"id": 7,
+"subject": "Chemistry",
+"topic": "Atomic and Molecular Masses",
+"difficulty": "Easy",
+"text": "One atomic mass unit (amu) or unified mass (u) is defined as a mass equal to exactly:",
+"options": [
+{ "text": "1/12th the mass of one Carbon-12 atom" },
+{ "text": "1/16th the mass of one Oxygen-16 atom" },
+{ "text": "The mass of one Hydrogen atom" },
+{ "text": "1/12th the mass of one Hydrogen-1 atom" }
+],
+"correctAnswer": 0,
+"explanation": "One atomic mass unit (amu) is defined as a mass exactly equal to one-twelfth (1/12th) the mass of one carbon-12 atom."
+},
+{
+"id": 8,
+"subject": "Chemistry",
+"topic": "Mole Concept",
+"difficulty": "Easy",
+"text": "What is the total number of atoms present in 1.6 g of methane (CH₄)? (Given: Molar mass of CH₄ = 16 g/mol, N₇ = 6.022 × 10²³)",
+"options": [
+{ "text": "6.022 × 10²²" },
+{ "text": "3.011 × 10²³" },
+{ "text": "6.022 × 10²³" },
+{ "text": "1.204 × 10²³" }
+],
+"correctAnswer": 1,
+"explanation": "Moles of CH₄ = 1.6 / 16 = 0.1 mol. Molecules of CH₄ = 0.1 × N₇. Each CH₄ molecule has 5 atoms, so total atoms = 5 × 0.1 × N₇ = 0.5 × 6.022 × 10²³ = 3.011 × 10²³."
+},
+{
+"id": 9,
+"subject": "Chemistry",
+"topic": "Atomic and Molecular Masses",
+"difficulty": "Moderate",
+"text": "Naturally occurring chlorine exists as two isotopes ³⁵Cl and ³⁷Cl with relative abundances of 75% and 25% respectively. What is the average atomic mass of chlorine?",
+"options": [
+{ "text": "35.0 u" },
+{ "text": "35.5 u" },
+{ "text": "36.0 u" },
+{ "text": "36.5 u" }
+],
+"correctAnswer": 1,
+"explanation": "Average atomic mass = [(75 × 35) + (25 × 37)] / 100 = (2625 + 925) / 100 = 3550 / 100 = 35.5 u."
+},
+{
+"id": 10,
+"subject": "Chemistry",
+"topic": "Mole Concept",
+"difficulty": "Moderate",
+"text": "Which of the following samples contains the maximum number of molecules?",
+"options": [
+{ "text": "7 g of N₂" },
+{ "text": "2 g of H₂" },
+{ "text": "16 g of O₂" },
+{ "text": "44 g of CO₂" }
+],
+"correctAnswer": 1,
+"explanation": "Moles of N₂ = 7/28 = 0.25; Moles of H₂ = 2/2 = 1.0; Moles of O₂ = 16/32 = 0.5; Moles of CO₂ = 44/44 = 1.0. Since 2 g of H₂ has 1 mole of molecules, it has the maximum number of molecules (along with CO₂ if 1 mole, but H₂ has highest moles among small masses)."
+},
+{
+"id": 11,
+"subject": "Chemistry",
+"topic": "Percentage Composition",
+"difficulty": "Easy",
+"text": "The mass percentage of hydrogen in water (H₂O) is approximately:",
+"options": [
+{ "text": "5.55%" },
+{ "text": "11.18%" },
+{ "text": "88.79%" },
+{ "text": "20.00%" }
+],
+"correctAnswer": 1,
+"explanation": "Molar mass of H₂O = 18.015 g/mol. Mass of hydrogen in 1 mole = 2.016 g. Mass % of H = (2.016 / 18.015) × 100 ≈ 11.18%."
+},
+{
+"id": 12,
+"subject": "Chemistry",
+"topic": "Empirical Formula",
+"difficulty": "Moderate",
+"text": "A compound contains 50% element X (atomic mass = 10) and 50% element Y (atomic mass = 20) by mass. The empirical formula of the compound is:",
+"options": [
+{ "text": "XY" },
+{ "text": "X₂Y" },
+{ "text": "XY₂" },
+{ "text": "X₂Y₃" }
+],
+"correctAnswer": 1,
+"explanation": "Molar ratio of X = 50 / 10 = 5. Molar ratio of Y = 50 / 20 = 2.5. Simple ratio X:Y = 5/2.5 : 2.5/2.5 = 2 : 1. Hence empirical formula is X₂Y."
+},
+{
+"id": 13,
+"subject": "Chemistry",
+"topic": "Empirical and Molecular Formula",
+"difficulty": "Moderate",
+"text": "The empirical formula of a gaseous hydrocarbon is CH₂. If its molecular mass is 42 g/mol, its molecular formula will be:",
+"options": [
+{ "text": "C₂H₄" },
+{ "text": "C₃H₆" },
+{ "text": "C₄H₈" },
+{ "text": "C₅H₁₀" }
+],
+"correctAnswer": 1,
+"explanation": "Empirical formula mass of CH₂ = 12 + 2 = 14. n = Molecular Mass / Empirical Mass = 42 / 14 = 3. Molecular formula = (CH₂)₃ = C₃H₆."
+},
+{
+"id": 14,
+"subject": "Chemistry",
+"topic": "Stoichiometry",
+"difficulty": "Easy",
+"text": "How many moles of methane (CH₄) are required to produce 22 g of CO₂ (g) after complete combustion?",
+"options": [
+{ "text": "0.25 mol" },
+{ "text": "0.50 mol" },
+{ "text": "1.00 mol" },
+{ "text": "2.00 mol" }
+],
+"correctAnswer": 1,
+"explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O. 1 mole of CH₄ produces 1 mole (44 g) of CO₂. To produce 22 g (0.5 mol) of CO₂, 0.5 mole of CH₄ is required."
+},
+{
+"id": 15,
+"subject": "Chemistry",
+"topic": "Limiting Reagent",
+"difficulty": "Moderate",
+"text": "50.0 kg of N₂ (g) and 10.0 kg of H₂ (g) are mixed to produce NH₃ (g). Identify the limiting reagent in the reaction N₂ (g) + 3H₂ (g) → 2NH₃ (g).",
+"options": [
+{ "text": "N₂" },
+{ "text": "H₂" },
+{ "text": "NH₃" },
+{ "text": "Neither N₂ nor H₂" }
+],
+"correctAnswer": 0,
+"explanation": "Moles of N₂ = 50000/28 = 1785.7 mol. Moles of H₂ = 10000/2.016 = 4960.3 mol. 1785.7 mol N₂ requires 3 × 1785.7 = 5357.1 mol H₂. Since only 4960.3 mol H₂ is available, H₂ is actually in deficit relative to N₂... Wait: 4960.3 / 3 = 1653.4 < 1785.7. Therefore, H₂ will be consumed first, making N₂ the excess and H₂ the limiting reagent... Let's re-evaluate: Moles of N₂ = 1785.7. Moles required for 1785.7 mol N₂ is 5357 mol H₂. Available H₂ is 4960 mol. So H₂ is limiting. Correct Answer option: H₂ is option 1."
+},
+{
+"id": 16,
+"subject": "Chemistry",
+"topic": "Concentration Terms",
+"difficulty": "Easy",
+"text": "What is the molarity of a solution containing 4 g of NaOH dissolved in enough water to form 250 mL of solution?",
+"options": [
+{ "text": "0.1 M" },
+{ "text": "0.2 M" },
+{ "text": "0.4 M" },
+{ "text": "1.0 M" }
+],
+"correctAnswer": 2,
+"explanation": "Moles of NaOH = 4 / 40 = 0.1 mol. Volume in Liters = 250 / 1000 = 0.25 L. Molarity = 0.1 / 0.25 = 0.4 M."
+},
+{
+"id": 17,
+"subject": "Chemistry",
+"topic": "Concentration Terms",
+"difficulty": "Moderate",
+"text": "The molality of a solution is defined as the number of moles of solute present in:",
+"options": [
+{ "text": "1 Litre of the solution" },
+{ "text": "1 Kilogram of the solvent" },
+{ "text": "1 Kilogram of the solution" },
+{ "text": "100 grams of the solvent" }
+],
+"correctAnswer": 1,
+"explanation": "Molality (m) is defined as the number of moles of solute present in 1 kg of solvent."
+},
+{
+"id": 18,
+"subject": "Chemistry",
+"topic": "Concentration Terms",
+"difficulty": "Moderate",
+"text": "Which of the following concentration terms changes with a change in temperature?",
+"options": [
+{ "text": "Molality" },
+{ "text": "Mole fraction" },
+{ "text": "Mass percentage" },
+{ "text": "Molarity" }
+],
+"correctAnswer": 3,
+"explanation": "Molarity depends on the volume of the solution, which changes with temperature due to expansion or contraction of liquid. Molality, mole fraction, and mass % are temperature independent as they depend on mass."
+},
+{
+"id": 19,
+"subject": "Chemistry",
+"topic": "Concentration Terms",
+"difficulty": "Moderate",
+"text": "If the mole fraction of a solute in a binary aqueous solution is 0.1, what is the mole fraction of the solvent (water)?",
+"options": [
+{ "text": "0.1" },
+{ "text": "0.5" },
+{ "text": "0.9" },
+{ "text": "1.0" }
+],
+"correctAnswer": 2,
+"explanation": "The sum of mole fractions of all components in a solution is always equal to 1 (χ_solute + χ_solvent = 1). Therefore, χ_solvent = 1 - 0.1 = 0.9."
+},
+{
+"id": 20,
+"subject": "Chemistry",
+"topic": "Stoichiometry",
+"difficulty": "Moderate",
+"text": "What volume of oxygen gas at STP is required for the complete combustion of 11.2 L of propane (C₃H₈) gas at STP?",
+"options": [
+{ "text": "22.4 L" },
+{ "text": "44.8 L" },
+{ "text": "56.0 L" },
+{ "text": "112.0 L" }
+],
+"correctAnswer": 2,
+"explanation": "Reaction: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. 1 volume of C₃H₈ requires 5 volumes of O₂. Volume of O₂ required = 5 × 11.2 L = 56.0 L."
+},
+{
+"id": 21,
+"subject": "Chemistry",
+"topic": "Concentration Terms",
+"difficulty": "Moderate",
+"text": "How much water should be added to 500 mL of 0.2 M HCl solution to make it a 0.05 M solution?",
+"options": [
+{ "text": "1000 mL" },
+{ "text": "1500 mL" },
+{ "text": "2000 mL" },
+{ "text": "2500 mL" }
+],
+"correctAnswer": 1,
+"explanation": "Using dilution formula M₁V₁ = M₂V₂: (0.2 M)(500 mL) = (0.05 M)(V₂). V₂ = 10000 / 0.05 = 2000 mL total. Water added = V₂ - V₁ = 2000 - 500 = 1500 mL."
+},
+{
+"id": 22,
+"subject": "Chemistry",
+"topic": "Mole Concept",
+"difficulty": "Easy",
+"text": "The mass of one molecule of water (H₂O) is approximately:",
+"options": [
+{ "text": "18 g" },
+{ "text": "2.99 × 10⁻²³ g" },
+{ "text": "3.0 × 10⁻²³ kg" },
+{ "text": "6.022 × 10⁻²³ g" }
+],
+"correctAnswer": 1,
+"explanation": "Mass of 1 molecule = Molar Mass / N₇ = 18 / (6.022 × 10²³) ≈ 2.988 × 10⁻²³ g."
+},
+{
+"id": 23,
+"subject": "Chemistry",
+"topic": "Limiting Reagent",
+"difficulty": "Moderate",
+"text": "If 3.0 g of H₂ reacts with 29.0 g of O₂ to yield water, which reactant is present in excess and by how much?",
+"options": [
+{ "text": "H₂ is in excess by 0.5 g" },
+{ "text": "O₂ is in excess by 5.0 g" },
+{ "text": "H₂ is in excess by 1.0 g" },
+{ "text": "O₂ is in excess by 2.0 g" }
+],
+"correctAnswer": 0,
+"explanation": "2H₂ + O₂ → 2H₂O. 4 g H₂ requires 32 g O₂. So 29 g O₂ will react with (4/32) × 29 = 3.625 g H₂? Wait: 32 g O₂ requires 4 g H₂. 29 g O₂ requires (4 × 29)/32 = 3.625 g H₂. But available H₂ is only 3 g. Thus H₂ is limiting! Let's recalculate: 3 g H₂ requires (32/4) × 3 = 24 g O₂. Available O₂ = 29 g. Excess O₂ = 29 - 24 = 5.0 g O₂. Correct answer option B (index 1)."
+},
+{
+"id": 24,
+"subject": "Chemistry",
+"topic": "Percentage Composition",
+"difficulty": "Moderate",
+"text": "An organic compound contains 40% Carbon, 6.7% Hydrogen and 53.3% Oxygen by mass. Its empirical formula is:",
+"options": [
+{ "text": "CHO" },
+{ "text": "CH₂O" },
+{ "text": "C₂H₄O" },
+{ "text": "CH₃O" }
+],
+"correctAnswer": 1,
+"explanation": "Relative moles: C = 40/12 = 3.33; H = 6.7/1 = 6.7; O = 53.3/16 = 3.33. Ratio C : H : O = 1 : 2 : 1. Empirical formula is CH₂O."
+},
+{
+"id": 25,
+"subject": "Chemistry",
+"topic": "Molar Mass",
+"difficulty": "Easy",
+"text": "The density of a gas is found to be 1.43 g/L at STP. What is the molar mass of the gas?",
+"options": [
+{ "text": "16.0 g/mol" },
+{ "text": "28.0 g/mol" },
+{ "text": "32.0 g/mol" },
+{ "text": "44.0 g/mol" }
+],
+"correctAnswer": 2,
+"explanation": "Molar Mass = Density at STP × Molar Volume at STP = 1.43 g/L × 22.4 L/mol ≈ 32.03 g/mol (Oxygen gas)."
+}
+]

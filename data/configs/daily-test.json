@@ -1,0 +1,17 @@
+{
+  "day": 1,
+  "subjects": [
+    {
+      "name": "biology",
+      "file": "the-living-world"
+    },
+    {
+      "name": "physics",
+      "file": "physical-world"
+    },
+    {
+      "name": "chemistry",
+      "file": "basic-concepts"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "biology": [
+    {
+      "chapter": 1,
+      "title": "The Living World",
+      "file": "the-living-world"
+    },
+    {
+      "chapter": 2,
+      "title": "Biological Classification",
+      "file": "biological-classification"
+    }
+  ],
+
+  "physics": [
+    {
+      "chapter": 1,
+      "title": "Physical World",
+      "file": "physical-world"
+    }
+  ],
+
+  "chemistry": [
+    {
+      "chapter": 1,
+      "title": "Some Basic Concepts of Chemistry",
+      "file": "basic-concepts"
+    }
+  ]
+}

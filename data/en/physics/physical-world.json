@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Easy",
+"text": "Which of the following is the weakest fundamental force in nature?",
+"options": [
+{ "text": "Weak Nuclear Force" },
+{ "text": "Gravitational Force" },
+{ "text": "Electromagnetic Force" },
+{ "text": "Strong Nuclear Force" }
+],
+"correctAnswer": 1,
+"explanation": "Gravitational force is the weakest of all fundamental forces in nature. Relative to the strong nuclear force, its relative strength is approximately 10⁻³⁸."
+},
+{
+"id": 2,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Easy",
+"text": "Which fundamental force is responsible for the phenomenon of beta-decay in radioactivity?",
+"options": [
+{ "text": "Gravitational Force" },
+{ "text": "Electromagnetic Force" },
+{ "text": "Strong Nuclear Force" },
+{ "text": "Weak Nuclear Force" }
+],
+"correctAnswer": 3,
+"explanation": "The weak nuclear force appears only in certain nuclear processes, such as the β-decay of a nucleus, where an electron and an uncharged particle called neutrino are emitted."
+},
+{
+"id": 3,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Easy",
+"text": "The fundamental force that binds protons and neutrons together inside a atomic nucleus is:",
+"options": [
+{ "text": "Electromagnetic Force" },
+{ "text": "Strong Nuclear Force" },
+{ "text": "Gravitational Force" },
+{ "text": "Weak Nuclear Force" }
+],
+"correctAnswer": 1,
+"explanation": "The strong nuclear force binds protons and neutrons in a nucleus. It is charge-independent and acts equally between a proton and a proton, a neutron and a neutron, and a proton and a neutron."
+},
+{
+"id": 4,
+"subject": "Physics",
+"topic": "Conservation Laws",
+"difficulty": "Easy",
+"text": "The law of conservation of angular momentum is a consequence of which property of space?",
+"options": [
+{ "text": "Homogeneity of space" },
+{ "text": "Isotropy of space" },
+{ "text": "Homogeneity of time" },
+{ "text": "Curvature of space" }
+],
+"correctAnswer": 1,
+"explanation": "The conservation law of angular momentum arises due to the isotropy of space, meaning there is no preferred direction in space."
+},
+{
+"id": 5,
+"subject": "Physics",
+"topic": "Conservation Laws",
+"difficulty": "Easy",
+"text": "The law of conservation of energy is directly related to:",
+"options": [
+{ "text": "Homogeneity of time" },
+{ "text": "Homogeneity of space" },
+{ "text": "Isotropy of space" },
+{ "text": "Symmetry of charge" }
+],
+"correctAnswer": 0,
+"explanation": "Conservation of energy is a result of the homogeneity of time, which means that the laws of nature do not change with time."
+},
+{
+"id": 6,
+"subject": "Physics",
+"topic": "Scientific Method",
+"difficulty": "Easy",
+"text": "Which of the following sequential steps correctly represents the scientific method?",
+"options": [
+{ "text": "Hypothesis → Systematic Observations → Controlled Experiments → Qualitative/Quantitative Reasoning → Mathematical Modelling" },
+{ "text": "Systematic Observations → Controlled Experiments → Qualitative/Quantitative Reasoning → Mathematical Modelling → Hypothesis Testing" },
+{ "text": "Mathematical Modelling → Hypothesis → Controlled Experiments → Systematic Observations" },
+{ "text": "Controlled Experiments → Systematic Observations → Hypothesis → Prediction" }
+],
+"correctAnswer": 1,
+"explanation": "The scientific method involves systematic observations, controlled experiments, qualitative and quantitative reasoning, mathematical modelling, prediction, and verification/falsification of hypotheses."
+},
+{
+"id": 7,
+"subject": "Physics",
+"topic": "Scope and Excitement of Physics",
+"difficulty": "Easy",
+"text": "The macroscopic domain of physics includes the study of phenomena at the laboratory, terrestrial, and astronomical scales, and is mainly covered by:",
+"options": [
+{ "text": "Quantum Mechanics" },
+{ "text": "Classical Physics" },
+{ "text": "Nuclear Physics" },
+{ "text": "Particle Physics" }
+],
+"correctAnswer": 1,
+"explanation": "Classical physics deals largely with macroscopic phenomena and includes subjects like Mechanics, Electrodynamics, Optics, and Thermodynamics."
+},
+{
+"id": 8,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Easy",
+"text": "Arrange the four fundamental forces in nature in increasing order of their relative strengths:",
+"options": [
+{ "text": "Gravitational Force < Weak Nuclear Force < Electromagnetic Force < Strong Nuclear Force" },
+{ "text": "Weak Nuclear Force < Gravitational Force < Electromagnetic Force < Strong Nuclear Force" },
+{ "text": "Gravitational Force < Electromagnetic Force < Weak Nuclear Force < Strong Nuclear Force" },
+{ "text": "Electromagnetic Force < Gravitational Force < Weak Nuclear Force < Strong Nuclear Force" }
+],
+"correctAnswer": 0,
+"explanation": "The relative strengths of the fundamental forces are: Gravitational Force (10⁻³⁸) < Weak Nuclear Force (10⁻¹³) < Electromagnetic Force (10⁻²) < Strong Nuclear Force (1)."
+},
+{
+"id": 9,
+"subject": "Physics",
+"topic": "Physicists and Contributions",
+"difficulty": "Easy",
+"text": "Who among the following scientists discovered the phenomenon of cosmic rays?",
+"options": [
+{ "text": "Victor Francis Hess" },
+{ "text": "C.V. Raman" },
+{ "text": "S.N. Bose" },
+{ "text": "Ernest Rutherford" }
+],
+"correctAnswer": 0,
+"explanation": "Victor Francis Hess was awarded the Nobel Prize for his discovery of cosmic rays in 1912."
+},
+{
+"id": 10,
+"subject": "Physics",
+"topic": "Scope and Excitement of Physics",
+"difficulty": "Easy",
+"text": "The microscopic domain of physics deals with the structure and constitution of matter at the scale of:",
+"options": [
+{ "text": "Planets and Stars" },
+{ "text": "Atoms and Nuclei" },
+{ "text": "Galaxies and Nebulae" },
+{ "text": "Kilometer range" }
+],
+"correctAnswer": 1,
+"explanation": "The microscopic domain includes atomic, molecular, and nuclear phenomena (typically 10⁻¹⁰ m to 10⁻¹⁴ m scale) and is dealt with using Quantum Theory."
+},
+{
+"id": 11,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Moderate",
+"text": "Which of the following fundamental forces operates over an infinite range and acts between charged particles?",
+"options": [
+{ "text": "Gravitational Force" },
+{ "text": "Electromagnetic Force" },
+{ "text": "Strong Nuclear Force" },
+{ "text": "Weak Nuclear Force" }
+],
+"correctAnswer": 1,
+"explanation": "Electromagnetic force acts between charged particles, operates over an infinite range, and does not require an intervening medium."
+},
+{
+"id": 12,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Moderate",
+"text": "The range of the weak nuclear force is exceedingly small, of the order of:",
+"options": [
+{ "text": "10⁻¹⁰ m" },
+{ "text": "10⁻¹⁵ m" },
+{ "text": "10⁻¹⁸ m" },
+{ "text": "Infinite" }
+],
+"correctAnswer": 2,
+"explanation": "The weak nuclear force operates only across extremely short sub-nuclear distances, approximately 10⁻¹⁸ m."
+},
+{
+"id": 13,
+"subject": "Physics",
+"topic": "Physics, Technology, and Society",
+"difficulty": "Moderate",
+"text": "The operation of heat engines and refrigerators is governed by the principles of which branch of physics?",
+"options": [
+{ "text": "Mechanics" },
+{ "text": "Thermodynamics" },
+{ "text": "Electrodynamics" },
+{ "text": "Quantum Mechanics" }
+],
+"correctAnswer": 1,
+"explanation": "Thermodynamics deals with systems in macroscopic equilibrium and is concerned with changes in internal energy, temperature, entropy, and heat conversion in devices like heat engines and refrigerators."
+},
+{
+"id": 14,
+"subject": "Physics",
+"topic": "Conservation Laws",
+"difficulty": "Moderate",
+"text": "The law of conservation of linear momentum is a direct physical consequence of:",
+"options": [
+{ "text": "Homogeneity of space" },
+{ "text": "Isotropy of space" },
+{ "text": "Homogeneity of time" },
+{ "text": "Conservation of charge" }
+],
+"correctAnswer": 0,
+"explanation": "Homogeneity of space implies that there is no preferred location in the universe, which directly leads to the law of conservation of linear momentum."
+},
+{
+"id": 15,
+"subject": "Physics",
+"topic": "Physics, Technology, and Society",
+"difficulty": "Moderate",
+"text": "Which physical principle underlies the technology of a nuclear reactor?",
+"options": [
+{ "text": "Controlled nuclear fusion" },
+{ "text": "Uncontrolled nuclear fission" },
+{ "text": "Controlled nuclear fission" },
+{ "text": "Photoelectric effect" }
+],
+"correctAnswer": 2,
+"explanation": "A nuclear reactor works on the principle of controlled nuclear fission of heavy nuclei like Uranium or Plutonium to generate usable electric energy."
+},
+{
+"id": 16,
+"subject": "Physics",
+"topic": "Physicists and Contributions",
+"difficulty": "Moderate",
+"text": "Match Column I (Scientist) with Column II (Major Contribution/Discovery):\nColumn I:\n(A) W.K. Röntgen\n(B) Albert Einstein\n(C) James Chadwick\n(D) Hideki Yukawa\n\nColumn II:\n(1) Theory of relativity & Photoelectric effect\n(2) Discovery of X-rays\n(3) Theory of nuclear forces\n(4) Discovery of neutron",
+"options": [
+{ "text": "(A)-(2), (B)-(1), (C)-(4), (D)-(3)" },
+{ "text": "(A)-(1), (B)-(2), (C)-(3), (D)-(4)" },
+{ "text": "(A)-(2), (B)-(4), (C)-(1), (D)-(3)" },
+{ "text": "(A)-(3), (B)-(1), (C)-(4), (D)-(2)" }
+],
+"correctAnswer": 0,
+"explanation": "Röntgen discovered X-rays, Einstein explained the photoelectric effect and relativity, Chadwick discovered the neutron, and Yukawa proposed the theory of nuclear forces."
+},
+{
+"id": 17,
+"subject": "Physics",
+"topic": "Physics, Technology, and Society",
+"difficulty": "Moderate",
+"text": "Which underlying principle is correctly matched with its technology?",
+"options": [
+{ "text": "Photocell — Total internal reflection of light" },
+{ "text": "Optical Fibres — Photoelectric effect" },
+{ "text": "Rocket Propulsion — Newton's laws of motion" },
+{ "text": "Hydroelectric Power — Nuclear fusion" }
+],
+"correctAnswer": 2,
+"explanation": "Rocket propulsion works on Newton's laws of motion (specifically action-reaction and conservation of linear momentum). Photocells work on the photoelectric effect, and optical fibres rely on total internal reflection."
+},
+{
+"id": 18,
+"subject": "Physics",
+"topic": "Fundamental Forces in Nature",
+"difficulty": "Moderate",
+"text": "In unification of fundamental forces, Sheldon Glashow, Abdus Salam, and Steven Weinberg were awarded the Nobel Prize for unifying which two forces?",
+"options": [
+{ "text": "Electromagnetic and Gravitational Force" },
+{ "text": "Electromagnetic and Weak Nuclear Force" },
+{ "text": "Strong Nuclear and Weak Nuclear Force" },
+{ "text": "Gravitational and Strong Nuclear Force" }
+],
+"correctAnswer": 1,
+"explanation": "Glashow, Salam, and Weinberg showed that the electromagnetic force and the weak nuclear force are aspects of a single 'electroweak' force."
+},
+{
+"id": 19,
+"subject": "Physics",
+"topic": "Physicists and Contributions",
+"difficulty": "Moderate",
+"text": "Inelastic scattering of light by molecules, causing a change in frequency of light, was discovered by:",
+"options": [
+{ "text": "S.N. Bose" },
+{ "text": "H.J. Bhabha" },
+{ "text": "C.V. Raman" },
+{ "text": "M.N. Saha" }
+],
+"correctAnswer": 2,
+"explanation": "Sir C.V. Raman discovered the Raman Effect in 1928, which involves inelastic scattering of light by molecules, earning him the Nobel Prize in Physics in 1930."
+},
+{
+"id": 20,
+"subject": "Physics",
+"topic": "Scope and Excitement of Physics",
+"difficulty": "Moderate",
+"text": "The order of magnitude of time interval involved in astronomical phenomena down to the lifetime of an unstable particle spans approximately from:",
+"options": [
+{ "text": "10⁻¹⁰ s to 10¹⁰ s" },
+{ "text": "10⁻²² s to 10¹⁸ s" },
+{ "text": "10⁻¹⁵ s to 10²⁵ s" },
+{ "text": "10⁻⁵ s to 10¹² s" }
+],
+"correctAnswer": 1,
+"explanation": "In physical terms, the range of time scale extends from 10⁻²² s (time taken by light to cross a nuclear distance) to 10¹⁸ s (approximate age of the universe)."
+},
+{
+"id": 21,
+"subject": "Physics",
+"topic": "Nature of Physical Laws",
+"difficulty": "Moderate",
+"text": "Read the following statements regarding fundamental forces:\nStatement I: Gravitational force is an attractive force that obeys the inverse-square law.\nStatement II: Strong nuclear force is a long-range force that depends heavily on electric charge.\nSelect the correct option:",
+"options": [
+{ "text": "Both Statement I and Statement II are correct" },
+{ "text": "Both Statement I and Statement II are incorrect" },
+{ "text": "Statement I is correct but Statement II is incorrect" },
+{ "text": "Statement I is incorrect but Statement II is correct" }
+],
+"correctAnswer": 2,
+"explanation": "Statement I is correct as gravity is always attractive and obeys inverse-square law. Statement II is incorrect because strong nuclear force is short-range (~10⁻¹⁵ m) and completely charge-independent."
+},
+{
+"id": 22,
+"subject": "Physics",
+"topic": "Scope and Excitement of Physics",
+"difficulty": "Moderate",
+"text": "The order of mass considered in physics spans from the mass of an electron (~10⁻³⁰ kg) to the mass of the known observable universe, which is approximately:",
+"options": [
+{ "text": "10⁴⁰ kg" },
+{ "text": "10⁵⁵ kg" },
+{ "text": "10⁸⁰ kg" },
+{ "text": "10²⁵ kg" }
+],
+"correctAnswer": 1,
+"explanation": "The range of mass spanned in physical domain goes from about 10⁻³⁰ kg (electron mass) to 10⁵⁵ kg (mass of the observable universe)."
+},
+{
+"id": 23,
+"subject": "Physics",
+"topic": "Conservation Laws",
+"difficulty": "Moderate",
+"text": "A physical quantity that remains constant in time during a physical process is called a conserved quantity. Which of the following is NOT a fundamental conservation law in mechanics?",
+"options": [
+{ "text": "Law of Conservation of Linear Momentum" },
+{ "text": "Law of Conservation of Mass-Energy" },
+{ "text": "Law of Conservation of Angular Momentum" },
+{ "text": "Law of Conservation of Velocity" }
+],
+"correctAnswer": 3,
+"explanation": "There is no 'Law of Conservation of Velocity' in physics because velocity changes whenever a net external force acts on a system."
+},
+{
+"id": 24,
+"subject": "Physics",
+"topic": "Physics, Technology, and Society",
+"difficulty": "Moderate",
+"text": "Particle accelerators rely primarily on which fundamental force to accelerate charged particles to high energy levels?",
+"options": [
+{ "text": "Gravitational Force" },
+{ "text": "Electromagnetic Force" },
+{ "text": "Strong Nuclear Force" },
+{ "text": "Weak Nuclear Force" }
+],
+"correctAnswer": 1,
+"explanation": "Particle accelerators use electric and magnetic fields (electromagnetic forces) to steer and accelerate charged particles like protons or electrons."
+},
+{
+"id": 25,
+"subject": "Physics",
+"topic": "Nature of Physical Laws",
+"difficulty": "Moderate",
+"text": "Which of the following statements about physical laws is INCORRECT?",
+"options": [
+{ "text": "A hypothesis must be verifiable through experiment to become a theory." },
+{ "text": "Physical theories remain open to modification or revision if new experimental evidence contradicts them." },
+{ "text": "The law of conservation of electric charge applies to macroscopic as well as microscopic interactions." },
+{ "text": "A scientific theory, once universally accepted, can never be proven wrong or modified." }
+],
+"correctAnswer": 3,
+"explanation": "Science is dynamic and no theory in physics is final; any theory can be revised or modified if contradicted by new experimental evidence."
+}
+]
