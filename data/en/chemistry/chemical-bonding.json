@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Chemistry",
+"topic": "Kössel-Lewis Approach to Chemical Bonding",
+"difficulty": "Easy",
+"text": "According to the octet-rule Lewis dot structure, how many valence electrons are present around the central sulfur atom in the SO₄²⁻ ion?",
+"options": [
+{ "text": "6" },
+{ "text": "8" },
+{ "text": "10" },
+{ "text": "12" }
+],
+"correctAnswer": 1,
+"explanation": "In a standard Lewis dot representation satisfying the octet rule, the central sulfur atom shares four pairs of electrons with four oxygen atoms, giving it a total of 8 valence electrons in its outer shell."
+},
+{
+"id": 2,
+"subject": "Chemistry",
+"topic": "Ionic or Electrovalent Bond",
+"difficulty": "Easy",
+"text": "Which of the following factors highly favors the formation of a stable ionic bond between two atoms?",
+"options": [
+{ "text": "High ionization enthalpy of the metallic element" },
+{ "text": "Low negative electron gain enthalpy of the non-metallic element" },
+{ "text": "Low lattice enthalpy of the resulting ionic compound" },
+{ "text": "High negative electron gain enthalpy of the non-metallic element" }
+],
+"correctAnswer": 3,
+"explanation": "An ionic bond forms more easily when the non-metallic atom has a high negative electron gain enthalpy, releasing a large amount of energy upon accepting an electron to achieve stability."
+},
+{
+"id": 3,
+"subject": "Chemistry",
+"topic": "Formal Charge",
+"difficulty": "Easy",
+"text": "What is the formal charge on the central oxygen atom in the ozone (O₃) molecule?",
+"options": [
+{ "text": "+1" },
+{ "text": "0" },
+{ "text": "-1" },
+{ "text": "+2" }
+],
+"correctAnswer": 0,
+"explanation": "The formula for formal charge is: Formal Charge = [Total number of valence electrons in free atom] - [Total number of non-bonding electrons] - (1/2)[Total number of bonding electrons]. Substituting values for the central oxygen: 6 - 2 - (1/2)(6) = +1."
+},
+{
+"id": 4,
+"subject": "Chemistry",
+"topic": "Lattice Enthalpy",
+"difficulty": "Easy",
+"text": "Which of the following alkaline earth metal oxides possesses the highest lattice enthalpy?",
+"options": [
+{ "text": "CaO" },
+{ "text": "MgO" },
+{ "text": "SrO" },
+{ "text": "BaO" }
+],
+"correctAnswer": 1,
+"explanation": "Lattice enthalpy increases as ionic radius decreases. Among the group 2 cations, Mg²⁺ has the smallest ionic size, maximizing the electrostatic force of attraction with the O²⁻ ion."
+},
+{
+"id": 5,
+"subject": "Chemistry",
+"topic": "Bond Parameters",
+"difficulty": "Easy",
+"text": "Which of the following molecules has the shortest bond length between its constituent atoms?",
+"options": [
+{ "text": "O₂" },
+{ "text": "N₂" },
+{ "text": "F₂" },
+{ "text": "H₂" }
+],
+"correctAnswer": 3,
+"explanation": "Hydrogen (H₂) has the shortest bond length (74 pm) because of the exceptionally small atomic radius of the hydrogen atom, even though N₂ has a higher bond order."
+},
+{
+"id": 6,
+"subject": "Chemistry",
+"topic": "Dipole Moment",
+"difficulty": "Easy",
+"text": "Which of the following molecules has a net dipole moment equal to zero?",
+"options": [
+{ "text": "H₂O" },
+{ "text": "NH₃" },
+{ "text": "BF₃" },
+{ "text": "NF₃" }
+],
+"correctAnswer": 2,
+"explanation": "BF₃ possesses a symmetrical trigonal planar geometry where the vector sum of three individual polar B-F bonds completely cancels out, resulting in a net dipole moment of zero."
+},
+{
+"id": 7,
+"subject": "Chemistry",
+"topic": "VSEPR Theory",
+"difficulty": "Easy",
+"text": "According to the VSEPR theory, what is the basic geometry of a molecule containing 4 bonding pairs and 2 lone pairs of electrons around its central atom?",
+"options": [
+{ "text": "Square planar" },
+{ "text": "Octahedral" },
+{ "text": "Tetrahedral" },
+{ "text": "See-saw" }
+],
+"correctAnswer": 0,
+"explanation": "An AB₄E₂ type molecule has an octahedral electron-pair arrangement, but the two lone pairs occupy opposite positions to minimize repulsion, yielding a square planar molecular geometry."
+},
+{
+"id": 8,
+"subject": "Chemistry",
+"topic": "Hybridization",
+"difficulty": "Easy",
+"text": "What is the hybridization state of the central phosphorus atom in the PCl₅ molecule?",
+"options": [
+{ "text": "sp³" },
+{ "text": "sp³d" },
+{ "text": "sp³d²" },
+{ "text": "dsp²" }
+],
+"correctAnswer": 1,
+"explanation": "Phosphorus utilizes 5 valence electrons to form 5 sigma bonds with chlorine atoms. Five hybrid orbitals are required, which corresponds to sp³d hybridization with a trigonal bipyramidal structure."
+},
+{
+"id": 9,
+"subject": "Chemistry",
+"topic": "Hydrogen Bonding",
+"difficulty": "Easy",
+"text": "Which of the following compounds exhibits intramolecular hydrogen bonding?",
+"options": [
+{ "text": "o-Nitrophenol" },
+{ "text": "p-Nitrophenol" },
+{ "text": "Water" },
+{ "text": "Ethanol" }
+],
+"correctAnswer": 0,
+"explanation": "In o-nitrophenol, the -NO₂ and -OH groups are adjacent to each other on the same benzene ring, allowing a hydrogen bond to form internally within a single molecule."
+},
+{
+"id": 10,
+"subject": "Chemistry",
+"topic": "Resonance Structures",
+"difficulty": "Easy",
+"text": "Which statement is true regarding the resonance structures of a molecule?",
+"options": [
+{ "text": "The individual canonical structures have a real physical existence." },
+{ "text": "The molecule exists for a fraction of time in each canonical structure." },
+{ "text": "The resonance hybrid possesses higher energy than any single canonical structure." },
+{ "text": "The individual canonical structures have no real physical existence." }
+],
+"correctAnswer": 3,
+"explanation": "Canonical structures are imaginary and have no real physical existence; the molecule is permanently represented by a single stable resonance hybrid."
+},
+{
+"id": 11,
+"subject": "Chemistry",
+"topic": "Dipole Moment",
+"difficulty": "Moderate",
+"text": "Why is the net dipole moment of NH₃ significantly greater than that of NF₃, even though fluorine is much more electronegative than hydrogen?",
+"options": [
+{ "text": "In NH₃, the lone pair dipole acts in the opposite direction to the bond dipoles." },
+{ "text": "In NF₃, the lone pair dipole acts in the same direction as the N-F bond dipoles." },
+{ "text": "In NH₃, the lone pair dipole acts in the same direction as the resultant N-H bond dipoles." },
+{ "text": "The nitrogen atom in NH₃ contains fewer lone pairs than the nitrogen in NF₃." }
+],
+"correctAnswer": 2,
+"explanation": "In NH₃, the individual N-H bond dipoles point towards nitrogen and reinforce the lone pair dipole vector, whereas in NF₃, the highly electronegative fluorine atoms pull electron density away, opposing the lone pair vector."
+},
+{
+"id": 12,
+"subject": "Chemistry",
+"topic": "Fajans' Rules",
+"difficulty": "Moderate",
+"text": "Arrange the following halid compounds in the increasing order of their covalent character as predicted by Fajans' rules: LiF, LiCl, LiBr, LiI.",
+"options": [
+{ "text": "LiI < LiBr < LiCl < LiF" },
+{ "text": "LiF < LiCl < LiBr < LiI" },
+{ "text": "LiCl < LiF < LiBr < LiI" },
+{ "text": "LiF < LiBr < LiCl < LiI" }
+],
+"correctAnswer": 1,
+"explanation": "According to Fajans' rules, for a fixed cation, the covalent character increases as the size of the anion increases because larger anions are more easily polarized."
+},
+{
+"id": 13,
+"subject": "Chemistry",
+"topic": "VSEPR Theory",
+"difficulty": "Moderate",
+"text": "Which of the following sets represents a group of perfectly isostructural chemical species?",
+"options": [
+{ "text": "NF₃ and BF₃" },
+{ "text": "CO₂ and SO₂" },
+{ "text": "BF₄⁻ and NH₄⁺" },
+{ "text": "PCl₅ and IF₅" }
+],
+"correctAnswer": 2,
+"explanation": "Both BF₄⁻ and NH₄⁺ possess a central atom with 4 bonding pairs and 0 lone pairs, giving both species a matching sp³ hybridized tetrahedral molecular geometry."
+},
+{
+"id": 14,
+"subject": "Chemistry",
+"topic": "Molecular Orbital Theory",
+"difficulty": "Moderate",
+"text": "What is the correct increasing order of bond stability for the molecular species O₂, O₂⁺, O₂⁻, and O₂²⁻?",
+"options": [
+{ "text": "O₂²⁻ < O₂⁻ < O₂ < O₂⁺" },
+{ "text": "O₂⁺ < O₂ < O₂⁻ < O₂²⁻" },
+{ "text": "O₂⁻ < O₂²⁻ < O₂ < O₂⁺" },
+{ "text": "O₂²⁻ < O₂ < O₂⁻ < O₂⁺" }
+],
+"correctAnswer": 0,
+"explanation": "Bond stability increases directly with bond order. The calculated bond orders are O₂²⁻ (1.0) < O₂⁻ (1.5) < O₂ (2.0) < O₂⁺ (2.5), meaning that stability follows the sequence shown in option A."
+},
+{
+"id": 15,
+"subject": "Chemistry",
+"topic": "Molecular Orbital Theory",
+"difficulty": "Moderate",
+"text": "Which of the following diatomic molecular species does NOT exist under standard conditions according to molecular orbital theory?",
+"options": [
+{ "text": "Li₂" },
+{ "text": "Be₂" },
+{ "text": "B₂" },
+{ "text": "C₂" }
+],
+"correctAnswer": 1,
+"explanation": "The electronic configuration of Be₂ (8 electrons) is σ1s² σ*1s² σ2s² σ*2s². The formula for bond order is: Bond Order = (1/2)(N_b - N_a). Substituting values: (1/2)(4 - 4) = 0, indicating the species is unstable and does not exist."
+},
+{
+"id": 16,
+"subject": "Chemistry",
+"topic": "Covalent Bonding and Overlap",
+"difficulty": "Moderate",
+"text": "Which type of atomic orbital overlap can result in the formation of a pi (π) covalent bond?",
+"options": [
+{ "text": "Axial overlap of two s orbitals" },
+{ "text": "End-to-end overlap of two p orbitals" },
+{ "text": "Sidewise or lateral overlap of two p orbitals" },
+{ "text": "Axial overlap of an s orbital and a p orbital" }
+],
+"correctAnswer": 2,
+"explanation": "A pi (π) bond is formed by the sidewise or lateral overlap of atomic p orbitals with their axes parallel to each other and perpendicular to the internuclear axis."
+},
+{
+  "id": 17,
+  "subject": "Chemistry",
+  "topic": "Structures of Nitrogen Oxides",
+  "difficulty": "Moderate",
+  "text": "The total number of sigma (σ) and pi (π) bonds present in a molecule of dinitrogen pentoxide (N₂O₅) is respectively:",
+  "options": [
+    { "text": "6 σ and 2 π" },
+    { "text": "5 σ and 3 π" },
+    { "text": "6 σ and 3 π" },
+    { "text": "4 σ and 4 π" }
+  ],
+  "correctAnswer": 0,
+  "explanation": "Dinitrogen pentoxide (N₂O₅) has the structure O₂N–O–NO₂. Each nitrogen atom forms three σ bonds (one to the bridging oxygen, one single bond to oxygen, and one σ bond within the N=O double bond). Therefore, the molecule contains a total of 6 σ bonds and 2 π bonds."
+},
+{
+"id": 18,
+"subject": "Chemistry",
+"topic": "Bond Parameters",
+"difficulty": "Moderate",
+"text": "Which of the following statements is NOT correct regarding bond parameters?",
+"options": [
+{ "text": "Bond enthalpy is the amount of energy required to break one mole of bonds of a particular type." },
+{ "text": "For a given pair of atoms, a higher bond order results in a longer bond length." },
+{ "text": "Homonuclear diatomic molecules show a periodic decrease in bond enthalpy as atomic size increases down a group." },
+{ "text": "Bond angle is defined as the angle between the orbitals containing bonding electron pairs around the central atom." }
+],
+"correctAnswer": 1,
+"explanation": "The statement is incorrect because bond order is inversely proportional to bond length. A higher bond order means a stronger, shorter bond between the atoms."
+},
+{
+"id": 19,
+"subject": "Chemistry",
+"topic": "Molecular Orbital Theory",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nAssertion (A): The molecule He₂ does not exist in nature.\nReason (R): The calculated bond order for the He₂ molecule is equal to zero.\nBased on the statements, choose the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "He₂ contains 4 electrons with a configuration of σ1s² σ*1s². The formula for bond order is: Bond Order = (1/2)(N_b - N_a). Substituting values: (1/2)(2 - 2) = 0. A bond order of zero indicates that no net attractive force holds the atoms together."
+},
+{
+"id": 20,
+"subject": "Chemistry",
+"topic": "Valence Shell Electron Pair Repulsion Theory",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nAssertion (A): SF₆ molecule exhibits a stable octahedral shape and is chemically inert towards hydrolysis.\nReason (R): The sulfur atom in SF₆ is sterically protected by six fluorine atoms, preventing attacking reagents from approaching it easily.\nBased on the statements, choose the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "SF₆ is thermodynamically unstable toward hydrolysis but remains exceptionally inert kinetically. Six fluorine surrounding atoms tightly shield the central sulfur atom, preventing water molecules from easily interacting with it."
+},
+{
+"id": 21,
+"subject": "Chemistry",
+"topic": "Hybridization and Geometry",
+"difficulty": "Challenging",
+"text": "Consider the molecules ClF₃, XeF₄, and SF₄. What is the total combined number of non-bonding lone pairs localized specifically on the central atoms of these three molecules?",
+"options": [
+{ "text": "4" },
+{ "text": "5" },
+{ "text": "6" },
+{ "text": "3" }
+],
+"correctAnswer": 1,
+"explanation": "ClF₃ has 2 lone pairs on Cl (sp³d). XeF₄ has 2 lone pairs on Xe (sp³d²). SF₄ has 1 lone pair on S (sp³d). The total sum is calculated as 2 + 2 + 1 = 5 lone pairs."
+},
+{
+"id": 22,
+"subject": "Chemistry",
+"topic": "Molecular Orbital Theory",
+"difficulty": "Challenging",
+"text": "Which of the following diatomic species displays an inversion of the normal molecular orbital energy sequence, where the π2p_x and π2p_y bonding orbitals are lower in energy than the σ2p_z orbital?",
+"options": [
+{ "text": "O₂" },
+{ "text": "F₂" },
+{ "text": "B₂" },
+{ "text": "Ne₂" }
+],
+"correctAnswer": 2,
+"explanation": "For homonuclear diatomic elements up to nitrogen (atomic number Z ≤ 7), the s-p orbital mixing raises the energy of the σ2p_z orbital above the π2p orbitals, a trend seen in B₂, C₂, and N₂."
+},
+{
+"id": 23,
+"subject": "Chemistry",
+"topic": "Molecular Orbital Theory",
+"difficulty": "Challenging",
+"text": "During the conversion process of a neutral dinitrogen molecule (N₂) into the dinitrogen monocation (N₂⁺), from which specific molecular orbital is the electron removed?",
+"options": [
+{ "text": "π*2p_x orbital" },
+{ "text": "σ2p_z orbital" },
+{ "text": "π2p_y orbital" },
+{ "text": "σ*2s orbital" }
+],
+"correctAnswer": 1,
+"explanation": "The electronic configuration of N₂ is σ1s² σ*1s² σ2s² σ*2s² (π2p_x² = π2p_y²) σ2p_z². The highest occupied molecular orbital (HOMO) is σ2p_z, so ionization removes the electron from this orbital."
+},
+{
+  "id": 24,
+  "subject": "Chemistry",
+  "topic": "VSEPR Theory",
+  "difficulty": "Challenging",
+  "text": "Which statement correctly describes the F–S–F bond angles in the see-saw shaped SF₄ molecule after distortion caused by the equatorial lone pair?",
+  "options": [
+    { "text": "Exactly 120° and 90°" },
+    { "text": "Less than 120° and less than 90°" },
+    { "text": "Greater than 120° and less than 90°" },
+    { "text": "Less than 120° and greater than 90°" }
+  ],
+  "correctAnswer": 1,
+  "explanation": "According to VSEPR theory, the equatorial lone pair exerts stronger repulsion than bonding pairs. As a result, the equatorial F–S–F bond angle decreases from 120° to about 102°, while the axial-equatorial bond angle decreases from 90° to about 87°. Therefore, both bond angles are less than their ideal values."
+},
+{
+"id": 25,
+"subject": "Chemistry",
+"topic": "Hybridization",
+"difficulty": "Challenging",
+"text": "In which of the following processes does the central atom undergo a clear change in its orbital hybridization state?",
+"options": [
+{ "text": "NH₃ combining with H⁺ to form NH₄⁺" },
+{ "text": "BF₃ combining with F⁻ to form BF₄⁻" },
+{ "text": "H₂O combining with H⁺ to form H₃O⁺" },
+{ "text": "AlCl₃ dimerizing to form Al₂Cl₆" }
+],
+"correctAnswer": 1,
+"explanation": "In BF₃, boron is sp² hybridized (trigonal planar). Upon reacting with F⁻ to form BF₄⁻, it acquires 4 bonding pairs, changing its hybridization state to sp³ (tetrahedral). In the other reactions, the hybridization state remains sp³."
+}
+]

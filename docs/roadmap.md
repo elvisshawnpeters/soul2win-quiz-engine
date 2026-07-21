@@ -1,26 +1,25 @@
-# soul2win Quiz Engine Roadmap
+# Soul2Win Quiz Engine Roadmap
 
 ## Version 1.0
 
-- Standalone Quiz Engine
-- Question navigation
-- Score calculation
-- Responsive layout
+- [x] Bilingual support
+- [x] Daily test
+- [x] Explanations
+- [x] Responsive UI
 
 ## Version 1.1
 
-- Timer
-- Review answers
-- Better result screen
+- [ ] Previous day selector
+- [ ] Question shuffle
+- [ ] Option shuffle
 
 ## Version 1.2
 
-- Multiple question banks
-- Categories
-- Difficulty levels
+- [ ] Quiz analytics
+- [ ] Timer
 
 ## Version 2.0
 
-- AI-generated questions
-- WordPress integration
-- Analytics
+- [ ] Student login
+- [ ] Leaderboard
+- [ ] Performance history

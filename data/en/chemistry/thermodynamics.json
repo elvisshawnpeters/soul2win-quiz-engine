@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Chemistry",
+"topic": "Thermodynamic Terms",
+"difficulty": "Easy",
+"text": "Which of the following properties of a system is classified as an intensive property?",
+"options": [
+{ "text": "Internal energy" },
+{ "text": "Volume" },
+{ "text": "Molar heat capacity" },
+{ "text": "Enthalpy" }
+],
+"correctAnswer": 2,
+"explanation": "An intensive property is a property of matter that does not depend on the size or amount of matter present in the system. Molar heat capacity is the heat capacity per mole of a substance, making it independent of the total amount of matter, whereas internal energy, volume, and enthalpy depend on the amount of substance and are extensive properties."
+},
+{
+"id": 2,
+"subject": "Chemistry",
+"topic": "First Law of Thermodynamics",
+"difficulty": "Easy",
+"text": "In a process, a system absorbs 701 J of heat and does 394 J of work. What is the change in internal energy for this process?",
+"options": [
+{ "text": "307 J" },
+{ "text": "-307 J" },
+{ "text": "1095 J" },
+{ "text": "-1095 J" }
+],
+"correctAnswer": 0,
+"explanation": "According to the first law of thermodynamics: ΔU = q + w. Here, heat is absorbed by the system, so q = +701 J. Work is done by the system, so w = -394 J. Substituting these values into the formula gives ΔU = 701 J - 394 J = 307 J."
+},
+{
+"id": 3,
+"subject": "Chemistry",
+"topic": "Applications of First Law",
+"difficulty": "Easy",
+"text": "For an ideal gas expanding isothermally and reversibly into a vacuum, which of the following sets of parameters is correct?",
+"options": [
+{ "text": "w = 0, q > 0, ΔU = 0" },
+{ "text": "w = 0, q = 0, ΔU = 0" },
+{ "text": "w < 0, q > 0, ΔU = 0" },
+{ "text": "w > 0, q = 0, ΔU > 0" }
+],
+"correctAnswer": 1,
+"explanation": "Free expansion refers to the expansion of a gas against zero external pressure, meaning pₑₓₜ = 0, so work done w = -pₑₓₜΔV = 0. Since the expansion is isothermal, the temperature remains constant, which implies that the internal energy change for an ideal gas ΔU = 0. According to the first law of thermodynamics, ΔU = q + w, which gives 0 = q + 0, so q = 0."
+},
+{
+"id": 4,
+"subject": "Chemistry",
+"topic": "Enthalpy Change",
+"difficulty": "Easy",
+"text": "For the reaction C(s) + O₂(g) → CO₂(g), which of the following relationships between the enthalpy change (ΔH) and internal energy change (ΔU) is correct?",
+"options": [
+{ "text": "ΔH = ΔU + RT" },
+{ "text": "ΔH = ΔU - RT" },
+{ "text": "ΔH = ΔU" },
+{ "text": "ΔH = ΔU + 2RT" }
+],
+"correctAnswer": 2,
+"explanation": "The relationship between enthalpy change and internal energy change is given by the formula: ΔH = ΔU + Δn_gRT. The parameter Δn_g represents the change in the number of moles of gaseous products and gaseous reactants. For the reaction C(s) + O₂(g) → CO₂(g), Δn_g = 1 (mol of CO₂ gas) - 1 (mol of O₂ gas) = 0. Substituting Δn_g = 0 into the formula yields ΔH = ΔU."
+},
+{
+  "id": 5,
+  "subject": "Chemistry",
+  "topic": "Enthalpy Change",
+  "difficulty": "Easy",
+  "text": "By thermodynamic convention, the enthalpy change for an exothermic reaction is always assigned a:",
+  "options": [
+    { "text": "Positive sign because heat is absorbed by the system" },
+    { "text": "Negative sign because heat is released by the system" },
+    { "text": "Positive sign because heat is released to the surroundings" },
+    { "text": "Negative sign because work is done on the system" }
+  ],
+  "correctAnswer": 1,
+  "explanation": "In an exothermic process, heat is released from the system to the surroundings. As a result, the enthalpy of the system decreases, and the enthalpy change (ΔH) is negative."
+},
+{
+"id": 6,
+"subject": "Chemistry",
+"topic": "Thermochemistry",
+"difficulty": "Easy",
+"text": "The standard enthalpy of formation (Δ_fH°) is defined as the enthalpy change for the formation of one mole of a substance from its constituent elements in their most stable states of aggregation. For which of the following substances is Δ_fH° equal to zero at 298 K?",
+"options": [
+{ "text": "CO₂(g)" },
+{ "text": "H₂O(l)" },
+{ "text": "C(diamond)" },
+{ "text": "Br₂(l)" }
+],
+"correctAnswer": 3,
+"explanation": "By academic convention, the standard enthalpy of formation of an element in its reference state (its most stable form of aggregation at 298 K and 1 bar pressure) is taken as zero. Liquid bromine, Br₂(l), is the standard state of bromine. For carbon, graphite is the reference state, so Δ_fH° for diamond is not zero. Compounds like CO₂ and H₂O have non-zero standard enthalpies of formation."
+},
+{
+"id": 7,
+"subject": "Chemistry",
+"topic": "Entropy",
+"difficulty": "Easy",
+"text": "In which of the following processes does the entropy of the system decrease?",
+"options": [
+{ "text": "Sublimation of camphor" },
+{ "text": "Freezing of liquid water into ice" },
+{ "text": "Dissolution of sugar in water" },
+{ "text": "Expansion of a gas into a larger volume" }
+],
+"correctAnswer": 1,
+"explanation": "Entropy is a measure of the molecular disorder or randomness of a system. When liquid water freezes to form solid ice, the molecules are locked into a highly structured crystalline network, which restricts their movement and significantly reduces spatial disorder. Thus, entropy decreases. Sublimation, dissolution, and expansion all lead to greater molecular freedom and an increase in entropy."
+},
+{
+"id": 8,
+"subject": "Chemistry",
+"topic": "Gibbs Energy and Spontaneity",
+"difficulty": "Easy",
+"text": "For a chemical reaction to occur spontaneously at all temperatures, the thermodynamic criteria that must be satisfied are:",
+"options": [
+{ "text": "ΔH < 0 and ΔS > 0" },
+{ "text": "ΔH > 0 and ΔS < 0" },
+{ "text": "ΔH < 0 and ΔS < 0" },
+{ "text": "ΔH > 0 and ΔS > 0" }
+],
+"correctAnswer": 0,
+"explanation": "The criterion for spontaneity is given by the Gibbs energy equation: ΔG = ΔH - TΔS. For a process to be spontaneous, ΔG must be negative. If a reaction is exothermic (ΔH < 0) and is accompanied by an increase in entropy (ΔS > 0), the term -TΔS will be negative at all absolute temperatures. Consequently, ΔG will remain negative under all temperature conditions."
+},
+{
+"id": 9,
+"subject": "Chemistry",
+"topic": "Hess's Law",
+"difficulty": "Easy",
+"text": "Hess's Law of constant heat summation is a direct consequence of which fundamental physical law?",
+"options": [
+{ "text": "Law of conservation of mass" },
+{ "text": "Law of conservation of energy" },
+{ "text": "Second law of thermodynamics" },
+{ "text": "Le Chatelier's principle" }
+],
+"correctAnswer": 1,
+"explanation": "Hess's Law states that the total enthalpy change for a chemical reaction is the same whether the reaction takes place in one step or in several steps. Enthalpy is a state function, meaning its value depends only on the initial and final states of the system. This behavior is an expression of the law of conservation of energy, which forms the basis of the first law of thermodynamics."
+},
+{
+"id": 10,
+"subject": "Chemistry",
+"topic": "State Functions",
+"difficulty": "Easy",
+"text": "Which of the following thermodynamic variables is NOT a state function?",
+"options": [
+{ "text": "Internal energy" },
+{ "text": "Enthalpy" },
+{ "text": "Heat" },
+{ "text": "Entropy" }
+],
+"correctAnswer": 2,
+"explanation": "A state function is a property whose value depends solely on the current state of the system, not on the path taken to reach that state. Internal energy (U), enthalpy (H), and entropy (S) are all state functions. Heat (q) and work (w) are path functions because their values depend explicitly on the specific process or thermodynamic path connecting the initial and final states."
+},
+{
+"id": 11,
+"subject": "Chemistry",
+"topic": "Enthalpy of Atomization",
+"difficulty": "Moderate",
+"text": "Consider the following chemical reaction: CH₄(g) → C(g) + 4H(g), for which the enthalpy change is ΔH = 1665 kJ/mol. What is the mean C–H bond enthalpy in methane?",
+"options": [
+{ "text": "1665 kJ/mol" },
+{ "text": "832.5 kJ/mol" },
+{ "text": "416.25 kJ/mol" },
+{ "text": "555 kJ/mol" }
+],
+"correctAnswer": 2,
+"explanation": "The bond enthalpy of a specific chemical bond in a polyatomic molecule is determined as the average value required to break each individual bond. The given reaction involves breaking all four identical C–H bonds in one mole of methane gas. The relevant formula is: Mean Bond Enthalpy = Total Enthalpy Change / Number of Bonds Broken. Substituting the values gives: Mean C-H Bond Enthalpy = 1665 kJ/mol / 4 = 416.25 kJ/mol."
+},
+{
+"id": 12,
+"subject": "Chemistry",
+"topic": "Heat Capacity Calculations",
+"difficulty": "Moderate",
+"text": "Calculate the amount of heat required to raise the temperature of 2.0 moles of an ideal monoatomic gas from 300 K to 350 K at constant volume. The molar heat capacity at constant volume (C_v) for an ideal monoatomic gas is 1.5 R.",
+"options": [
+{ "text": "100 R" },
+{ "text": "150 R" },
+{ "text": "300 R" },
+{ "text": "75 R" }
+],
+"correctAnswer": 1,
+"explanation": "The heat required to change the temperature of a gas at constant volume is given by the formula: q_v = n × C_v × ΔT. The temperature change is ΔT = T_final - T_initial = 350 K - 300 K = 50 K. Substituting the given parameters into the equation yields: q_v = 2.0 mol × 1.5 R × 50 K = 150 R."
+},
+{
+"id": 13,
+"subject": "Chemistry",
+"topic": "Spontaneity Conditions",
+"difficulty": "Moderate",
+"text": "For a certain endothermic reaction, the change in enthalpy is ΔH = 40 kJ/mol and the change in entropy is ΔS = 100 J/(K·mol). Above what temperature will this reaction become spontaneous?",
+"options": [
+{ "text": "400 K" },
+{ "text": "40 K" },
+{ "text": "250 K" },
+{ "text": "4000 K" }
+],
+"correctAnswer": 0,
+"explanation": "The spontaneity of a reaction is governed by the Gibbs energy principle: ΔG = ΔH - TΔS. A reaction becomes spontaneous when ΔG becomes less than zero (ΔG < 0). Setting ΔG = 0 gives the threshold temperature: T = ΔH / ΔS. Converting the units of ΔH to Joules gives ΔH = 40000 J/mol. Substituting these values into the equation yields: T = 40000 J/mol / 100 J/(K·mol) = 400 K. Therefore, the reaction is spontaneous above 400 K."
+},
+{
+"id": 14,
+"subject": "Chemistry",
+"topic": "Bond Enthalpy",
+"difficulty": "Moderate",
+"text": "The bond dissociation enthalpies of H-H, Cl-Cl, and H-Cl are 434, 242, and 431 kJ/mol respectively. What is the standard enthalpy of formation (Δ_fH°) of HCl(g)?",
+"options": [
+{ "text": "-93 kJ/mol" },
+{ "text": "+93 kJ/mol" },
+{ "text": "-186 kJ/mol" },
+{ "text": "+186 kJ/mol" }
+],
+"correctAnswer": 0,
+"explanation": "The chemical equation for the formation of one mole of HCl gas from its constituent elements is: 0.5 H₂(g) + 0.5 Cl₂(g) → HCl(g). The formula to calculate the reaction enthalpy from bond enthalpies is: Δ_rH° = ∑ Bond Enthalpies of Reactants - ∑ Bond Enthalpies of Products. Substituting the given values: Δ_fH°(HCl) = [0.5 × B.E.(H-H) + 0.5 × B.E.(Cl-Cl)] - [1 × B.E.(H-Cl)] = [0.5 × 434 + 0.5 × 242] - 431 = [217 + 121] - 431 = 338 - 431 = -93 kJ/mol."
+},
+{
+"id": 15,
+"subject": "Chemistry",
+"topic": "Thermodynamic Reversibility",
+"difficulty": "Moderate",
+"text": "Which of the following statements regarding a reversible thermodynamic process is correct?",
+"options": [
+{ "text": "The process can be carried out rapidly in a finite number of steps." },
+{ "text": "The driving force is infinitely greater than the opposing force." },
+{ "text": "The system remains in virtual equilibrium with its surroundings at all stages." },
+{ "text": "The work obtained in a reversible expansion is less than that in an irreversible expansion." }
+],
+"correctAnswer": 2,
+"explanation": "A reversible process is an idealized thermodynamic concept where the process occurs infinitely slowly through a continuous succession of equilibrium states. The driving force is only infinitesimally greater than the opposing force, meaning a tiny change can reverse the direction of the process. In addition, the work done by a gas during a reversible expansion is the maximum possible work."
+},
+{
+"id": 16,
+"subject": "Chemistry",
+"topic": "Enthalpy of Combustion",
+"difficulty": "Moderate",
+"text": "The combustion of one mole of benzene, C₆H₆(l), takes place at 298 K and 1 atm pressure according to the equation: C₆H₆(l) + 7.5 O₂(g) → 6 CO₂(g) + 3 H₂O(l). The value of Δn_g (change in moles of gaseous components) for this reaction is:",
+"options": [
+{ "text": "1.5" },
+{ "text": "-1.5" },
+{ "text": "0.5" },
+{ "text": "-0.5" }
+],
+"correctAnswer": 1,
+"explanation": "The change in the number of moles of gaseous components is determined using the formula: Δn_g = ∑ n_g(products) - ∑ n_g(reactants). In the balanced chemical equation, the gaseous products consist of 6 moles of CO₂, while H₂O is in the liquid state. The gaseous reactants consist of 7.5 moles of O₂, while C₆H₆ is liquid. Substituting these values gives: Δn_g = 6 - 7.5 = -1.5."
+},
+{
+"id": 17,
+"subject": "Chemistry",
+"topic": "Entropy Changes in Phase Transitions",
+"difficulty": "Moderate",
+"text": "The enthalpy of fusion of water is 6.01 kJ/mol at its melting point of 273 K. What is the entropy change for the melting of one mole of ice?",
+"options": [
+{ "text": "22.0 J/(K·mol)" },
+{ "text": "2.20 J/(K·mol)" },
+{ "text": "0.022 J/(K·mol)" },
+{ "text": "220.0 J/(K·mol)" }
+],
+"correctAnswer": 0,
+"explanation": "During a phase transition at constant temperature and pressure, the system is in equilibrium, so the entropy change is given by the formula: ΔS_fus = ΔH_fus / T_m. Converting the enthalpy from kilojoules to Joules gives ΔH_fus = 6010 J/mol. Substituting the temperature T_m = 273 K into the equation yields: ΔS_fus = 6010 J/mol / 273 K = 22.01 J/(K·mol)."
+},
+{
+  "id": 18,
+  "subject": "Chemistry",
+  "topic": "Thermodynamic Systems",
+  "difficulty": "Moderate",
+  "text": "An isolated system is best described as a thermodynamic system that:",
+  "options": [
+    { "text": "Permits the exchange of mass but prevents the exchange of heat energy." },
+    { "text": "Permits the exchange of heat energy but prevents the exchange of mass." },
+    { "text": "Permits the exchange of both mass and energy with the surroundings." },
+    { "text": "Prevents the exchange of both mass and energy with the surroundings." }
+  ],
+  "correctAnswer": 3,
+  "explanation": "Thermodynamic systems are classified according to whether they exchange matter or energy with their surroundings. An isolated system exchanges neither matter nor energy with its surroundings."
+},
+{
+"id": 19,
+"subject": "Chemistry",
+"topic": "Gibbs Energy and Equilibrium Constant",
+"difficulty": "Moderate",
+"text": "The equilibrium constant (K) for a reversible reaction is found to be exactly 1.0 at a temperature of 300 K. What is the standard Gibbs energy change (ΔG°) for this reaction?",
+"options": [
+{ "text": "Zero" },
+{ "text": "-300 R" },
+{ "text": "+300 R" },
+{ "text": "Cannot be determined without knowing ΔH°" }
+],
+"correctAnswer": 0,
+"explanation": "The relationship between the standard Gibbs energy change and the equilibrium constant is expressed by the formula: ΔG° = -RT ln K. Given that the equilibrium constant K = 1.0, we substitute this value into the expression. Since the natural logarithm of 1.0 is zero (ln 1 = 0), the equation evaluates to ΔG° = -RT × 0 = 0."
+},
+{
+"id": 20,
+"subject": "Chemistry",
+"topic": "State Functions",
+"difficulty": "Moderate",
+"text": "Which of the following properties is NOT a state function or a state variable of a thermodynamic system?",
+"options": [
+{ "text": "Temperature" },
+{ "text": "Pressure" },
+{ "text": "Work" },
+{ "text": "Volume" }
+],
+"correctAnswer": 2,
+"explanation": "State variables or state functions describe the exact state of a system independently of the route taken to establish that state. Pressure (p), volume (V), and temperature (T) are all state variables. Work (w) represents energy transferred across the system boundary due to a macroscopic force, and its quantity depends entirely on the path chosen, making it a path function rather than a state function."
+},
+{
+"id": 21,
+"subject": "Chemistry",
+"topic": "Reversible Expansion Work",
+"difficulty": "Challenging",
+"text": "Two moles of an ideal gas expand isothermally and reversibly from an initial volume of 1.0 L to a final volume of 10.0 L at a constant temperature of 300 K. What is the total work done by the gas in this process?",
+"options": [
+{ "text": "-11.51 kJ" },
+{ "text": "-5.76 kJ" },
+{ "text": "+11.51 kJ" },
+{ "text": "-2.30 kJ" }
+],
+"correctAnswer": 0,
+"explanation": "The work done during an isothermal, reversible expansion of an ideal gas is calculated using the formula: w = -2.303 nRT log₁₀(V_final / V_initial). Substituting the values n = 2.0 mol, R = 8.314 J/(K·mol), T = 300 K, V_initial = 1.0 L, and V_final = 10.0 L gives: w = -2.303 × 2.0 × 8.314 × 300 × log₁₀(10 / 1) = -2.303 × 2.0 × 8.314 × 300 × 1 = -11512.4 J. Converting this value to kilojoules results in approximately -11.51 kJ."
+},
+{
+"id": 22,
+"subject": "Chemistry",
+"topic": "Second Law and Spontaneity",
+"difficulty": "Challenging",
+"text": "For a particular chemical reaction, the values of ΔH and ΔS are both positive numbers. Which of the following statements correctly describes the temperature dependence of this reaction's spontaneity?",
+"options": [
+{ "text": "The reaction is spontaneous only at lower temperatures where the ΔH term dominates." },
+{ "text": "The reaction is spontaneous only at higher temperatures where the TΔS term exceeds ΔH." },
+{ "text": "The reaction is non-spontaneous at all temperatures." },
+{ "text": "The reaction is spontaneous at all temperatures because both values are positive." }
+],
+"correctAnswer": 1,
+"explanation": "The fundamental principle governing spontaneity is the Gibbs energy relation: ΔG = ΔH - TΔS. For a reaction to be spontaneous, ΔG must be negative. When both ΔH and ΔS are positive, the term ΔH contributes positively to ΔG, while the term -TΔS contributes negatively. At high temperatures, the magnitude of TΔS becomes larger than ΔH, making the overall ΔG value negative, thereby ensuring spontaneity."
+},
+{
+"id": 23,
+"subject": "Chemistry",
+"topic": "Enthalpy and Internal Energy",
+"difficulty": "Challenging",
+"text": "Given below are two statements: one is Assertion (A) and the other is Reason (R).\nAssertion (A): The heat content of a system at constant pressure is called its enthalpy.\nReason (R): For any reaction involving only condensed phases (solids or liquids), the difference between ΔH and ΔU is usually negligible.\nIn the light of the above statements, choose the most appropriate answer:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 1,
+"explanation": "Enthalpy is a state function defined as H = U + pV, and at constant pressure, the change in enthalpy matches the heat exchanged, so ΔH = q_p. Thus, Assertion (A) is a true statement. The relationship between ΔH and ΔU is ΔH = ΔU + Δ(pV). For solids and liquids, volume changes are exceptionally tiny, meaning ΔV ≈ 0, which makes ΔH ≈ ΔU. Thus, Reason (R) is also a true statement. However, the negligible difference in condensed phases does not explain why enthalpy corresponds to heat content at constant pressure."
+},
+{
+"id": 24,
+"subject": "Chemistry",
+"topic": "Entropy and the Third Law of Thermodynamics",
+"difficulty": "Challenging",
+"text": "Given below are two statements: one is Assertion (A) and the other is Reason (R).\nAssertion (A): The entropy of a perfectly crystalline substance approaches zero as the absolute temperature approaches zero.\nReason (R): At absolute zero, all thermal motion ceases, and molecules achieve a state of maximum geometric order.\nIn the light of the above statements, choose the most appropriate answer:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "The Third Law of Thermodynamics establishes that the entropy of a perfectly crystalline substance becomes zero at 0 K. This is because entropy measures thermal and positional disorder. As the absolute temperature reaches zero, thermal kinetic energy and molecular motion drop to zero, leaving the particles in a singular, perfectly ordered arrangement. Therefore, both statements are true and the reason provides the direct structural explanation."
+},
+{
+"id": 25,
+"subject": "Chemistry",
+"topic": "Entropy Changes in Physical Processes",
+"difficulty": "Challenging",
+"text": "Which of the following state changes does NOT result in an increase in the entropy of the system?",
+"options": [
+{ "text": "Boiling of liquid bromine into bromine vapor" },
+{ "text": "Thermal decomposition of solid CaCO₃ to solid CaO and gaseous CO₂" },
+{ "text": "Condensation of water vapor into liquid water droplets" },
+{ "text": "Mixing of two distinct unreactive ideal gases at constant temperature" }
+],
+"correctAnswer": 2,
+"explanation": "Entropy represents molecular disorder. When water vapor undergoes condensation to form liquid water, molecules transition from a highly disordered gaseous state with high spatial freedom to a more restricted, compact liquid phase. This restriction reduces molecular disorder, meaning entropy decreases (ΔS < 0). In contrast, boiling, gas generation from solids, and gas mixing all increase structural disorder."
+}
+]

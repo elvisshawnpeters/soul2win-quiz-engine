@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Easy",
+"text": "The dimensional formula for Planck's constant (h) is the same as that of which physical quantity?",
+"options": [
+{ "text": "Linear momentum" },
+{ "text": "Angular momentum" },
+{ "text": "Work" },
+{ "text": "Energy" }
+],
+"correctAnswer": 1,
+"explanation": "Both Planck's constant and angular momentum have the dimensional formula [M¹ L² T⁻¹]."
+},
+{
+"id": 2,
+"subject": "Physics",
+"topic": "Error Analysis",
+"difficulty": "Moderate",
+"text": "The percentage errors in the measurement of mass and speed of a body are 2% and 3% respectively. What is the maximum percentage error in the estimation of its kinetic energy?",
+"options": [
+{ "text": "5%" },
+{ "text": "8%" },
+{ "text": "11%" },
+{ "text": "6%" }
+],
+"correctAnswer": 1,
+"explanation": "Kinetic Energy K = (1/2)mv². Percentage error in K = (% error in m) + 2 × (% error in v) = 2% + 2(3%) = 8%."
+},
+{
+"id": 3,
+"subject": "Physics",
+"topic": "Significant Figures",
+"difficulty": "Easy",
+"text": "The number of significant figures in 0.007020 is:",
+"options": [
+{ "text": "3" },
+{ "text": "4" },
+{ "text": "6" },
+{ "text": "7" }
+],
+"correctAnswer": 1,
+"explanation": "Leading zeros are not significant, but trailing zeros after a decimal point are significant. Thus, 7, 0, 2, and 0 are significant (4 figures)."
+},
+{
+"id": 4,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Challenging",
+"text": "If Force (F), Velocity (V), and Time (T) are taken as fundamental quantities, the dimensional formula for Mass (M) will be:",
+"options": [
+{ "text": "[F V⁻¹ T]" },
+{ "text": "[F V T⁻¹]" },
+{ "text": "[F V⁻¹ T⁻¹]" },
+{ "text": "[F V T]" }
+],
+"correctAnswer": 0,
+"explanation": "Since F = m · a = m · (v / t), we have Mass m = F · v⁻¹ · t. Therefore, [M] = [F V⁻¹ T]."
+},
+{
+"id": 5,
+"subject": "Physics",
+"topic": "SI Units and Systems of Units",
+"difficulty": "Easy",
+"text": "Which of the following is NOT a fundamental SI unit?",
+"options": [
+{ "text": "Candela" },
+{ "text": "Kelvin" },
+{ "text": "Tesla" },
+{ "text": "Ampere" }
+],
+"correctAnswer": 2,
+"explanation": "Tesla is the derived unit for magnetic flux density, whereas candela, kelvin, and ampere are fundamental SI units."
+},
+{
+"id": 6,
+"subject": "Physics",
+"topic": "Measuring Instruments",
+"difficulty": "Moderate",
+"text": "A Vernier caliper has 10 division on its Vernier scale coinciding with 9 divisions of its Main Scale. If 1 Main Scale Division (MSD) = 1 mm, what is the least count of the Vernier caliper?",
+"options": [
+{ "text": "0.1 mm" },
+{ "text": "0.01 mm" },
+{ "text": "0.9 mm" },
+{ "text": "1 mm" }
+],
+"correctAnswer": 0,
+"explanation": "Least Count = 1 MSD - 1 VSD = 1 mm - (9/10) mm = 0.1 mm (or 0.01 cm)."
+},
+{
+"id": 7,
+"subject": "Physics",
+"topic": "Dimensional Analysis",
+"difficulty": "Moderate",
+"text": "The velocity v of a particle depends on time t according to the equation v = a + bt + c/(d + t). The dimensions of 'c' and 'd' are respectively:",
+"options": [
+{ "text": "[L] and [T]" },
+{ "text": "[L T⁻¹] and [T]" },
+{ "text": "[L] and [T⁻¹]" },
+{ "text": "[L T] and [T]" }
+],
+"correctAnswer": 0,
+"explanation": "Since d is added to time t, [d] = [T]. The term c/(d + t) has dimensions of velocity [L T⁻¹], so [c]/[T] = [L T⁻¹] ⇒ [c] = [L]."
+},
+{
+"id": 8,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Easy",
+"text": "The physical quantity having the dimensional formula [M¹ L⁻¹ T⁻²] is:",
+"options": [
+{ "text": "Surface tension" },
+{ "text": "Pressure" },
+{ "text": "Viscosity" },
+{ "text": "Force" }
+],
+"correctAnswer": 1,
+"explanation": "Pressure = Force / Area = [M¹ L¹ T⁻²] / [L²] = [M¹ L⁻¹ T⁻²]."
+},
+{
+"id": 9,
+"subject": "Physics",
+"topic": "Error Analysis",
+"difficulty": "Challenging",
+"text": "A physical quantity P is related to four observables a, b, c, and d as P = (a³ b²) / (√c · d). The percentage errors in a, b, c, and d are 1%, 2%, 4%, and 2% respectively. The maximum percentage error in P is:",
+"options": [
+{ "text": "13%" },
+{ "text": "11%" },
+{ "text": "9%" },
+{ "text": "7%" }
+],
+"correctAnswer": 1,
+"explanation": "Percentage error in P = 3(% error in a) + 2(% error in b) + (1/2)(% error in c) + (% error in d) = 3(1%) + 2(2%) + (1/2)(4%) + 2% = 3% + 4% + 2% + 2% = 11%."
+},
+{
+"id": 10,
+"subject": "Physics",
+"topic": "Dimensions of Physical Constants",
+"difficulty": "Moderate",
+"text": "The dimensions of (1 / √(μ₀ ε₀)), where μ₀ is the permeability of free space and ε₀ is the permittivity of free space, are equivalent to:",
+"options": [
+{ "text": "Acceleration" },
+{ "text": "Velocity" },
+{ "text": "Force" },
+{ "text": "Energy" }
+],
+"correctAnswer": 1,
+"explanation": "The expression c = 1 / √(μ₀ ε₀) represents the speed of light in vacuum, which has the dimensions of velocity [M⁰ L¹ T⁻¹]."
+},
+{
+"id": 11,
+"subject": "Physics",
+"topic": "Significant Figures",
+"difficulty": "Moderate",
+"text": "The length, breadth, and thickness of a rectangular sheet of metal are 4.234 m, 1.005 m, and 2.01 cm respectively. Give the volume of the sheet to correct significant figures.",
+"options": [
+{ "text": "0.0855 m³" },
+{ "text": "0.085526 m³" },
+{ "text": "0.08553 m³" },
+{ "text": "0.086 m³" }
+],
+"correctAnswer": 0,
+"explanation": "Thickness = 2.01 cm = 0.0201 m (3 significant figures). Volume = 4.234 × 1.005 × 0.0201 = 0.0855289 m³. Rounding to 3 significant figures gives 0.0855 m³."
+},
+{
+"id": 12,
+"subject": "Physics",
+"topic": "SI Units and Systems of Units",
+"difficulty": "Easy",
+"text": "Light year is a unit used for measuring:",
+"options": [
+{ "text": "Time" },
+{ "text": "Distance" },
+{ "text": "Intensity of light" },
+{ "text": "Mass" }
+],
+"correctAnswer": 1,
+"explanation": "A light year is the distance traveled by light in a vacuum in one year (1 light year ≈ 9.46 × 10¹⁵ m)."
+},
+{
+"id": 13,
+"subject": "Physics",
+"topic": "Measuring Instruments",
+"difficulty": "Challenging",
+"text": "A screw gauge has a pitch of 1 mm and 100 divisions on its circular scale. When nothing is put between its jaws, the 4th division of the circular scale coincides with the reference line and zero of main scale is visible. What is the zero error of the instrument?",
+"options": [
+{ "text": "+0.04 mm" },
+{ "text": "-0.04 mm" },
+{ "text": "+0.004 mm" },
+{ "text": "-0.96 mm" }
+],
+"correctAnswer": 0,
+"explanation": "Least Count = Pitch / Total divisions = 1 mm / 100 = 0.01 mm. Since 4th division coincides above zero of reference line, Positive Zero Error = +4 × 0.01 mm = +0.04 mm."
+},
+{
+"id": 14,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Easy",
+"text": "Which of the following pairs of physical quantities has the same dimensions?",
+"options": [
+{ "text": "Impulse and Surface Tension" },
+{ "text": "Stress and Strain" },
+{ "text": "Work and Torque" },
+{ "text": "Angular Momentum and Work" }
+],
+"correctAnswer": 2,
+"explanation": "Both Work and Torque have the dimensional formula [M¹ L² T⁻²]."
+},
+{
+"id": 15,
+"subject": "Physics",
+"topic": "Dimensional Analysis",
+"difficulty": "Moderate",
+"text": "The frequency f of vibration of a stretched string depends upon length L, tension T, and mass per unit length μ. The correct relation among them is:",
+"options": [
+{ "text": "f ∝ (1 / L) √(T / μ)" },
+{ "text": "f ∝ L √(T / μ)" },
+{ "text": "f ∝ (1 / L) √(μ / T)" },
+{ "text": "f ∝ L √(μ / T)" }
+],
+"correctAnswer": 0,
+"explanation": "Using dimensional analysis, f = k · Lᵃ · Tᵇ · μᶜ. Solving for powers gives a = -1, b = 1/2, c = -1/2, so f ∝ (1/L) √(T / μ)."
+},
+{
+"id": 16,
+"subject": "Physics",
+"topic": "Error Analysis",
+"difficulty": "Easy",
+"text": "Systematic errors can be minimized or eliminated by:",
+"options": [
+{ "text": "Taking a large number of observations" },
+{ "text": "Improving experimental techniques and using better calibrated instruments" },
+{ "text": "Taking the arithmetic mean of all readings" },
+{ "text": "Applying random error formulas" }
+],
+"correctAnswer": 1,
+"explanation": "Systematic errors arise from known causes like faulty instruments or personal bias, and can be eliminated by re-calibrating instruments and improving techniques."
+},
+{
+"id": 17,
+"subject": "Physics",
+"topic": "Dimensions of Physical Constants",
+"difficulty": "Moderate",
+"text": "The dimensions of Universal Gravitational Constant (G) are:",
+"options": [
+{ "text": "[M⁻¹ L³ T⁻²]" },
+{ "text": "[M¹ L³ T⁻²]" },
+{ "text": "[M⁻² L² T⁻¹]" },
+{ "text": "[M⁻¹ L² T⁻²]" }
+],
+"correctAnswer": 0,
+"explanation": "From Newton's Law of Gravitation, G = (F · r²) / (m₁ · m₂) = ([M¹ L¹ T⁻²] · [L²]) / [M²] = [M⁻¹ L³ T⁻²]."
+},
+{
+"id": 18,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Challenging",
+"text": "If energy E, gravitational constant G, and Planck's constant h are chosen as fundamental quantities, the dimension of time in this system is:",
+"options": [
+{ "text": "E⁻⁵/² G¹/² h³/²" },
+{ "text": "E⁻³/² G¹/² h⁵/²" },
+{ "text": "E¹/² G⁻¹/² h¹/²" },
+{ "text": "E⁻¹/² G⁻¹/² h¹/²" }
+],
+"correctAnswer": 0,
+"explanation": "Let T = Eᵃ Gᵇ hᶜ. Substituting dimensions: [T] = [M L² T⁻²]ᵃ [M⁻¹ L³ T⁻²]ᵇ [M L² T⁻¹]ᶜ. Equating powers of M, L, and T gives a = -5/2, b = 1/2, c = 3/2."
+},
+{
+"id": 19,
+"subject": "Physics",
+"topic": "Supplementary Units",
+"difficulty": "Easy",
+"text": "Solid angle is measured in which of the following units?",
+"options": [
+{ "text": "Radian" },
+{ "text": "Steradian" },
+{ "text": "Degree" },
+{ "text": "Gradian" }
+],
+"correctAnswer": 1,
+"explanation": "Steradian (sr) is the SI unit of solid angle, while radian is the SI unit for plane angle."
+},
+{
+"id": 20,
+"subject": "Physics",
+"topic": "Dimensions of Physical Quantities",
+"difficulty": "Easy",
+"text": "Which of the following physical quantities is dimensionless?",
+"options": [
+{ "text": "Relative density" },
+{ "text": "Gravitational constant" },
+{ "text": "Specific heat capacity" },
+{ "text": "Velocity gradient" }
+],
+"correctAnswer": 0,
+"explanation": "Relative density is the ratio of density of a substance to the density of water at 4°C, making it a pure ratio without units or dimensions."
+},
+{
+"id": 21,
+"subject": "Physics",
+"topic": "Error Analysis",
+"difficulty": "Moderate",
+"text": "The period of oscillation of a simple pendulum is given by T = 2π √(L / g). Measured value of L is 20.0 cm known to 1 mm accuracy and time for 100 oscillations of the pendulum is found to be 90 s using a wrist watch of 1 s resolution. The percentage accuracy in g is approximately:",
+"options": [
+{ "text": "2.7%" },
+{ "text": "1.8%" },
+{ "text": "3.2%" },
+{ "text": "5.4%" }
+],
+"correctAnswer": 0,
+"explanation": "g = 4π²L / T². Δg/g = ΔL/L + 2(ΔT/T) = (0.1 / 20.0) + 2(1 / 90) = 0.005 + 0.0222 = 0.0272 or 2.7%."
+},
+{
+"id": 22,
+"subject": "Physics",
+"topic": "Dimensional Analysis",
+"difficulty": "Moderate",
+"text": "In the equation (P + a/V²)(V - b) = RT, the dimensions of the constant 'a' are:",
+"options": [
+{ "text": "[M¹ L⁵ T⁻²]" },
+{ "text": "[M¹ L³ T⁻²]" },
+{ "text": "[M¹ L⁻¹ T⁻²]" },
+{ "text": "[M⁰ L⁶ T⁰]" }
+],
+"correctAnswer": 0,
+"explanation": "By the principle of homogeneity, a/V² must have the same dimensions as pressure P. Thus, [a] = [P] · [V²] = [M¹ L⁻¹ T⁻²] · [L⁶] = [M¹ L⁵ T⁻²]."
+},
+{
+"id": 23,
+"subject": "Physics",
+"topic": "Parallax Method and Distances",
+"difficulty": "Moderate",
+"text": "The parallax of a heavenly body measured from two points diametrically opposite on Earth's equator is 1.0 minute of arc. If the radius of Earth is 6400 km, the distance of the heavenly body from Earth is approximately:",
+"options": [
+{ "text": "4.4 × 10⁷ km" },
+{ "text": "2.2 × 10⁷ km" },
+{ "text": "1.1 × 10⁷ km" },
+{ "text": "8.8 × 10⁷ km" }
+],
+"correctAnswer": 0,
+"explanation": "Basis b = 2 × 6400 km = 12800 km. Parallax angle θ = 1' = (1/60)° = (1/60) × (π/180) rad = 2.91 × 10⁻⁴ rad. Distance D = b / θ = 12800 / (2.91 × 10⁻⁴) ≈ 4.4 × 10⁷ km."
+},
+{
+"id": 24,
+"subject": "Physics",
+"topic": "Significant Figures",
+"difficulty": "Easy",
+"text": "Subtraction of 2.5 × 10⁻⁴ from 3.8 × 10⁻³ gives the answer in correct significant figures as:",
+"options": [
+{ "text": "3.55 × 10⁻³" },
+{ "text": "3.6 × 10⁻³" },
+{ "text": "3.555 × 10⁻³" },
+{ "text": "0.355 × 10⁻²" }
+],
+"correctAnswer": 1,
+"explanation": "3.8 × 10⁻³ - 0.25 × 10⁻³ = 3.55 × 10⁻³. Since 3.8 × 10⁻³ has 1 decimal place when expressed in standard power notation, rounding off 3.55 gives 3.6 × 10⁻³."
+},
+{
+"id": 25,
+"subject": "Physics",
+"topic": "Dimensions of Physical Constants",
+"difficulty": "Challenging",
+"text": "The dimensions of Stefan-Boltzmann constant (σ) are:",
+"options": [
+{ "text": "[M¹ L⁰ T⁻³ K⁻⁴]" },
+{ "text": "[M¹ L² T⁻³ K⁻⁴]" },
+{ "text": "[M¹ L¹ T⁻² K⁻¹]" },
+{ "text": "[M⁰ L² T⁻³ K⁻⁴]" }
+],
+"correctAnswer": 0,
+"explanation": "From Stefan's law, Energy per unit area per unit time E = σ T⁴. Dimensions [σ] = [M¹ L² T⁻³] / ([L²] · [K⁴]) = [M¹ L⁰ T⁻³ K⁻⁴]."
+}
+]

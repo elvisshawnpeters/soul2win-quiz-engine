@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Biology",
+"topic": "Algae",
+"difficulty": "Easy",
+"text": "Which class of algae stores food primarily in the form of floridean starch, which is structurally similar to amylopectin and glycogen?",
+"options": [
+{ "text": "Chlorophyceae" },
+{ "text": "Rhodophyceae" },
+{ "text": "Phaeophyceae" },
+{ "text": "Xanthophyceae" }
+],
+"correctAnswer": 1,
+"explanation": "Members of Rhodophyceae (red algae) store food as floridean starch, which has a structural similarity to amylopectin and glycogen."
+},
+{
+"id": 2,
+"subject": "Biology",
+"topic": "Bryophytes",
+"difficulty": "Easy",
+"text": "The dominant phase in the life cycle of a bryophyte is the gametophyte. Which of the following statements regarding bryophytes is correct?",
+"options": [
+{ "text": "The sporophyte is completely independent of the gametophyte." },
+{ "text": "Gametophytes possess true roots, stems, and leaves." },
+{ "text": "The sporophyte remains attached to the photosynthetic gametophyte for nourishment." },
+{ "text": "Spores germinate to form a diploid sporophyte directly." }
+],
+"correctAnswer": 2,
+"explanation": "In bryophytes, the sporophyte is not free-living; it remains physically attached to and nutritionally dependent on the dominant haploid gametophyte."
+},
+{
+"id": 3,
+"subject": "Biology",
+"topic": "Pteridophytes",
+"difficulty": "Moderate",
+"text": "Identify the heterosporous pteridophytes among the following genera:",
+"options": [
+{ "text": "Psilotum and Dryopteris" },
+{ "text": "Selaginella and Salvinia" },
+{ "text": "Equisetum and Adiantum" },
+{ "text": "Lycopodium and Pteris" }
+],
+"correctAnswer": 1,
+"explanation": "Selaginella and Salvinia are well-known heterosporous pteridophytes that produce two kinds of spores: megaspores and microspores."
+},
+{
+"id": 4,
+"subject": "Biology",
+"topic": "Gymnosperms",
+"difficulty": "Easy",
+"text": "Which of the following gymnosperms exhibits a symbiotic association with nitrogen-fixing cyanobacteria in specialized coralloid roots?",
+"options": [
+{ "text": "Pinus" },
+{ "text": "Cedrus" },
+{ "text": "Cycas" },
+{ "text": "Ginkgo" }
+],
+"correctAnswer": 2,
+"explanation": "Cycas possesses specialized coralloid roots that harbor nitrogen-fixing cyanobacteria such as Anabaena or Nostoc."
+},
+{
+"id": 5,
+"subject": "Biology",
+"topic": "Angiosperms",
+"difficulty": "Moderate",
+"text": "In angiosperms, double fertilization is a unique event. It involves:",
+"options": [
+{ "text": "Syngamy and triple fusion" },
+{ "text": "Fusion of two male gametes with one egg cell" },
+{ "text": "Syngamy and apomixis" },
+{ "text": "Fusion of vegetative cell with central cell" }
+],
+"correctAnswer": 0,
+"explanation": "Double fertilization comprises syngamy (fusion of one male gamete with the egg cell) and triple fusion (fusion of the second male gamete with two polar nuclei)."
+},
+{
+"id": 6,
+"subject": "Biology",
+"topic": "Classification Systems",
+"difficulty": "Easy",
+"text": "Which classification system gives equal weightage to vegetative and sexual characteristics, despite vegetative characters being easily affected by the environment?",
+"options": [
+{ "text": "Natural classification system" },
+{ "text": "Artificial classification system" },
+{ "text": "Phylogenetic classification system" },
+{ "text": "Numerical taxonomy system" }
+],
+"correctAnswer": 1,
+"explanation": "Artificial classification systems, such as Linnaeus' system based on androecium structure, gave equal weightage to vegetative and sexual features."
+},
+{
+"id": 7,
+"subject": "Biology",
+"topic": "Algae",
+"difficulty": "Moderate",
+"text": "Which of the following algae is rich in proteins and widely used as a food supplement even by space travellers?",
+"options": [
+{ "text": "Sargassum" },
+{ "text": "Chlorella" },
+{ "text": "Gelidium" },
+{ "text": "Polysiphonia" }
+],
+"correctAnswer": 1,
+"explanation": "Chlorella is a unicellular green alga rich in proteins and is commonly utilized as a dietary supplement by space travellers."
+},
+{
+"id": 8,
+"subject": "Biology",
+"topic": "Bryophytes",
+"difficulty": "Challenging",
+"text": "Assertion (A): Bryophytes are called the amphibians of the plant kingdom.\nReason (R): These plants can live in soil but are dependent on water for sexual reproduction.",
+"options": [
+{ "text": "Both A and R are true and R is the correct explanation of A." },
+{ "text": "Both A and R are true but R is NOT the correct explanation of A." },
+{ "text": "A is true but R is false." },
+{ "text": "A is false but R is true." }
+],
+"correctAnswer": 0,
+"explanation": "Bryophytes reside on land but strictly require water for the flagellated antherozoids to swim to the egg cell, making R the precise explanation of A."
+},
+{
+"id": 9,
+"subject": "Biology",
+"topic": "Pteridophytes",
+"difficulty": "Challenging",
+"text": "The evolution of the seed habit in vascular plants was initiated in pteridophytes due to the development of:",
+"options": [
+{ "text": "Homospory and free-living gametophytes" },
+{ "text": "Heterospory and retention of the female gametophyte on the parent sporophyte" },
+{ "text": "Formation of non-motile male gametes" },
+{ "text": "Development of a prominent haploid sporophytic stage" }
+],
+"correctAnswer": 1,
+"explanation": "Heterospory combined with the retention and nourishment of the female gametophyte within the parent sporophyte is considered a crucial precursor to seed evolution."
+},
+{
+"id": 10,
+"subject": "Biology",
+"topic": "Gymnosperms",
+"difficulty": "Moderate",
+"text": "Which of the following is NOT a characteristic feature of gymnosperms?",
+"options": [
+{ "text": "Naked ovules not enclosed by ovary wall" },
+{ "text": "Presence of vessel elements as primary conducting cells in xylem of all gymnosperms" },
+{ "text": "Formation of haploid endosperm prior to fertilization" },
+{ "text": "Presence of tap root systems in many genera" }
+],
+"correctAnswer": 1,
+"explanation": "In gymnosperms, xylem lacks true vessels (except in Gnetales); water conduction is mediated primarily by tracheids."
+},
+{
+"id": 11,
+"subject": "Biology",
+"topic": "Plant Life Cycles",
+"difficulty": "Easy",
+"text": "Which life cycle pattern is exhibited by the brown alga Fucus?",
+"options": [
+{ "text": "Haplontic" },
+{ "text": "Haplodiplontic" },
+{ "text": "Diplontic" },
+{ "text": "Triplontic" }
+],
+"correctAnswer": 2,
+"explanation": "While most algae show a haplontic life cycle, Fucus is a notable exception showing a diplontic life cycle pattern."
+},
+{
+"id": 12,
+"subject": "Biology",
+"topic": "Algae",
+"difficulty": "Moderate",
+"text": "Match Column-I with Column-II and choose the correct option.\nColumn-I:\n(a) Ectocarpus\n(b) Polysiphonia\n(c) Volvox\n(d) Chlamydomonas\n\nColumn-II:\n(i) Unicellular motile green alga\n(ii) Colonial green alga\n(iii) Filamentous brown alga\n(iv) Red alga",
+"options": [
+{ "text": "(a)-(iii), (b)-(iv), (c)-(ii), (d)-(i)" },
+{ "text": "(a)-(iv), (b)-(iii), (c)-(i), (d)-(ii)" },
+{ "text": "(a)-(ii), (b)-(i), (c)-(iv), (d)-(iii)" },
+{ "text": "(a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)" }
+],
+"correctAnswer": 0,
+"explanation": "Ectocarpus is a filamentous brown alga, Polysiphonia is a red alga, Volvox is colonial, and Chlamydomonas is a unicellular motile green alga."
+},
+{
+"id": 13,
+"subject": "Biology",
+"topic": "Bryophytes",
+"difficulty": "Easy",
+"text": "Gemmae are asexual reproduction structures formed in liverworts. They are:",
+"options": [
+{ "text": "Non-green, multicellular structures formed in capsules" },
+{ "text": "Green, multicellular, asexual buds located in gemma cups" },
+{ "text": "Unicellular haploid spores formed on protonema" },
+{ "text": "Diploid structures produced after syngamy" }
+],
+"correctAnswer": 1,
+"explanation": "Gemmae are green, multicellular, asexual buds that develop in small receptacles called gemma cups located on the thalli of liverworts like Marchantia."
+},
+{
+"id": 14,
+"subject": "Biology",
+"topic": "Pteridophytes",
+"difficulty": "Moderate",
+"text": "In pteridophytes, the sporophytes bear sporangia that are subtended by leaf-like appendages called:",
+"options": [
+{ "text": "Prothallus" },
+{ "text": "Sporophylls" },
+{ "text": "Strobili" },
+{ "text": "Rhizoids" }
+],
+"correctAnswer": 1,
+"explanation": "As stated in NCERT, sporangia in pteridophytes produce spores and are subtended by leaf-like appendages called sporophylls."
+},
+{
+"id": 15,
+"subject": "Biology",
+"topic": "Algae",
+"difficulty": "Moderate",
+"text": "Hydrocolloids such as algin and carrageen are extracted commercially from which group of algae respectively?",
+"options": [
+{ "text": "Red algae and Brown algae" },
+{ "text": "Brown algae and Red algae" },
+{ "text": "Green algae and Brown algae" },
+{ "text": "Red algae and Green algae" }
+],
+"correctAnswer": 1,
+"explanation": "Algin is produced by brown algae (Phaeophyceae) and carrageen is derived from red algae (Rhodophyceae)."
+},
+{
+"id": 16,
+"subject": "Biology",
+"topic": "Bryophytes",
+"difficulty": "Challenging",
+"text": "The moss protonema develops directly from a spore, while the secondary protonema develops from:",
+"options": [
+{ "text": "Antheridium" },
+{ "text": "Archegonium" },
+{ "text": "Vegetative parts of the moss plant like the leafy stage" },
+{ "text": "The diploid capsule wall" }
+],
+"correctAnswer": 2,
+"explanation": "NCERT explicitly specifies that the secondary protonema develops from a piece of primary protonema or vegetative parts like the leafy stage via fragmentation or budding."
+},
+{
+"id": 17,
+"subject": "Biology",
+"topic": "Gymnosperms",
+"difficulty": "Easy",
+"text": "In Pinus, fungal association in the form of mycorrhiza is essential for root function. This association helps primarily in:",
+"options": [
+{ "text": "Photosynthesis" },
+{ "text": "Absorption of water and mineral nutrients from soil" },
+{ "text": "Fixation of atmospheric nitrogen gas" },
+{ "text": "Protection against high temperatures" }
+],
+"correctAnswer": 1,
+"explanation": "Mycorrhiza in Pinus is a symbiotic root-fungus relationship essential for efficient absorption of water and minerals (especially phosphorus) from the soil."
+},
+{
+"id": 18,
+"subject": "Biology",
+"topic": "Plant Kingdom Morphology",
+"difficulty": "Moderate",
+"text": "A liverwort thallus is dorsiventrally flattened and bears gemma cups on its dorsal surface, rhizoids on its ventral surface, and umbrella-like stalked reproductive structures with finger-like rays at the top. This organism is identified as:",
+"options": [
+{ "text": "Marchantia female thallus with archegoniophore" },
+{ "text": "Marchantia male thallus with antheridiophore" },
+{ "text": "Sphagnum gametophyte with sporophyte capsule" },
+{ "text": "Funaria gametophyte with seta and capsule" }
+],
+"correctAnswer": 0,
+"explanation": "The female thallus of Marchantia bears archegoniophores with finger-like rays, along with gemma cups on the dorsal surface and rhizoids on the ventral surface. These features distinguish it from the male thallus."
+},
+{
+"id": 19,
+"subject": "Biology",
+"topic": "Pteridophytes",
+"difficulty": "Easy",
+"text": "Which of the following pteridophyte classes is correctly paired with its example?",
+"options": [
+{ "text": "Psilopsida — Selaginella" },
+{ "text": "Lycopsida — Equisetum" },
+{ "text": "Sphenopsida — Equisetum" },
+{ "text": "Pteropsida — Lycopodium" }
+],
+"correctAnswer": 2,
+"explanation": "Equisetum belongs to the class Sphenopsida. Selaginella and Lycopodium belong to Lycopsida, while Psilotum belongs to Psilopsida."
+},
+{
+"id": 20,
+"subject": "Biology",
+"topic": "Algae",
+"difficulty": "Moderate",
+"text": "Which of the following features is NOT characteristic of Phaeophyceae (brown algae)?",
+"options": [
+{ "text": "Dominant pigments are Chlorophyll a, c and Fucoxanthin" },
+{ "text": "Flagella are 2 in number, unequal, and laterally inserted" },
+{ "text": "Stored food is Laminarin or Mannitol" },
+{ "text": "Cell wall contains cellulose and agar-agar externally" }
+],
+"correctAnswer": 3,
+"explanation": "In brown algae, the cell wall consists of cellulose coated on the outside by a gelatinous substance called algin, whereas agar is obtained from red algae."
+},
+{
+"id": 21,
+"subject": "Biology",
+"topic": "Bryophytes",
+"difficulty": "Moderate",
+"text": "Mosses play a major ecological role because they:",
+"options": [
+{ "text": "Are a major source of timber and fuel worldwide" },
+{ "text": "Form dense mats on soil, preventing soil erosion caused by falling rain" },
+{ "text": "Are the primary producers of marine ecosystems" },
+{ "text": "Fix atmospheric nitrogen directly via leaf cells" }
+],
+"correctAnswer": 1,
+"explanation": "Mosses form dense carpets on soil, reducing the impact of falling rain and effectively preventing soil erosion."
+},
+{
+"id": 22,
+"subject": "Biology",
+"topic": "Gymnosperms",
+"difficulty": "Challenging",
+"text": "Assertion (A): Leaves of gymnosperms are well-adapted to withstand extreme environmental conditions like temperature, humidity, and wind.\nReason (R): Needle-like leaves in conifers, thick cuticle, and sunken stomata reduce water loss.",
+"options": [
+{ "text": "Both A and R are true and R is the correct explanation of A." },
+{ "text": "Both A and R are true but R is NOT the correct explanation of A." },
+{ "text": "A is true but R is false." },
+{ "text": "A is false but R is true." }
+],
+"correctAnswer": 0,
+"explanation": "Xerophytic adaptations such as sunken stomata, thick cuticles, and needle-shaped leaves explain why gymnosperm foliage survives environmental extremes."
+},
+{
+"id": 23,
+"subject": "Biology",
+"topic": "Plant Kingdom Overview",
+"difficulty": "Moderate",
+"text": "Match the plant group in Column-I with its corresponding dominant photosynthetic phase in Column-II.\nColumn-I:\n(a) Bryophytes\n(b) Pteridophytes\n(c) Gymnosperms\n(d) Green algae\n\nColumn-II:\n(i) Free-living diploid sporophyte\n(ii) Free-living haploid gametophyte\n(iii) Dependent microscopic haploid gametophyte\n(iv) Unicellular/multicellular haploid thallus",
+"options": [
+{ "text": "(a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)" },
+{ "text": "(a)-(i), (b)-(ii), (c)-(iv), (d)-(iii)" },
+{ "text": "(a)-(iii), (b)-(iv), (c)-(i), (d)-(ii)" },
+{ "text": "(a)-(ii), (b)-(iii), (c)-(i), (d)-(iv)" }
+],
+"correctAnswer": 0,
+"explanation": "Bryophytes have a dominant free-living gametophyte, pteridophytes have a dominant free-living sporophyte, gymnosperms have a highly reduced dependent gametophyte, and green algae are haploid thalli."
+},
+{
+"id": 24,
+"subject": "Biology",
+"topic": "Angiosperms",
+"difficulty": "Easy",
+"text": "In angiosperms, the female gametophyte (embryo sac) at maturity is typically:",
+"options": [
+{ "text": "8-celled, 8-nucleate" },
+{ "text": "7-celled, 8-nucleate" },
+{ "text": "8-celled, 7-nucleate" },
+{ "text": "7-celled, 7-nucleate" }
+],
+"correctAnswer": 1,
+"explanation": "The mature angiosperm embryo sac consists of 7 cells (3 antipodals, 2 synergids, 1 egg cell, 1 central cell) containing a total of 8 nuclei."
+},
+{
+"id": 25,
+"subject": "Biology",
+"topic": "Plant Life Cycles",
+"difficulty": "Challenging",
+"text": "Arrange the following stages in the chronological sequence of the life cycle of a seed-bearing plant (Gymnosperm):\nI. Pollination by wind\nII. Spore germination and gametophyte development within sporangia\nIII. Syngamy yielding diploid zygote\nIV. Seed dispersal and development of new sporophyte",
+"options": [
+{ "text": "II → I → III → IV" },
+{ "text": "I → II → III → IV" },
+{ "text": "II → III → I → IV" },
+{ "text": "III → II → I → IV" }
+],
+"correctAnswer": 0,
+"explanation": "Spores develop internally into gametophytes within sporangia first, followed by wind pollination, fertilization (syngamy), and eventual seed dispersal to grow into a sporophyte."
+}
+]

@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Chemistry",
+"topic": "Subatomic Particles",
+"difficulty": "Easy",
+"text": "Which of the following subatomic particles has the highest charge-to-mass ratio (e/m)?",
+"options": [
+{ "text": "Proton" },
+{ "text": "Electron" },
+{ "text": "Neutron" },
+{ "text": "Alpha particle" }
+],
+"correctAnswer": 1,
+"explanation": "The electron has a very small mass compared to a proton or alpha particle, giving it the highest charge-to-mass (e/m) ratio among the given particles."
+},
+{
+"id": 2,
+"subject": "Chemistry",
+"topic": "Atomic Number and Mass Number",
+"difficulty": "Easy",
+"text": "An atom of an element contains 29 electrons and 35 neutrons. What is its mass number?",
+"options": [
+{ "text": "29" },
+{ "text": "35" },
+{ "text": "64" },
+{ "text": "58" }
+],
+"correctAnswer": 2,
+"explanation": "Mass number is the sum of protons and neutrons. In a neutral atom, protons equal electrons (29), so mass number = 29 + 35 = 64."
+},
+{
+"id": 3,
+"subject": "Chemistry",
+"topic": "Bohr's Model of Hydrogen Atom",
+"difficulty": "Moderate",
+"text": "Calculate the radius of the third orbit (n = 3) of a hydrogen atom? (r₁ = 0.529 Å)",
+"options": [
+{ "text": "1.587 Å" },
+{ "text": "2.116 Å" },
+{ "text": "4.761 Å" },
+{ "text": "0.176 Å" }
+],
+"correctAnswer": 2,
+"explanation": "The radius of the nth orbit of hydrogen is given by rₙ = 0.529 × n² Å. For n = 3, r₃ = 0.529 × 3² = 0.529 × 9 = 4.761 Å."
+},
+{
+"id": 4,
+"subject": "Chemistry",
+"topic": "Electromagnetic Radiation",
+"difficulty": "Easy",
+"text": "Calculate the frequency of light having a wavelength of 600 nm. (c = 3 × 10⁸ m/s)",
+"options": [
+{ "text": "5 × 10¹⁴ Hz" },
+{ "text": "2 × 10¹⁴ Hz" },
+{ "text": "5 × 10¹² Hz" },
+{ "text": "1.8 × 10¹¹ Hz" }
+],
+"correctAnswer": 0,
+"explanation": "Frequency ν = c / λ = (3 × 10⁸ m/s) / (600 × 10⁻⁹ m) = 5 × 10¹⁴ Hz."
+},
+{
+"id": 5,
+"subject": "Chemistry",
+"topic": "Quantum Numbers",
+"difficulty": "Moderate",
+"text": "Which set of quantum numbers (n, l, m_l, m_s) is NOT permissible for an electron in an atom?",
+"options": [
+{ "text": "3, 2, -2, +1/2" },
+{ "text": "4, 0, 0, -1/2" },
+{ "text": "3, 3, 1, +1/2" },
+{ "text": "2, 1, 0, -1/2" }
+],
+"correctAnswer": 2,
+"explanation": "For a principal quantum number n, the azimuthal quantum number l can range from 0 to (n - 1). Therefore, l cannot be equal to 3 when n = 3."
+},
+{
+"id": 6,
+"subject": "Chemistry",
+"topic": "de Broglie Wavelength",
+"difficulty": "Challenging",
+"text": "An electron is accelerated through a potential difference of V volts. If its de Broglie wavelength is 0.123 nm, what is the accelerating potential V?",
+"options": [
+{ "text": "10 V" },
+{ "text": "100 V" },
+{ "text": "150 V" },
+{ "text": "500 V" }
+],
+"correctAnswer": 1,
+"explanation": "The de Broglie wavelength of an electron is λ = √(150/V) Å or λ = 1.227 / √V nm. Given λ = 0.123 nm, √V = 1.227 / 0.123 ≈ 10, so V ≈ 100 V."
+},
+{
+"id": 7,
+"subject": "Chemistry",
+"topic": "Photoelectric Effect",
+"difficulty": "Moderate",
+"text": "The threshold frequency ν₀ for a metal is 7.0 × 10¹⁴ s⁻¹. What is the kinetic energy of an emitted electron when radiation of frequency 1.0 × 10¹⁵ s⁻¹ hits the metal?",
+"options": [
+{ "text": "1.988 × 10⁻¹⁹ J" },
+{ "text": "4.638 × 10⁻¹⁹ J" },
+{ "text": "6.626 × 10⁻¹⁹ J" },
+{ "text": "3.313 × 10⁻¹⁹ J" }
+],
+"correctAnswer": 0,
+"explanation": "Using Einstein's photoelectric equation, Kinetic Energy = h(ν - ν₀). Substituting, KE = 6.626 × 10⁻³⁴ × (10 × 10¹⁴ - 7 × 10¹⁴) = 6.626 × 10⁻³⁴ × 3 × 10¹⁴ = 1.988 × 10⁻¹⁹ J."
+},
+{
+"id": 8,
+"subject": "Chemistry",
+"topic": "Atomic Spectra",
+"difficulty": "Easy",
+"text": "Which spectral series of the hydrogen atom lies in the visible region of the electromagnetic spectrum?",
+"options": [
+{ "text": "Lyman series" },
+{ "text": "Balmer series" },
+{ "text": "Paschen series" },
+{ "text": "Brackett series" }
+],
+"correctAnswer": 1,
+"explanation": "The Balmer series corresponds to transitions ending at n₁ = 2 and falls within the visible region of the spectrum."
+},
+{
+"id": 9,
+"subject": "Chemistry",
+"topic": "Quantum Numbers",
+"difficulty": "Easy",
+"text": "What is the total number of orbitals associated with the principal quantum number n = 4?",
+"options": [
+{ "text": "4" },
+{ "text": "8" },
+{ "text": "16" },
+{ "text": "32" }
+],
+"correctAnswer": 2,
+"explanation": "The total number of orbitals in a shell with principal quantum number n is given by n². For n = 4, total orbitals = 4² = 16."
+},
+{
+"id": 10,
+"subject": "Chemistry",
+"topic": "Heisenberg Uncertainty Principle",
+"difficulty": "Challenging",
+"text": "The uncertainty in position of a subatomic particle is equal to its de Broglie wavelength. What is the minimum fractional uncertainty in its velocity (Δv/v)?",
+"options": [
+{ "text": "1 / (2π)" },
+{ "text": "1 / (4π)" },
+{ "text": "4π" },
+{ "text": "2π" }
+],
+"correctAnswer": 1,
+"explanation": "Δx · mΔv ≥ h/(4π). Given Δx = λ = h/(mv), we substitute: (h/mv) · mΔv ≥ h/(4π) ⇒ (h/v)Δv ≥ h/(4π) ⇒ Δv/v ≥ 1/(4π)."
+},
+{
+"id": 11,
+"subject": "Chemistry",
+"topic": "Electronic Configuration",
+"difficulty": "Easy",
+"text": "Which rule or principle states that no two electrons in an atom can have the same set of four quantum numbers?",
+"options": [
+{ "text": "Aufbau Principle" },
+{ "text": "Hund's Rule of Maximum Multiplicity" },
+{ "text": "Pauli Exclusion Principle" },
+{ "text": "Heisenberg Uncertainty Principle" }
+],
+"correctAnswer": 2,
+"explanation": "According to the Pauli Exclusion Principle, an orbital can accommodate a maximum of two electrons, and they must have opposite spins."
+},
+{
+"id": 12,
+"subject": "Chemistry",
+"topic": "Bohr's Model of Hydrogen Atom",
+"difficulty": "Moderate",
+"text": "The energy of an electron in the first Bohr orbit of H-atom is -13.6 eV. What is the energy of the electron in the first excited state of He⁺ ion?",
+"options": [
+{ "text": "-13.6 eV" },
+{ "text": "-27.2 eV" },
+{ "text": "-54.4 eV" },
+{ "text": "-3.4 eV" }
+],
+"correctAnswer": 0,
+"explanation": "For hydrogen-like species, Eₙ = -13.6 × (Z²/n²) eV. First excited state of He⁺ corresponds to Z = 2 and n = 2. Thus, E₂ = -13.6 × (2²/2²) = -13.6 eV."
+},
+{
+"id": 13,
+"subject": "Chemistry",
+"topic": "Nodes and Shapes of Orbitals",
+"difficulty": "Moderate",
+"text": "How many radial nodes and angular nodes are present in a 4p orbital?",
+"options": [
+{ "text": "Radial nodes = 2, Angular nodes = 1" },
+{ "text": "Radial nodes = 1, Angular nodes = 2" },
+{ "text": "Radial nodes = 3, Angular nodes = 0" },
+{ "text": "Radial nodes = 2, Angular nodes = 2" }
+],
+"correctAnswer": 0,
+"explanation": "Angular nodes = l = 1 (for p orbital). Radial nodes = n - l - 1 = 4 - 1 - 1 = 2."
+},
+{
+"id": 14,
+"subject": "Chemistry",
+"topic": "Electronic Configuration",
+"difficulty": "Easy",
+"text": "The electronic configuration of Chromium (Z = 24) is [Ar] 3d⁵ 4s¹ instead of [Ar] 3d⁴ 4s². This exceptional stability is due to:",
+"options": [
+{ "text": "Lesser shielding effect" },
+{ "text": "Half-filled d-subshell and higher exchange energy" },
+{ "text": "Higher electronegativity" },
+{ "text": "Smaller size of chromium atom" }
+],
+"correctAnswer": 1,
+"explanation": "Symmetrical distribution of electrons and high exchange energy make half-filled (3d⁵) and fully-filled (3d¹⁰) subshells extra stable."
+},
+{
+"id": 15,
+"subject": "Chemistry",
+"topic": "Atomic Spectra",
+"difficulty": "Challenging",
+"text": "The wave number of the first line of the Balmer series in H-atom spectrum is R. What is the wave number of the first line of the Balmer series for Li²⁺ ion?",
+"options": [
+{ "text": "R" },
+{ "text": "3 R" },
+{ "text": "9 R" },
+{ "text": "27 R" }
+],
+"correctAnswer": 2,
+"explanation": "Wave number v̄ = R × Z² × (1/n₁² - 1/n₂²). For same spectral transition, v̄ is proportional to Z². For Li²⁺, Z = 3, so v̄_Li²⁺ = Z² × v̄_H = 3² × R = 9 R."
+},
+{
+"id": 16,
+"subject": "Chemistry",
+"topic": "de Broglie Wavelength",
+"difficulty": "Easy",
+"text": "Which of the following particles moving with the same velocity will have the longest de Broglie wavelength?",
+"options": [
+{ "text": "Neutron" },
+{ "text": "Proton" },
+{ "text": "Electron" },
+{ "text": "Alpha particle" }
+],
+"correctAnswer": 2,
+"explanation": "de Broglie wavelength λ = h / (m · v). Since velocity is constant, λ is inversely proportional to mass. Electron has the smallest mass, hence the longest wavelength."
+},
+{
+"id": 17,
+"subject": "Chemistry",
+"topic": "Isoelectronic Species",
+"difficulty": "Easy",
+"text": "Which of the following species is NOT isoelectronic with Ne (Atomic number = 10)?",
+"options": [
+{ "text": "Na⁺" },
+{ "text": "Mg²⁺" },
+{ "text": "Cl⁻" },
+{ "text": "O²⁻" }
+],
+"correctAnswer": 2,
+"explanation": "Cl⁻ has 18 electrons (17 + 1), whereas Ne, Na⁺, Mg²⁺, and O²⁻ all contain 10 electrons."
+},
+{
+"id": 18,
+"subject": "Chemistry",
+"topic": "Photoelectric Effect",
+"difficulty": "Moderate",
+"text": "When light of frequency 2ν₀ (where ν₀ is threshold frequency) incident on a metal plate, maximum velocity of emitted electron is v₁. When frequency is increased to 5ν₀, maximum velocity is v₂. The ratio v₁ : v₂ is:",
+"options": [
+{ "text": "1 : 2" },
+{ "text": "1 : 4" },
+{ "text": "1 : 1" },
+{ "text": "2 : 1" }
+],
+"correctAnswer": 0,
+"explanation": "Using Einstein's photoelectric equation, (1/2)m v₁² = h(2ν₀ - ν₀) = hν₀ and (1/2)m v₂² = h(5ν₀ - ν₀) = 4hν₀. Dividing gives (v₁/v₂)² = 1/4 ⇒ v₁/v₂ = 1/2."
+},
+{
+"id": 19,
+"subject": "Chemistry",
+"topic": "Quantum Numbers",
+"difficulty": "Moderate",
+"text": "The maximum number of electrons in a subshell with orbital angular momentum quantum number l = 3 is:",
+"options": [
+{ "text": "6" },
+{ "text": "10" },
+{ "text": "14" },
+{ "text": "2" }
+],
+"correctAnswer": 2,
+"explanation": "The maximum number of electrons in a subshell is 2(2l + 1). For l = 3 (f-subshell), max electrons = 2(2(3) + 1) = 2(7) = 14."
+},
+{
+"id": 20,
+"subject": "Chemistry",
+"topic": "Quantum Numbers",
+"difficulty": "Challenging",
+"text": "What is the orbital angular momentum of a 3d electron in terms of Planck's constant (h)?",
+"options": [
+{ "text": "√(6) h / (2π)" },
+{ "text": "√(2) h / (2π)" },
+{ "text": "2 h / (2π)" },
+{ "text": "0" }
+],
+"correctAnswer": 0,
+"explanation": "Orbital angular momentum L = √(l(l + 1)) · (h / 2π). For a d electron, l = 2. Therefore, orbital angular momentum L = √(2(2 + 1)) · (h / 2π) = √(6) h / (2π)."
+},
+{
+"id": 21,
+"subject": "Chemistry",
+"topic": "Subatomic Particles",
+"difficulty": "Easy",
+"text": "Beryllium foil bombarded with α-particles resulted in the discovery of which subatomic particle by James Chadwick in 1932?",
+"options": [
+{ "text": "Proton" },
+{ "text": "Neutron" },
+{ "text": "Positron" },
+{ "text": "Electron" }
+],
+"correctAnswer": 1,
+"explanation": "James Chadwick discovered neutrons in 1932 by bombarding a thin sheet of beryllium with alpha particles."
+},
+{
+"id": 22,
+"subject": "Chemistry",
+"topic": "Electronic Configuration",
+"difficulty": "Moderate",
+"text": "How many unpaired electrons are present in a gaseous Fe³⁺ ion in its ground state? (Atomic number of Fe = 26)",
+"options": [
+{ "text": "3" },
+{ "text": "4" },
+{ "text": "5" },
+{ "text": "6" }
+],
+"correctAnswer": 2,
+"explanation": "Fe atom is [Ar] 3d⁶ 4s². Losing 3 electrons gives Fe³⁺ configuration as [Ar] 3d⁵ 4s⁰. According to Hund's rule, all 5 electrons in 3d are unpaired."
+},
+{
+"id": 23,
+"subject": "Chemistry",
+"topic": "Nodes and Shapes of Orbitals",
+"difficulty": "Challenging",
+"text": "The total number of nodes (radial + angular) for a 5d orbital is equal to:",
+"options": [
+{ "text": "2" },
+{ "text": "3" },
+{ "text": "4" },
+{ "text": "5" }
+],
+"correctAnswer": 2,
+"explanation": "The total number of nodes for any orbital is given by (n - 1). For a 5d orbital, n = 5, so total nodes = 5 - 1 = 4."
+},
+{
+"id": 24,
+"subject": "Chemistry",
+"topic": "Bohr's Model of Hydrogen Atom",
+"difficulty": "Moderate",
+"text": "According to Bohr's theory, the angular momentum of an electron in the 4th orbit of a H-atom is:",
+"options": [
+{ "text": "h / π" },
+{ "text": "2h / π" },
+{ "text": "4h / π" },
+{ "text": "h / (2π)" }
+],
+"correctAnswer": 1,
+"explanation": "Bohr's postulate states mvr = nh / (2π). For n = 4, Angular Momentum = 4h / (2π) = 2h / π."
+},
+{
+"id": 25,
+"subject": "Chemistry",
+"topic": "Heisenberg Uncertainty Principle",
+"difficulty": "Easy",
+"text": "According to Heisenberg's Uncertainty Principle, the product of uncertainty in position (Δx) and uncertainty in momentum (Δp) is always:",
+"options": [
+{ "text": "Equal to h / (2π)" },
+{ "text": "Greater than or equal to h / (4π)" },
+{ "text": "Less than h / (4π)" },
+{ "text": "Equal to zero" }
+],
+"correctAnswer": 1,
+"explanation": "Heisenberg's Uncertainty Principle mathematically states that Δx · Δp ≥ h / (4π)."
+}
+]

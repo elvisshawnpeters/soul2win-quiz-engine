@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Biology",
+"topic": "Levels of Organisation",
+"difficulty": "Easy",
+"text": "Which of the following animals exhibits a tissue level of body organisation?",
+"options": [
+{ "text": "Spongilla" },
+{ "text": "Adamsia" },
+{ "text": "Fasciola" },
+{ "text": "Pheretima" }
+],
+"correctAnswer": 1,
+"explanation": "Sponges like Spongilla show cellular level organisation, while coelenterates like Adamsia (Sea anemone) exhibit tissue level organisation."
+},
+{
+"id": 2,
+"subject": "Biology",
+"topic": "Symmetry",
+"difficulty": "Easy",
+"text": "An animal body that can be divided into identical left and right halves in only one plane exhibits:",
+"options": [
+{ "text": "Radial symmetry" },
+{ "text": "Asymmetry" },
+{ "text": "Bilateral symmetry" },
+{ "text": "Biradial symmetry" }
+],
+"correctAnswer": 2,
+"explanation": "Bilateral symmetry is the body plan where the organism can be divided into matching right and left halves along a single median plane."
+},
+{
+"id": 3,
+"subject": "Biology",
+"topic": "Coelom",
+"difficulty": "Moderate",
+"text": "In which of the following phyla is the body cavity not lined by mesoderm, but instead present as scattered pouches between the ectoderm and endoderm?",
+"options": [
+{ "text": "Annelida" },
+{ "text": "Aschelminthes" },
+{ "text": "Platyhelminthes" },
+{ "text": "Arthropoda" }
+],
+"correctAnswer": 1,
+"explanation": "Aschelminthes are pseudocoelomate animals where the body cavity is a pseudocoelom, containing scattered mesodermal pouches."
+},
+{
+"id": 4,
+"subject": "Biology",
+"topic": "Phylum Porifera",
+"difficulty": "Easy",
+"text": "The water canal system in Sponges is responsible for which of the following sets of functions?",
+"options": [
+{ "text": "Food gathering, respiratory exchange and removal of waste" },
+{ "text": "Locomotion, food gathering and osmoregulation" },
+{ "text": "Respiratory exchange, bioluminescence and reproduction" },
+{ "text": "Neuro-sensory coordination, excretion and digestion" }
+],
+"correctAnswer": 0,
+"explanation": "According to NCERT, the pathway of water transport in sponges helps in food gathering, respiratory exchange, and removal of waste materials."
+},
+{
+"id": 5,
+"subject": "Biology",
+"topic": "Phylum Coelenterata",
+"difficulty": "Challenging",
+"text": "Read the statements regarding metagenesis and select the correct option. Statement 1: Polyps produce medusae sexually. Statement 2: Medusae form the polyps asexually.",
+"options": [
+{ "text": "Both Statement 1 and Statement 2 are correct" },
+{ "text": "Both Statement 1 and Statement 2 are incorrect" },
+{ "text": "Statement 1 is correct but Statement 2 is incorrect" },
+{ "text": "Statement 1 is incorrect but Statement 2 is correct" }
+],
+"correctAnswer": 1,
+"explanation": "In Obelia, polyps produce medusae asexually and medusae form the polyps sexually, making both statements incorrect."
+},
+{
+"id": 6,
+"subject": "Biology",
+"topic": "Phylum Ctenophora",
+"difficulty": "Easy",
+"text": "Which of the following features is highly characteristic and prominent in ctenophores like Pleurobrachia?",
+"options": [
+{ "text": "Metameric segmentation" },
+{ "text": "Bioluminescence" },
+{ "text": "Choanocytes" },
+{ "text": "Cnidoblasts" }
+],
+"correctAnswer": 1,
+"explanation": "Bioluminescence (the property of a living organism to emit light) is well-marked in ctenophores."
+},
+{
+"id": 7,
+"subject": "Biology",
+"topic": "Phylum Platyhelminthes",
+"difficulty": "Moderate",
+"text": "Specialised cells called flame cells help in excretion and osmoregulation in which of the following organisms?",
+"options": [
+{ "text": "Taenia" },
+{ "text": "Wuchereria" },
+{ "text": "Ancylostoma" },
+{ "text": "Nereis" }
+],
+"correctAnswer": 0,
+"explanation": "Taenia (Tapeworm) belongs to Platyhelminthes, which possess specialised flame cells for osmoregulation and excretion."
+},
+{
+"id": 8,
+"subject": "Biology",
+"topic": "Phylum Aschelminthes",
+"difficulty": "Moderate",
+"text": "Which of the following features is NOT a characteristic of Phylum Aschelminthes?",
+"options": [
+{ "text": "Alimentary canal is complete with a well-developed muscular pharynx" },
+{ "text": "Dorsiventrally flattened body profile" },
+{ "text": "Dioecious nature with females often longer than males" },
+{ "text": "Internal fertilisation with mostly direct development" }
+],
+"correctAnswer": 1,
+"explanation": "Aschelminthes are roundworms with a circular cross-section; a dorsiventrally flattened body profile is characteristic of Platyhelminthes."
+},
+{
+  "id": 9,
+  "subject": "Biology",
+  "topic": "Phylum Annelida",
+  "difficulty": "Moderate",
+  "text": "Among the following annelids, in which organism are lateral appendages called parapodia present for swimming?",
+  "options": [
+    { "text": "Present in both Nereis and Hirudinaria" },
+    { "text": "Present in Pheretima only" },
+    { "text": "Present in Nereis only" },
+    { "text": "Absent in all three organisms" }
+  ],
+  "correctAnswer": 2,
+  "explanation": "Nereis (a polychaete annelid) possesses parapodia, which aid in swimming and also function in respiration. Pheretima (earthworm) and Hirudinaria (leech) do not possess parapodia."
+},
+{
+"id": 10,
+"subject": "Biology",
+"topic": "Phylum Arthropoda",
+"difficulty": "Easy",
+"text": "The excretory organs present in the largest phylum of Animalia, which includes insects, are known as:",
+"options": [
+{ "text": "Nephridia" },
+{ "text": "Malpighian tubules" },
+{ "text": "Proboscis gland" },
+{ "text": "Radula" }
+],
+"correctAnswer": 1,
+"explanation": "In arthropods, excretion takes place through Malpighian tubules."
+},
+{
+"id": 11,
+"subject": "Biology",
+"topic": "Phylum Mollusca",
+"difficulty": "Moderate",
+"text": "Consider the following statements:\nAssertion (A): In molluscs, the space between the hump and the mantle is called the mantle cavity, in which feather-like gills are present.\nReason (R): These respiratory gills also have excretory functions.\nSelect the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)" },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)" },
+{ "text": "(A) is true but (R) is false" },
+{ "text": "(A) is false but (R) is true" }
+],
+"correctAnswer": 1,
+"explanation": "Both statements are direct lines from NCERT. The gills have both respiratory and excretory functions, but this does not serve as the reason for the location or designation of the mantle cavity."
+},
+{
+"id": 12,
+"subject": "Biology",
+"topic": "Phylum Echinodermata",
+"difficulty": "Moderate",
+"text": "Which of the following sets of features correctly characterizes adult echinoderms?",
+"options": [
+{ "text": "Bilaterally symmetrical, complete digestive system with anus on the ventral side" },
+{ "text": "Radially symmetrical, incomplete digestive system with mouth on the dorsal side" },
+{ "text": "Radially symmetrical, complete digestive system with mouth on the lower (ventral) side" },
+{ "text": "Bilaterally symmetrical, absent excretory system with anus on the lower side" }
+],
+"correctAnswer": 2,
+"explanation": "Adult echinoderms are radially symmetrical and have a complete digestive system with a mouth on the lower (ventral) side and anus on the upper (dorsal) side."
+},
+{
+"id": 13,
+"subject": "Biology",
+"topic": "Phylum Hemichordata",
+"difficulty": "Easy",
+"text": "Balanoglossus and Saccoglossus belong to Phylum Hemichordata. Their circulatory system and excretory organs are respectively:",
+"options": [
+{ "text": "Closed type; Nephridia" },
+{ "text": "Open type; Proboscis gland" },
+{ "text": "Closed type; Malpighian tubules" },
+{ "text": "Open type; Flame cells" }
+],
+"correctAnswer": 1,
+"explanation": "Hemichordates have an open circulatory system and excretion takes place via a single proboscis gland located in the anterior region."
+},
+{
+"id": 14,
+"subject": "Biology",
+"topic": "Chordata Characteristics",
+"difficulty": "Challenging",
+"text": "Which of the following is NOT a fundamental diagnostic distinction between Chordates and Non-chordates?",
+"options": [
+{ "text": "Chordates have a post-anal tail, whereas non-chordates lack it" },
+{ "text": "Chordates have a ventral, solid and double central nervous system, whereas non-chordates have a dorsal, hollow one" },
+{ "text": "Chordates have a heart that is ventrally located, whereas non-chordates have a dorsal heart if present" },
+{ "text": "Chordates have a pharynx perforated by gill slits, whereas non-chordates lack gill slits" }
+],
+"correctAnswer": 1,
+"explanation": "The statement is reversed: chordates possess a dorsal, hollow, single central nervous system, while non-chordates possess a ventral, solid, double nerve cord."
+},
+{
+"id": 15,
+"subject": "Biology",
+"topic": "Chordata Subphyla",
+"difficulty": "Moderate",
+"text": "In which chordate subphylum does the notochord persist throughout life, extending from the head to the tail region?",
+"options": [
+{ "text": "Urochordata" },
+{ "text": "Tunicata" },
+{ "text": "Cephalochordata" },
+{ "text": "Vertebrata" }
+],
+"correctAnswer": 2,
+"explanation": "In Cephalochordata (e.g., Amphioxus), the notochord extends from head to tail region and is persistent throughout their life."
+},
+{
+"id": 16,
+"subject": "Biology",
+"topic": "Class Cyclostomata",
+"difficulty": "Easy",
+"text": "An elongate body bearing 6–15 pairs of gill slits for respiration, an sucking and circular mouth without jaws, and a lack of scales and paired fins are classic diagnostic criteria for:",
+"options": [
+{ "text": "Chondrichthyes" },
+{ "text": "Osteichthyes" },
+{ "text": "Cyclostomata" },
+{ "text": "Amphibia" }
+],
+"correctAnswer": 2,
+"explanation": "Cyclostomes are jawless vertebrates characterised by 6-15 pairs of gill slits, a circular sucking mouth, and an absence of scales and paired fins."
+},
+{
+"id": 17,
+"subject": "Biology",
+"topic": "Class Chondrichthyes",
+"difficulty": "Challenging",
+"text": "A field biologist observes a marine fish that lacks an operculum and swim bladder, forcing it to swim constantly to avoid sinking. Its placoid scales are modified into backwardly directed teeth, and its jaws are extremely powerful. This specimen belongs to:",
+"options": [
+{ "text": "Exocoetus" },
+{ "text": "Pristis" },
+{ "text": "Clarias" },
+{ "text": "Betta" }
+],
+"correctAnswer": 1,
+"explanation": "Pristis (Sawfish) belongs to Class Chondrichthyes (cartilaginous fishes), which lack an operculum and air bladder, and are covered by placoid scales."
+},
+{
+"id": 18,
+"subject": "Biology",
+"topic": "Class Osteichthyes",
+"difficulty": "Easy",
+"text": "Which of the following fishes belongs to Class Osteichthyes, lives in marine water, and is famously known as a flying fish?",
+"options": [
+{ "text": "Exocoetus" },
+{ "text": "Hippocampus" },
+{ "text": "Labeo" },
+{ "text": "Catla" }
+],
+"correctAnswer": 0,
+"explanation": "Exocoetus is a marine bony fish commonly termed the flying fish, while Hippocampus is the sea horse."
+},
+{
+"id": 19,
+"subject": "Biology",
+"topic": "Class Amphibia",
+"difficulty": "Easy",
+"text": "In amphibians, the alimentary canal, urinary tract, and reproductive tracts all open into a single common chamber which opens to the exterior. This chamber is called the:",
+"options": [
+{ "text": "Tympanum" },
+{ "text": "Cloaca" },
+{ "text": "Operculum" },
+{ "text": "Ostium" }
+],
+"correctAnswer": 1,
+"explanation": "According to NCERT, the common chamber in amphibians where digestive, urinary, and reproductive tracts open is the cloaca."
+},
+{
+"id": 20,
+"subject": "Biology",
+"topic": "Class Reptilia",
+"difficulty": "Moderate",
+"text": "Consider the following statements:\nAssertion (A): Reptiles are poikilothermous animals whose body temperature changes with environmental variations.\nReason (R): Reptiles lack an external ear opening, and their tympanum represents the ear.\nSelect the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)" },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)" },
+{ "text": "(A) is true but (R) is false" },
+{ "text": "(A) is false but (R) is true" }
+],
+"correctAnswer": 1,
+"explanation": "Both statements are true facts from NCERT concerning Class Reptilia. However, having a tympanum represent the ear is not the cause or mechanism of their cold-blooded (poikilothermous) nature."
+},
+{
+"id": 21,
+"subject": "Biology",
+"topic": "Class Aves",
+"difficulty": "Challenging",
+"text": "Which of the following morphological adaptations helps birds (Class Aves) reduce body weight to facilitate efficient flight?",
+"options": [
+{ "text": "Presence of a four-chambered heart and warm-blooded nature" },
+{ "text": "Pneumatic long bones containing air cavities" },
+{ "text": "Presence of an oil gland at the base of the tail" },
+{ "text": "Additional chambers like crop and gizzard in the digestive tract" }
+],
+"correctAnswer": 1,
+"explanation": "Bony endoskeleton of birds is fully ossified, and their long bones are hollow with air cavities (pneumatic bones), which reduces body mass for flight."
+},
+{
+"id": 22,
+"subject": "Biology",
+"topic": "Class Mammalia",
+"difficulty": "Easy",
+"text": "Which of the following mammals is unique because it is oviparous (lays eggs)?",
+"options": [
+{ "text": "Macropus" },
+{ "text": "Pteropus" },
+{ "text": "Ornithorhynchus" },
+{ "text": "Delphinus" }
+],
+"correctAnswer": 2,
+"explanation": "Ornithorhynchus (Platypus) is an exception among mammals as it is oviparous, whereas most other mammals are viviparous."
+},
+{
+"id": 23,
+"subject": "Biology",
+"topic": "Animal Kingdom Classification",
+"difficulty": "Challenging",
+"text": "Identify the animal matching this combination of features: Triploblastic, bilaterally symmetrical, segmented, true coelomate, possessing chitinous exoskeleton, jointed appendages, and dioecious nature.",
+"options": [
+{ "text": "Locusta" },
+{ "text": "Pila" },
+{ "text": "Asterias" },
+{ "text": "Octopus" }
+],
+"correctAnswer": 0,
+"explanation": "The listed characteristics specify Phylum Arthropoda. Locusta (Locust) is an arthropod, whereas Pila and Octopus are molluscs, and Asterias is an echinoderm."
+},
+{
+"id": 24,
+"subject": "Biology",
+"topic": "Class Reptilia",
+"difficulty": "Moderate",
+"text": "Which of the following animals possesses a skin covered by scutes or scales, sheds them as skin cast, and possesses a heart that is usually three-chambered but four-chambered in some exceptional members of its class?",
+"options": [
+{ "text": "Chelone" },
+{ "text": "Crocodilus" },
+{ "text": "Calotes" },
+{ "text": "Hemidactylus" }
+],
+"correctAnswer": 1,
+"explanation": "The description belongs to Class Reptilia. While all options are reptiles, Crocodilus is the specific member that possesses the exceptional four-chambered heart."
+},
+{
+"id": 25,
+"subject": "Biology",
+"topic": "Match-the-Following Concepts",
+"difficulty": "Moderate",
+"text": "Match the specialized structural components with their exact phylum allocations:\n1. Comb plates — Ctenophora\n2. Radula — Mollusca\n3. Choanocytes — Porifera\nWhich of these allocations is accurate?",
+"options": [
+{ "text": "1 and 2 only" },
+{ "text": "2 and 3 only" },
+{ "text": "1 and 3 only" },
+{ "text": "1, 2 and 3" }
+],
+"correctAnswer": 3,
+"explanation": "All allocations are perfectly accurate: comb plates are found in ctenophores, the rasping radula belongs to molluscs, and choanocytes line the spongocoel of poriferans."
+}
+]

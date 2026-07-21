@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Physics",
+"topic": "Newton's First Law of Motion",
+"difficulty": "Easy",
+"text": "A rider on horseback falls forward when the horse suddenly stops. This is an example of which of the following?",
+"options": [
+{ "text": "Inertia of rest" },
+{ "text": "Inertia of motion" },
+{ "text": "Inertia of direction" },
+{ "text": "Third law of motion" }
+],
+"correctAnswer": 1,
+"explanation": "According to Newton's first law of motion, a body resists any change in its state of uniform motion. When the horse suddenly stops, the lower part of the rider's body comes to rest along with the horse, while the upper part tends to continue moving forward due to the inertia of motion."
+},
+{
+"id": 2,
+"subject": "Physics",
+"topic": "Conservation of Momentum",
+"difficulty": "Moderate",
+"text": "A shell of mass 0.02 kg is fired by a gun of mass 10 kg. If the muzzle speed of the shell is 80 m/s, what is the recoil speed of the gun?",
+"options": [
+{ "text": "0.16 m/s" },
+{ "text": "1.60 m/s" },
+{ "text": "0.08 m/s" },
+{ "text": "0.80 m/s" }
+],
+"correctAnswer": 0,
+"explanation": "According to the law of conservation of linear momentum, the total initial momentum of the system is equal to the total final momentum. Here, m·v + M·V = 0, which gives V = -(m·v) / M. Substituting the values: V = -(0.02 kg × 80 m/s) / 10 kg = -0.16 m/s. The magnitude of the recoil speed is 0.16 m/s."
+},
+{
+"id": 3,
+"subject": "Physics",
+"topic": "Equilibrium of a Particle",
+"difficulty": "Challenging",
+"text": "A mass of 6 kg is suspended by a rope of length 2 m from the ceiling. A force of 50 N in the horizontal direction is applied at the midpoint P of the rope. What is the angle the rope makes with the vertical in equilibrium? (Take g = 10 m/s²)",
+"options": [
+{ "text": "tan⁻¹(3/4)" },
+{ "text": "tan⁻¹(4/3)" },
+{ "text": "tan⁻¹(5/6)" },
+{ "text": "tan⁻¹(6/5)" }
+],
+"correctAnswer": 2,
+"explanation": "For equilibrium of the midpoint P under the action of three forces (horizontal force F, weight W, and tension T), the horizontal components and vertical components must balance out. Thus, T·sinθ = F and T·cosθ = W = m·g. Dividing the two equations gives tanθ = F / (m·g). Substituting the values: tanθ = 50 / (6 × 10) = 5/6. Therefore, θ = tan⁻¹(5/6)."
+},
+{
+"id": 4,
+"subject": "Physics",
+"topic": "Friction",
+"difficulty": "Easy",
+"text": "Which of the following statements about friction is NOT correct?",
+"options": [
+{ "text": "Static friction opposes impending motion." },
+{ "text": "Kinetic friction is independent of the area of contact." },
+{ "text": "The coefficient of kinetic friction is greater than the coefficient of static friction." },
+{ "text": "Lubricants are used to reduce kinetic friction between surfaces." }
+],
+"correctAnswer": 2,
+"explanation": "According to empirical laws of friction, the coefficient of kinetic friction is always slightly less than the coefficient of static friction because it takes more force to break the initial interlocking bonds between surfaces than to keep them sliding."
+},
+{
+"id": 5,
+"subject": "Physics",
+"topic": "Circular Motion",
+"difficulty": "Moderate",
+"text": "A circular racetrack of radius 300 m is banked at an angle of 15°. If the coefficient of friction between the wheels of a racecar and the road is 0.2, what is the optimum speed of the racecar to avoid wear and tear on its tyres? (Take tan 15° = 0.27 and g = 10 m/s²)",
+"options": [
+{ "text": "28.5 m/s" },
+{ "text": "38.1 m/s" },
+{ "text": "18.2 m/s" },
+{ "text": "54.6 m/s" }
+],
+"correctAnswer": 0,
+"explanation": "The optimum speed on a banked road where the normal reaction component alone provides the needed centripetal force, ensuring zero frictional wear, is given by the formula v = √(R·g·tanθ). Substituting the values: v = √(300 × 10 × 0.27) = √810 = 28.46 m/s. Rounded to one decimal place, the optimum speed is 28.5 m/s."
+},
+{
+"id": 6,
+"subject": "Physics",
+"topic": "Newton's Second Law of Motion",
+"difficulty": "Easy",
+"text": "Assertion (A): A cricketer moves his hands backwards while catching a fast-moving cricket ball.\nReason (R): By moving the hands backwards, the cricketer increases the time of impact, thereby reducing the force exerted by the ball on his hands.",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "According to Newton's second law, force equals the rate of change of momentum (F = Δp/Δt). By pulling the hands back, the time interval Δt over which the ball's velocity reduces to zero increases. Consequently, the average retarding force F experienced by the player's hands decreases significantly."
+},
+{
+"id": 7,
+"subject": "Physics",
+"topic": "Newton's Third Law of Motion",
+"difficulty": "Easy",
+"text": "According to Newton's third law of motion, the action and reaction forces act on:",
+"options": [
+{ "text": "The same body in opposite directions." },
+{ "text": "Different bodies in the same direction." },
+{ "text": "Different bodies in opposite directions simultaneously." },
+{ "text": "The same body in the same direction at different times." }
+],
+"correctAnswer": 2,
+"explanation": "Newton's third law states that to every action, there is always an equal and opposite reaction. Crucially, action and reaction forces always act on two different bodies simultaneously, meaning they can never cancel each other out."
+},
+{
+"id": 8,
+"subject": "Physics",
+"topic": "Impulse",
+"difficulty": "Moderate",
+"text": "A batsman hits back a ball straight in the direction of the bowler without changing its initial speed of 12 m/s. If the mass of the ball is 0.15 kg, determine the impulse imparted to the ball.",
+"options": [
+{ "text": "1.8 N·s" },
+{ "text": "3.6 N·s" },
+{ "text": "0.9 N·s" },
+{ "text": "0.0 N·s" }
+],
+"correctAnswer": 1,
+"explanation": "Impulse is equal to the change in linear momentum of the object: Impulse = Δp = m·v_final - m·v_initial. Taking the initial direction of motion as positive, v_initial = 12 m/s and v_final = -12 m/s. Therefore, Impulse = 0.15 kg × (-12 m/s - 12 m/s) = 0.15 × (-24) = -3.6 N·s. The magnitude of the impulse is 3.6 N·s."
+},
+{
+"id": 9,
+"subject": "Physics",
+"topic": "Newton's First Law of Motion",
+"difficulty": "Easy",
+"text": "If the net external force acting on a body is zero, its acceleration is zero. This statement is fundamentally based on which concept?",
+"options": [
+{ "text": "Aristotle's fallacy" },
+{ "text": "Galileo's law of inertia" },
+{ "text": "Conservation of charge" },
+{ "text": "The universal law of gravitation" }
+],
+"correctAnswer": 1,
+"explanation": "Newton's first law of motion is based on Galileo's concept of inertia. A body remains at rest or continues in uniform straight-line motion unless acted upon by a net external force."
+},
+{
+"id": 10,
+"subject": "Physics",
+"topic": "Friction",
+"difficulty": "Moderate",
+"text": "A block of mass 4 kg rests on a rough horizontal surface. The coefficient of static friction between the block and the surface is 0.4. If a horizontal force of 12 N is applied to the block, what is the magnitude of the frictional force acting on it? (Take g = 10 m/s²)",
+"options": [
+{ "text": "16 N" },
+{ "text": "12 N" },
+{ "text": "4 N" },
+{ "text": "0 N" }
+],
+"correctAnswer": 1,
+"explanation": "The maximum limiting value of static friction is given by f_max = μ_s × N = μ_s × m·g. Substituting the values: f_max = 0.4 × 4 kg × 10 m/s² = 16 N. Since the applied horizontal force of 12 N is less than the limiting friction of 16 N, the block does not move, and the static friction adjusts itself to be exactly equal to the applied force, which is 12 N."
+},
+{
+  "id": 11,
+  "subject": "Physics",
+  "topic": "Circular Motion",
+  "difficulty": "Moderate",
+  "text": "A car negotiates a flat unbanked turn of radius 40 m. If the coefficient of static friction between the tyres and the road surface is 0.4, what is the maximum safe speed with which the car can turn without slipping? (Take g = 10 m/s²)",
+  "options": [
+    { "text": "16 m/s" },
+    { "text": "12.6 m/s" },
+    { "text": "4 m/s" },
+    { "text": "8 m/s" }
+  ],
+  "correctAnswer": 1,
+  "explanation": "For a car moving on a flat unbanked circular path, the maximum static friction provides the required centripetal force. The governing formula is v = √(μₛRg). Substituting μₛ = 0.4, R = 40 m and g = 10 m/s², we get v = √(0.4 × 40 × 10) = √160 ≈ 12.6 m/s. Therefore, the maximum safe speed is 12.6 m/s."
+},
+{
+"id": 12,
+"subject": "Physics",
+"topic": "Newton's Second Law of Motion",
+"difficulty": "Moderate",
+"text": "A constant force acting on a body of mass 5 kg changes its speed from 4 m/s to 8 m/s in 2 seconds without changing its direction of motion. The magnitude of the force is:",
+"options": [
+{ "text": "5 N" },
+{ "text": "10 N" },
+{ "text": "15 N" },
+{ "text": "20 N" }
+],
+"correctAnswer": 1,
+"explanation": "According to Newton's second law of motion, force is equal to mass multiplied by acceleration: F = m·a. Acceleration is the rate of change of velocity: a = (v - u) / t = (8 m/s - 4 m/s) / 2 s = 2 m/s². Substituting this back into the force equation: F = 5 kg × 2 m/s² = 10 N."
+},
+{
+  "id": 13,
+  "subject": "Physics",
+  "topic": "Common Forces in Mechanics",
+  "difficulty": "Easy",
+  "text": "Which of the following forces is NOT a mechanical contact force?",
+  "options": [
+    { "text": "Tension in a string" },
+    { "text": "Normal reaction of a surface" },
+    { "text": "Gravitational force between two objects" },
+    { "text": "Frictional force between two solid surfaces" }
+  ],
+  "correctAnswer": 2,
+  "explanation": "Mechanical contact forces arise only when two bodies are in physical contact, such as friction, normal reaction and tension. Gravitational force acts at a distance without physical contact and is therefore a non-contact force."
+},
+{
+"id": 14,
+"subject": "Physics",
+"topic": "Newton's Second Law of Motion",
+"difficulty": "Moderate",
+"text": "A body of mass 0.4 kg is moving initially with a constant speed of 10 m/s due north. It is subjected to a constant force of 8 N directed towards the south for 30 seconds. What is the position of the body after 10 seconds if we take the initial position to be x = 0?",
+"options": [
+{ "text": "-900 m" },
+{ "text": "-1000 m" },
+{ "text": "-800 m" },
+{ "text": "-700 m" }
+],
+"correctAnswer": 0,
+"explanation": "By applying Newton's second law, the acceleration is given by a = F / m. Since the force is directed towards the south (opposite to initial velocity), a = -8 N / 0.4 kg = -20 m/s². The position x after time t is given by the kinematic equation x = u·t + 0.5·a·t². Substituting u = 10 m/s, a = -20 m/s², and t = 10 s: x = (10 × 10) + 0.5 × (-20) × (10)² = 100 - 1000 = -900 m."
+},
+{
+"id": 15,
+"subject": "Physics",
+"topic": "Conservation of Momentum",
+"difficulty": "Challenging",
+"text": "A body of mass 5 kg initially at rest explodes into three fragments with mass ratios 1:1:3. The two fragments of equal mass fly off in mutually perpendicular directions with a speed of 21 m/s each. What is the speed of the heaviest fragment?",
+"options": [
+{ "text": "7 m/s" },
+{ "text": "7√2 m/s" },
+{ "text": "14 m/s" },
+{ "text": "21 m/s" }
+],
+"correctAnswer": 1,
+"explanation": "According to the conservation of linear momentum, the total momentum before explosion equals the total momentum after explosion. Initial momentum is zero. Let the masses be m, m, and 3m. The momentum vectors of the two lighter masses are perpendicular, so their resultant momentum magnitude is P = √( (m·v)² + (m·v)² ) = m·v·√2. The third fragment must carry an equal and opposite momentum magnitude to keep the total momentum zero: 3m · V_3 = m·v·√2. Therefore, V_3 = (v·√2) / 3. Substituting v = 21 m/s: V_3 = (21·√2) / 3 = 7√2 m/s."
+},
+{
+  "id": 16,
+  "subject": "Physics",
+  "topic": "Friction",
+  "difficulty": "Easy",
+  "text": "Which of the following statements correctly describes rolling friction?",
+  "options": [
+    { "text": "Rolling friction is always greater than static friction." },
+    { "text": "A component of contact force parallel to the surface in contact opposes motion." },
+    { "text": "During rolling, the surfaces in contact deform slightly, causing a small resistance to motion." },
+    { "text": "Rolling friction is completely independent of the load acting normal to the surface." }
+  ],
+  "correctAnswer": 2,
+  "explanation": "During rolling, the surfaces in contact undergo slight deformation. This deformation produces a small resistive force that opposes motion, known as rolling friction."
+},
+{
+"id": 17,
+"subject": "Physics",
+"topic": "Newton's Laws of Motion",
+"difficulty": "Moderate",
+"text": "Assertion (A): Inertial frames of motion are frames where Newton's laws hold true without invoking pseudo forces.\nReason (R): A frame of reference attached to a freely falling lift under gravity is an inertial frame of reference.",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 2,
+"explanation": "An inertial frame of reference is one that is either at rest or moving with a uniform velocity, where Newton's laws are valid directly. A freely falling lift has downward acceleration equal to g, making it an accelerated (non-inertial) frame of reference where pseudo forces must be introduced if viewed internally."
+},
+{
+"id": 18,
+"subject": "Physics",
+"topic": "Connected Bodies",
+"difficulty": "Moderate",
+"text": "Two masses 8 kg and 12 kg are connected at the two ends of a light inextensible string that goes over a frictionless pulley. Find the acceleration of the masses when they are released. (Take g = 10 m/s²)",
+"options": [
+{ "text": "1 m/s²" },
+{ "text": "2 m/s²" },
+{ "text": "4 m/s²" },
+{ "text": "5 m/s²" }
+],
+"correctAnswer": 1,
+"explanation": "For an ideal Atwood machine, the acceleration 'a' of the connected system is given by the formula: a = (m2 - m1)·g / (m1 + m2). Here, m2 = 12 kg and m1 = 8 kg. Substituting these values: a = (12 - 8) × 10 / (12 + 8) = 4 × 10 / 20 = 40 / 20 = 2 m/s²."
+},
+{
+"id": 19,
+"subject": "Physics",
+"topic": "Impulse",
+"difficulty": "Easy",
+"text": "The SI unit of impulse is identical to the SI unit of which of the following physical quantities?",
+"options": [
+{ "text": "Force" },
+{ "text": "Linear Momentum" },
+{ "text": "Angular Momentum" },
+{ "text": "Power" }
+],
+"correctAnswer": 1,
+"explanation": "Impulse is defined as the product of force and time, which is equal to the total change in linear momentum according to the impulse-momentum theorem. Therefore, both impulse and linear momentum share the same SI unit, which is kg·m/s or N·s."
+},
+{
+"id": 20,
+"subject": "Physics",
+"topic": "Friction",
+"difficulty": "Moderate",
+"text": "What is the maximum acceleration of a train in which a box lying on its floor will remain stationary, given that the coefficient of static friction between the box and the train's floor is 0.15? (Take g = 10 m/s²)",
+"options": [
+{ "text": "1.5 m/s²" },
+{ "text": "3.0 m/s²" },
+{ "text": "4.5 m/s²" },
+{ "text": "0.5 m/s²" }
+],
+"correctAnswer": 0,
+"explanation": "For the box to remain stationary relative to the accelerating train, the horizontal pseudo force acting on the box must be balanced by static friction. The maximum acceleration occurs when the accelerating force equals the maximum static friction: m·a_max = μ_s·m·g. Thus, a_max = μ_s·g. Substituting the given values: a_max = 0.15 × 10 m/s² = 1.5 m/s²."
+},
+{
+"id": 21,
+"subject": "Physics",
+"topic": "Newton's Laws of Motion",
+"difficulty": "Easy",
+"text": "Which of the following frames is an example of a non-inertial frame of reference?",
+"options": [
+{ "text": "A car moving with a uniform velocity of 60 km/h along a straight road" },
+{ "text": "A train moving smoothly at a constant speed along a straight track" },
+{ "text": "A spaceship drifting in deep outer space with all engines turned off" },
+{ "text": "A merry-go-round rotating with a constant angular speed" }
+],
+"correctAnswer": 3,
+"explanation": "A rotating frame of reference undergoes a continuous change in its velocity direction, which means it experiences a centripetal acceleration. Any accelerated frame of reference is a non-inertial frame, whereas frames with zero acceleration are inertial frames."
+},
+{
+"id": 22,
+"subject": "Physics",
+"topic": "Concurrent Forces",
+"difficulty": "Moderate",
+"text": "Three concurrent forces act on a particle and keep it in static equilibrium. Which condition must be satisfied by these force vectors?",
+"options": [
+{ "text": "Their vector sum must be equal to a non-zero constant vector." },
+{ "text": "Their vector sum must be exactly equal to zero." },
+{ "text": "They must all point in the same direction." },
+{ "text": "They must all have different magnitudes." }
+],
+"correctAnswer": 1,
+"explanation": "A particle is in static equilibrium when the vector sum of all external forces acting on it is zero (ΣF = 0). This condition ensures that there is no resultant force and therefore no acceleration."
+},
+{
+"id": 23,
+"subject": "Physics",
+"topic": "Circular Motion",
+"difficulty": "Challenging",
+"text": "A motorcyclist goes around a circular track of radius 20 m at a speed of 10 m/s. What is the minimum coefficient of static friction required between the tyres and the ground to prevent the motorcycle from slipping sideways? (Take g = 10 m/s²)",
+"options": [
+{ "text": "0.25" },
+{ "text": "0.50" },
+{ "text": "0.75" },
+{ "text": "0.40" }
+],
+"correctAnswer": 1,
+"explanation": "To successfully complete a circular turn on an unbanked flat road without slipping, the centripetal force must be supplied entirely by static friction. The condition is given by v² / (R·g) ≤ μ_s. Therefore, the minimum coefficient is μ_min = v² / (R·g). Substituting the values: μ_min = (10)² / (20 × 10) = 100 / 200 = 0.50."
+},
+{
+  "id": 24,
+  "subject": "Physics",
+  "topic": "Newton's Second Law of Motion",
+  "difficulty": "Challenging",
+  "text": "A constant force vector F = (2î + 3ĵ + 4k̂) N acts on a body of mass 2 kg. If the body starts its motion from rest at t = 0, what is its velocity vector at t = 4 s?",
+  "options": [
+    { "text": "(4î + 6ĵ + 8k̂) m/s" },
+    { "text": "(8î + 12ĵ + 16k̂) m/s" },
+    { "text": "(2î + 3ĵ + 4k̂) m/s" },
+    { "text": "(1î + 1.5ĵ + 2k̂) m/s" }
+  ],
+  "correctAnswer": 0,
+  "explanation": "According to Newton's second law, the acceleration vector is given by a = F/m. Substituting the force vector and mass: a = (2î + 3ĵ + 4k̂)/2 = (1î + 1.5ĵ + 2k̂) m/s². Since the body starts from rest, the velocity vector after time t is v = a·t. Substituting t = 4 s gives v = (1î + 1.5ĵ + 2k̂) × 4 = (4î + 6ĵ + 8k̂) m/s."
+},
+{
+"id": 25,
+"subject": "Physics",
+"topic": "Laws of Motion Overview",
+"difficulty": "Easy",
+"text": "Which classical physicist is credited with synthesizing the three definitive laws of motion that laid the foundation for classical mechanics?",
+"options": [
+{ "text": "Galileo Galilei" },
+{ "text": "Isaac Newton" },
+{ "text": "Aristotle" },
+{ "text": "Albert Einstein" }
+],
+"correctAnswer": 1,
+"explanation": "Sir Isaac Newton collected, expanded, and formalized the fundamental rules governing the mechanics of moving bodies into three basic laws of motion in his seminal work, the Philosophiae Naturalis Principia Mathematica."
+}
+]

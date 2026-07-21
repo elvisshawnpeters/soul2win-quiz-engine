@@ -1,17 +1,17 @@
 {
-  "day": 1,
+  "day": 5,
   "subjects": [
     {
       "name": "biology",
-      "file": "the-living-world"
+      "file": "morphology"
     },
     {
       "name": "physics",
-      "file": "physical-world"
+      "file": "laws-of-motion"
     },
     {
       "name": "chemistry",
-      "file": "basic-concepts"
+      "file": "thermodynamics"
     }
   ]
 }

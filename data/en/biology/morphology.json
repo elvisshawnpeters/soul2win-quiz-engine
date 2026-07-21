@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Biology",
+"topic": "The Root",
+"difficulty": "Easy",
+"text": "In plants like mustard, the primary root is the direct elongation of which embryonic structure?",
+"options": [
+{ "text": "Plumule" },
+{ "text": "Radicle" },
+{ "text": "Hypocotyl" },
+{ "text": "Epicotyl" }
+],
+"correctAnswer": 1,
+"explanation": "In dicotyledonous plants like mustard, the direct elongation of the radicle leads to the formation of the primary root. It grows inside the soil and bears lateral roots of several orders."
+},
+{
+"id": 2,
+"subject": "Biology",
+"topic": "The Root",
+"difficulty": "Easy",
+"text": "Fibrous root systems are characteristically observed in which of the following groups of plants?",
+"options": [
+{ "text": "Monocotyledonous plants, such as wheat" },
+{ "text": "Dicotyledonous plants, such as mustard" },
+{ "text": "Pteridophytes, such as Selaginella" },
+{ "text": "Gymnosperms, such as Cycas" }
+],
+"correctAnswer": 0,
+"explanation": "In monocotyledonous plants like wheat, the primary root is short-lived and is replaced by a large number of roots. These roots originate from the base of the stem and constitute the fibrous root system."
+},
+{
+"id": 3,
+"subject": "Biology",
+"topic": "Modifications of Root",
+"difficulty": "Moderate",
+"text": "Which of the following plants produces prop roots to provide mechanical support to its massive canopy?",
+"options": [
+{ "text": "Maize" },
+{ "text": "Sugarcane" },
+{ "text": "Banyan tree" },
+{ "text": "Turnip" }
+],
+"correctAnswer": 2,
+"explanation": "The banyan tree possesses hanging structures that extend downward to penetrate the soil and support its heavy branches. These structures are known as prop roots, which function primarily in mechanical support."
+},
+{
+"id": 4,
+"subject": "Biology",
+"topic": "Modifications of Root",
+"difficulty": "Easy",
+"text": "Pneumatophores are specialized respiratory roots found in plants growing in swampy areas. Which plant is a classic example of this modification?",
+"options": [
+{ "text": "Rhizophora" },
+{ "text": "Sweet potato" },
+{ "text": "Asparagus" },
+{ "text": "Carrot" }
+],
+"correctAnswer": 0,
+"explanation": "Rhizophora grows in swampy areas where oxygen availability in the soil is extremely low. Many of its roots come out of the ground vertically upward to help get oxygen for respiration, and these are called pneumatophores."
+},
+{
+"id": 5,
+"subject": "Biology",
+"topic": "Modifications of Stem",
+"difficulty": "Moderate",
+"text": "Stems are modified into woody, straight, and pointed thorns to protect the plant from browsing animals. In which pair of plants is this modification typically observed?",
+"options": [
+{ "text": "Opuntia and Euphorbia" },
+{ "text": "Citrus and Bougainvillea" },
+{ "text": "Cucumber and Pumpkin" },
+{ "text": "Colocasia and Zaminkand" }
+],
+"correctAnswer": 1,
+"explanation": "Axillary buds of stems may lose their growth ability and modify into woody, straight, and pointed structures called thorns. Thorns protect plants from browsing animals and are found in Citrus and Bougainvillea."
+},
+{
+"id": 6,
+"subject": "Biology",
+"topic": "Modifications of Stem",
+"difficulty": "Challenging",
+"text": "In arid regions, certain plants modify their stems into flattened or fleshy cylindrical structures containing chlorophyll to carry out photosynthesis. Select the correct match for these modifications.",
+"options": [
+{ "text": "Flattened stem in Euphorbia, fleshy cylindrical stem in Opuntia" },
+{ "text": "Flattened stem in Opuntia, fleshy cylindrical stem in Euphorbia" },
+{ "text": "Flattened stem in Citrus, fleshy cylindrical stem in Bougainvillea" },
+{ "text": "Flattened stem in Cucumber, fleshy cylindrical stem in Pumpkin" }
+],
+"correctAnswer": 1,
+"explanation": "Some plants of arid regions modify their stems into flattened structures as in Opuntia, or fleshy cylindrical structures as in Euphorbia. These modified green stems contain chlorophyll and perform photosynthesis."
+},
+{
+"id": 7,
+"subject": "Biology",
+"topic": "The Leaf",
+"difficulty": "Easy",
+"text": "Which of the following represents the correct sequence of the three main parts of a typical angiospermic leaf from the base to the apex?",
+"options": [
+{ "text": "Lamina → Petiole → Leaf base" },
+{ "text": "Petiole → Leaf base → Lamina" },
+{ "text": "Leaf base → Petiole → Lamina" },
+{ "text": "Leaf base → Lamina → Petiole" }
+],
+"correctAnswer": 2,
+"explanation": "A typical leaf consists of three main parts arranged sequentially from the point of attachment on the stem to the expanded tip: the leaf base by which it attaches to the stem, followed by the stalk-like petiole, and finally the green expanded blade called the lamina."
+},
+{
+"id": 8,
+"subject": "Biology",
+"topic": "Venation of Leaf",
+"difficulty": "Easy",
+"text": "When the veinlets form a network within the leaf blade, the arrangement is described as reticulate. This type of venation is generally characteristic of which group?",
+"options": [
+{ "text": "Dicotyledonous plants" },
+{ "text": "Monocotyledonous plants" },
+{ "text": "All bryophytes" },
+{ "text": "All pteridophytes" }
+],
+"correctAnswer": 0,
+"explanation": "Venation refers to the arrangement of veins and veinlets in the lamina. When the veinlets form a network, the venation is called reticulate, which is a key characteristic feature of most dicotyledonous plants."
+},
+{
+"id": 9,
+"subject": "Biology",
+"topic": "Phyllotaxy",
+"difficulty": "Moderate",
+"text": "Identify the type of leaf arrangement where a single leaf arises at each node in an alternate manner, along with its correct typical plant examples.",
+"options": [
+{ "text": "Alternate phyllotaxy, seen in Calotropis and Guava" },
+{ "text": "Alternate phyllotaxy, seen in China rose, Mustard, and Sunflower" },
+{ "text": "Opposite phyllotaxy, seen in Alstonia and Nerium" },
+{ "text": "Opposite phyllotaxy, seen in China rose and Sunflower" }
+],
+"correctAnswer": 1,
+"explanation": "Phyllotaxy is the pattern of arrangement of leaves on the stem or branch. In alternate phyllotaxy, a single leaf arises at each node, as seen in China rose, mustard, and sunflower."
+},
+{
+"id": 10,
+"subject": "Biology",
+"topic": "Modifications of Leaf",
+"difficulty": "Moderate",
+"text": "In which of the following plants are the leaves short-lived and small, resulting in the petioles expanding, becoming green, and synthesizing food?",
+"options": [
+{ "text": "Australian Acacia" },
+{ "text": "Garlic and Onion" },
+{ "text": "Nepenthes" },
+{ "text": "Pisum sativum" }
+],
+"correctAnswer": 0,
+"explanation": "In some plants such as Australian Acacia, the leaves are small and short-lived. The petioles in these plants expand, develop chlorophyll, turn green, and take over the function of photosynthesis for the plant."
+},
+{
+"id": 11,
+"subject": "Biology",
+"topic": "Inflorescence",
+"difficulty": "Moderate",
+"text": "Which of the following statements is NOT correct regarding the characteristics of a racemose inflorescence?",
+"options": [
+{ "text": "The main axis continues to grow indefinitely." },
+{ "text": "The flowers are borne laterally in an acropetal succession." },
+{ "text": "The main axis terminates in a flower, limiting further growth." },
+{ "text": "The youngest flowers are located near the apex of the axis." }
+],
+"correctAnswer": 2,
+"explanation": "In racemose type of inflorescence, the main axis continues to grow indefinitely and does not terminate in a flower. The flowers are borne laterally in an acropetal succession, meaning older flowers are at the base and younger ones are at the top."
+},
+{
+"id": 12,
+"subject": "Biology",
+"topic": "The Flower Symmetry",
+"difficulty": "Easy",
+"text": "Flowers that can be divided into two equal radial halves in any radial plane passing through the center are called actinomorphic. Which group contains only actinomorphic flowers?",
+"options": [
+{ "text": "Pea, Gulmohur, Bean" },
+{ "text": "Mustard, Datura, Chilli" },
+{ "text": "Cassia, Canna, Mustard" },
+{ "text": "Chilli, Datura, Canna" }
+],
+"correctAnswer": 1,
+"explanation": "When a flower can be divided into two equal radial halves in any radial plane passing through the center, it is actinomorphic (radial symmetry). Examples provided in NCERT include mustard, Datura, and chilli."
+},
+{
+"id": 13,
+"subject": "Biology",
+"topic": "The Flower Parts",
+"difficulty": "Challenging",
+"text": "Based on the position of calyx, corolla, and androecium in respect of the ovary on the thalamus, the flowers of plum, rose, and peach are classified as:",
+"options": [
+{ "text": "Hypogynous, where the ovary occupies the highest position" },
+{ "text": "Perigynous, where the ovary is situated in the center and other parts are on the rim" },
+{ "text": "Epigynous, where the ovary is completely enclosed by the thalamus" },
+{ "text": "Hypogynous, where the ovary is half inferior" }
+],
+"correctAnswer": 1,
+"explanation": "If gynoecium is situated in the center and other parts of the flower are located on the rim of the thalamus almost at the same level, it is called perigynous. The ovary here is said to be half inferior, as seen in plum, rose, and peach."
+},
+{
+"id": 14,
+"subject": "Biology",
+"topic": "Aestivation",
+"difficulty": "Moderate",
+"text": "Match the following aestivation types described below with their correct corresponding examples:\n(a) Margins of sepals or petals overlap one another but not in any particular direction.\n(b) The largest standard petal overlaps the two lateral wings, which in turn overlap the two smallest anterior keel petals.",
+"options": [
+{ "text": "(a) Twisted in Cotton; (b) Valvate in Calotropis" },
+{ "text": "(a) Imbricate in Cassia and Gulmohur; (b) Vexillary in Pea and Bean" },
+{ "text": "(a) Vexillary in Cassia; (b) Imbricate in Pea" },
+{ "text": "(a) Valvate in Calotropis; (b) Twisted in China rose" }
+],
+"correctAnswer": 1,
+"explanation": "If the margins of sepals or petals overlap one another but not in any particular direction, the aestivation is called imbricate, seen in Cassia and Gulmohur. In vexillary aestivation, the largest standard overlaps two wings which overlap two keels, as seen in pea and bean."
+},
+{
+"id": 15,
+"subject": "Biology",
+"topic": "Androecium",
+"difficulty": "Moderate",
+"text": "When stamens are united into more than two bundles, the androecium condition is called polyadelphous. Which of the following plants exhibits this specific feature?",
+"options": [
+{ "text": "China rose" },
+{ "text": "Pea" },
+{ "text": "Citrus" },
+{ "text": "Mustard" }
+],
+"correctAnswer": 2,
+"explanation": "Stamens may be united into one bunch or bundle (monadelphous as in China rose), two bundles (diadelphous as in pea), or into more than two bundles (polyadelphous as in Citrus)."
+},
+{
+"id": 16,
+"subject": "Biology",
+"topic": "Gynoecium Placentation",
+"difficulty": "Challenging",
+"text": "In which type of placentation are the ovules borne on the central axis and septa are completely absent, as characteristically seen in Dianthus and Primrose?",
+"options": [
+{ "text": "Axile placentation" },
+{ "text": "Parietal placentation" },
+{ "text": "Free-central placentation" },
+{ "text": "Basal placentation" }
+],
+"correctAnswer": 2,
+"explanation": "When the ovules are borne on the central axis and septa are absent, the placentation is termed free-central. Examples of this condition include Dianthus and Primrose."
+},
+{
+"id": 17,
+"subject": "Biology",
+"topic": "The Fruit",
+"difficulty": "Easy",
+"text": "Which of the following structural parts forms the edible fleshy portion of the mango fruit, which is botanically classified as a drupe?",
+"options": [
+{ "text": "Hard, stony endocarp" },
+{ "text": "Thin, outer epicarp" },
+{ "text": "Fleshy, edible mesocarp" },
+{ "text": "Membranous, inner seed coat" }
+],
+"correctAnswer": 2,
+"explanation": "In mango, the fruit is known as a drupe. It develops from a monocarpellary superior ovary. It consists of a well-differentiated outer thin epicarp, a middle fleshy edible mesocarp, and an inner stony hard endocarp."
+},
+{
+"id": 18,
+"subject": "Biology",
+"topic": "The Seed",
+"difficulty": "Moderate",
+"text": "Which of the following statements is NOT correct regarding the structure and properties of a dicotyledonous or monocotyledonous seed?",
+"options": [
+{ "text": "The scar on the seed coat through which the developing seeds were attached to the fruit is called the hilum." },
+{ "text": "In the seeds of cereals like maize, the seed coat is membranous and generally fused with the fruit wall." },
+{ "text": "The outer covering of endosperm separates the embryo by a proteinous layer called the aleurone layer in maize." },
+{ "text": "All dicotyledonous seeds contain a large, fleshy endosperm at maturity that stores food materials." }
+],
+"correctAnswer": 3,
+"explanation": "Not all dicotyledonous seeds are endoespermic. While some seeds like castor are endospermic, in the majority of dicotyledonous plants like pea, gram, and bean, the endosperm is absent in mature seeds, making them non-endospermic."
+},
+{
+"id": 19,
+"subject": "Biology",
+"topic": "Leaf",
+"difficulty": "Easy",
+"text":"The leaf is a lateral, generally flattened structure borne on the stem. It develops at the _____ and bears a bud in its axil.",
+"options": [
+{ "text": "Internode" },
+{ "text": "Node" },
+{ "text": "Apex" },
+{ "text": "Petiole" }
+],
+"correctAnswer": 1,
+"explanation":"Leaves develop at the node and bear an axillary bud in their axil. This is a characteristic feature of leaves described in NCERT."
+},
+{
+"id": 20,
+"subject": "Biology",
+"topic":"Inflorescence",
+"difficulty": "Moderate",
+"text":"The arrangement of flowers on the floral axis is termed inflorescence. Depending on whether the apex continues to grow or terminates in a flower, inflorescences are classified into:",
+"options": [
+{ "text": "Actinomorphic and Zygomorphic" },
+{ "text": "Hypogynous and Epigynous" },
+{ "text": "Racemose and Cymose" },
+{ "text": "Apocarpous and Syncarpous" }
+],
+"correctAnswer": 2,
+"explanation": "Based directly on the text of NCERT, depending on whether the apex gets converted into a flower or continues to grow, inflorescences are classified into two major structural categories: racemose and cymose."
+},
+{
+"id": 21,
+"subject": "Biology",
+"topic": "Plant Families - Fabaceae",
+"difficulty": "Moderate",
+"text": "Which of the following floral characteristics and economic uses correctly defines the family Fabaceae?",
+"options": [
+{ "text": "Actinomorphic symmetry, stamens six in two whorls, source of medicines" },
+{ "text": "Zygomorphic symmetry, androecium diadelphous (9)+1, source of pulses and dye" },
+{ "text": "Epigynous flower, stamens epipetalous, source of vegetables" },
+{ "text": "Bisexual flower, perianth present, source of fibers and condiments" }
+],
+"correctAnswer": 1,
+"explanation": "Fabaceae characteristically possesses zygomorphic flowers, a diadelphous androecium with ten stamens split into two bundles of (9)+1, and includes economically valuable plants that provide pulses (gram, arhar) and dyes (Indigofera)."
+},
+{
+"id": 22,
+"subject": "Biology",
+"topic": "Plant Families - Solanaceae",
+"difficulty": "Challenging",
+"text": "A plant has a floral formula exhibiting actinomorphic symmetry, bisexual nature, five united sepals, five united petals with epipetalous androecium containing five free stamens, and a bicarpellary syncarpous superior ovary with swollen placenta. Identify the family and a representative plant.",
+"options": [
+{ "text": "Fabaceae, Indigofera" },
+{ "text": "Solanaceae, Petunia" },
+{ "text": "Liliaceae, Aloe" },
+{ "text": "Solanaceae, Colchicum" }
+],
+"correctAnswer": 1,
+"explanation": "The description accurately highlights the floral attributes of Solanaceae (epipetalous stamens, bicarpellary syncarpous superior ovary with swollen placenta, and persistent calyx). Petunia is a member of the Solanaceae family, while Colchicum belongs to Liliaceae."
+},
+{
+"id": 23,
+"subject": "Biology",
+"topic": "Plant Families - Liliaceae",
+"difficulty": "Challenging",
+"text": "Which of the following sets of structural features correctly characterizes the family Liliaceae, commonly known as the lily family?",
+"options": [
+{ "text": "Calyx and corolla distinct, ovary inferior, marginal placentation" },
+{ "text": "Perianth present with six tepals in two whorls, epitepalous stamens, tricarpellary syncarpous superior ovary" },
+{ "text": "Monocarpellary gynoecium, parietal placentation, non-endospermic seeds" },
+{ "text": "Polyadelphous stamens, swollen placenta with many ovules, exalbuminous seeds" }
+],
+"correctAnswer": 1,
+"explanation": "Liliaceae is characterized by a perianth composed of six tepals often united into a tube (valvate aestivation), six stamens attached to the tepals (epitepalous), and a tricarpellary syncarpous superior ovary with axile placentation."
+},
+{
+"id": 24,
+"subject": "Biology",
+"topic": "Modifications of Stem",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nStatement I: Underground stems of potato, ginger, turmeric, zaminkand, and Colocasia are modified to store food in them.\nStatement II: They also act as organs of perennation to tide over conditions unfavourable for growth.\n\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+"options": [
+{ "text": "Both Statement I and Statement II are correct." },
+{ "text": "Both Statement I and Statement II are incorrect." },
+{ "text": "Statement I is correct but Statement II is incorrect." },
+{ "text": "Statement I is incorrect but Statement II is correct." }
+],
+"correctAnswer": 0,
+"explanation": "Underground stems of potato, ginger, turmeric, zaminkand, and Colocasia are modified to store food. In addition, they act as vital organs of perennation to tide over environmental conditions that are unfavourable for vegetative growth."
+},
+{
+"id": 25,
+"subject": "Biology",
+"topic": "Gynoecium Placentation",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nStatement I: In parietal placentation, the ovules develop on the inner wall of the ovary or on peripheral part.\nStatement II: Ovary is one-chambered but it becomes two-chambered due to the formation of the false septum called replum in mustard and Argemone.\n\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+"options": [
+{ "text": "Both Statement I and Statement II are correct." },
+{ "text": "Both Statement I and Statement II are incorrect." },
+{ "text": "Statement I is correct but Statement II is incorrect." },
+{ "text": "Statement I is incorrect but Statement II is correct." }
+],
+"correctAnswer": 0,
+"explanation": "In parietal placentation, the ovules develop on the inner wall of the ovary or peripheral part. The ovary is initially unilocular (one-chambered) but it becomes bilocular (two-chambered) due to the formation of a false septum, which is observed in mustard and Argemone."
+}
+]

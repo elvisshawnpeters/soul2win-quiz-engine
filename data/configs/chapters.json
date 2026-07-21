@@ -9,6 +9,21 @@
       "chapter": 2,
       "title": "Biological Classification",
       "file": "biological-classification"
+    },
+    {
+      "chapter": 3,
+      "title": "Plant Kingdom",
+      "file": "plant-kingdom"
+    },
+    {
+      "chapter": 4,
+      "title": "Animal Kingdom",
+      "file": "animal-kingdom"
+    },
+    {
+      "chapter": 5,
+      "title": "Morphology of Flowering Plants",
+      "file": "morphology"
     }
   ],
 
@@ -17,6 +32,26 @@
       "chapter": 1,
       "title": "Physical World",
       "file": "physical-world"
+    },
+    {
+      "chapter": 2,
+      "title": "Units and Measurements",
+      "file": "units-measurements"
+    },
+    {
+      "chapter": 3,
+      "title": "Motion in Straight Line",
+      "file": "motion-straight-line"
+    },
+    {
+      "chapter": 4,
+      "title": "Motion in Plane",
+      "file": "motion-in-plane"
+    },
+    {
+      "chapter": 5,
+      "title": "Law of Motion",
+      "file": "laws-of-motion"
     }
   ],
 
@@ -25,6 +60,26 @@
       "chapter": 1,
       "title": "Some Basic Concepts of Chemistry",
       "file": "basic-concepts"
+    },
+    {
+      "chapter": 2,
+      "title": "Structure of Atom",
+      "file": "structure-of-atom"
+    },
+    {
+      "chapter": 3,
+      "title": "Periodicity",
+      "file": "periodicity"
+    },
+    {
+      "chapter": 4,
+      "title": "Chemical Bonding",
+      "file": "chemical-bonding"
+    },
+    {
+      "chapter": 5,
+      "title": "Thermodynamics",
+      "file": "thermodynamics"
     }
   ]
 }

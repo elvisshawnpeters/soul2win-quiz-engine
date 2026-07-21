@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Biology",
+"topic": "Kingdom Monera",
+"difficulty": "Easy",
+"text": "Which group of organisms is responsible for the production of biogas from the dung of ruminant animals?",
+"options": [
+{ "text": "Thermoacidophiles" },
+{ "text": "Methanogens" },
+{ "text": "Halophiles" },
+{ "text": "Cyanobacteria" }
+],
+"correctAnswer": 1,
+"explanation": "Methanogens are archaebacteria present in the gut of several ruminant animals like cows and buffaloes, producing methane gas from their dung."
+},
+{
+"id": 2,
+"subject": "Biology",
+"topic": "Kingdom Protista",
+"difficulty": "Moderate",
+"text": "Diatomaceous earth is formed due to the accumulation of cell wall deposits of diatoms over billions of years. What is the chemical nature of these cell walls?",
+"options": [
+{ "text": "Cellulosic and flexible" },
+{ "text": "Chitinous and rigid" },
+{ "text": "Impregnated with silica and indestructible" },
+{ "text": "Proteinaceous and extensible" }
+],
+"correctAnswer": 2,
+"explanation": "The cell walls of diatoms are embedded with silica, making them indestructible and leading to diatomaceous earth accumulation."
+},
+{
+"id": 3,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Challenging",
+"text": "A fungus shows septate and branched mycelium. Asexual spores called conidia are produced exogenously, while sexual spores are produced endogenously in a sac-like structure. To which class does this fungus belong?",
+"options": [
+{ "text": "Phycomycetes" },
+{ "text": "Ascomycetes" },
+{ "text": "Basidiomycetes" },
+{ "text": "Deuteromycetes" }
+],
+"correctAnswer": 1,
+"explanation": "Ascomycetes produce conidia exogenously as asexual spores and ascospores endogenously inside sac-like asci."
+},
+{
+"id": 4,
+"subject": "Biology",
+"topic": "Viruses, Viroids, Prions and Lichens",
+"difficulty": "Easy",
+"text": "Which of the following statements about viroids is correct?",
+"options": [
+{ "text": "They possess a protein coat surrounding single-stranded DNA." },
+{ "text": "They consist of free RNA of high molecular weight." },
+{ "text": "They lack a protein coat and consist of free RNA of low molecular weight." },
+{ "text": "They cause mad cow disease in cattle." }
+],
+"correctAnswer": 2,
+"explanation": "Viroids, discovered by T.O. Diener, lack a protein coat (capsid) and consist of free RNA with a low molecular weight."
+},
+{
+"id": 5,
+"subject": "Biology",
+"topic": "Kingdom Protista",
+"difficulty": "Moderate",
+"text": "Slime moulds under favorable conditions form an aggregation called ______, which may grow and spread over several feet.",
+"options": [
+{ "text": "Pellicle" },
+{ "text": "Plasmodium" },
+{ "text": "Fruiting body" },
+{ "text": "Pseudopodia" }
+],
+"correctAnswer": 1,
+"explanation": "Under suitable conditions, saprophytic protists called slime moulds form an aggregation termed plasmodium."
+},
+{
+"id": 6,
+"subject": "Biology",
+"topic": "Systems of Classification",
+"difficulty": "Easy",
+"text": "Five Kingdom Classification system was proposed by R.H. Whittaker in which year?",
+"options": [
+{ "text": "1969" },
+{ "text": "1869" },
+{ "text": "1959" },
+{ "text": "1979" }
+],
+"correctAnswer": 0,
+"explanation": "R.H. Whittaker proposed the Five Kingdom Classification in the year 1969."
+},
+{
+"id": 7,
+"subject": "Biology",
+"topic": "Kingdom Monera",
+"difficulty": "Challenging",
+"text": "Heterocysts are specialized cells present in certain cyanobacteria such as Anabaena and Nostoc. What is their primary function?",
+"options": [
+{ "text": "Photosynthetic carbon fixation" },
+{ "text": "Atmospheric nitrogen fixation" },
+{ "text": "Asexual spore formation" },
+{ "text": "Absorption of minerals" }
+],
+"correctAnswer": 1,
+"explanation": "Heterocysts create an anaerobic environment necessary for the nitrogenase enzyme to fix atmospheric nitrogen."
+},
+{
+"id": 8,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Easy",
+"text": "Which class of fungi is commonly known as 'imperfect fungi' because only their asexual or vegetative phases are known?",
+"options": [
+{ "text": "Phycomycetes" },
+{ "text": "Ascomycetes" },
+{ "text": "Basidiomycetes" },
+{ "text": "Deuteromycetes" }
+],
+"correctAnswer": 3,
+"explanation": "Deuteromycetes are called imperfect fungi because their sexual stages are either absent or yet to be discovered."
+},
+{
+"id": 9,
+"subject": "Biology",
+"topic": "Viruses, Viroids, Prions and Lichens",
+"difficulty": "Moderate",
+"text": "Prions are infectious agents that cause Neurological diseases such as Bovine Spongiform Encephalopathy (BSE). They consist of:",
+"options": [
+{ "text": "Free infectious DNA" },
+{ "text": "Abnormally folded protein" },
+{ "text": "Low molecular weight RNA" },
+{ "text": "Nucleoprotein particles" }
+],
+"correctAnswer": 1,
+"explanation": "Prions consist of abnormally folded proteins that transmit neurological disorders such as BSE in cattle and Creutzfeldt–Jakob disease (CJD) in humans."
+},
+{
+"id": 10,
+"subject": "Biology",
+"topic": "Kingdom Monera",
+"difficulty": "Moderate",
+"text": "Organisms that completely lack a cell wall, are the smallest living cells known, and can survive without oxygen belong to:",
+"options": [
+{ "text": "Mycoplasma" },
+{ "text": "Archaebacteria" },
+{ "text": "Cyanobacteria" },
+{ "text": "Euglenoids" }
+],
+"correctAnswer": 0,
+"explanation": "Mycoplasma are cell wall-less prokaryotes, anaerobic in nature, and are the smallest living cells."
+},
+{
+"id": 11,
+"subject": "Biology",
+"topic": "Kingdom Protista",
+"difficulty": "Challenging",
+"text": "Identify the incorrect statement regarding Euglenoids.",
+"options": [
+{ "text": "Instead of a cell wall, they have a protein-rich layer called pellicle." },
+{ "text": "They possess two flagella, one short and one long." },
+{ "text": "They are obligate autotrophs and die in the absence of sunlight." },
+{ "text": "Their pigments are identical to those present in higher plants." }
+],
+"correctAnswer": 2,
+"explanation": "Euglenoids are mixotrophs; when deprived of sunlight, they behave as heterotrophs by predating on smaller organisms."
+},
+{
+"id": 12,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Easy",
+"text": "Coenocytic, aseptate mycelium is a characteristic feature of which fungal class?",
+"options": [
+{ "text": "Phycomycetes" },
+{ "text": "Ascomycetes" },
+{ "text": "Basidiomycetes" },
+{ "text": "Deuteromycetes" }
+],
+"correctAnswer": 0,
+"explanation": "Phycomycetes possess multinucleate and unsegmented (coenocytic and aseptate) hyphae."
+},
+{
+"id": 13,
+"subject": "Biology",
+"topic": "Systems of Classification",
+"difficulty": "Moderate",
+"text": "Why were organisms like Chlamydia, Spirogyra, and Chlorella separated or reclassified from earlier classification systems?",
+"options": [
+{ "text": "Earlier systems used numerical taxonomy." },
+{ "text": "Earlier systems failed to distinguish between photosynthetic and non-photosynthetic organisms." },
+{ "text": "Earlier systems relied primarily on superficial vegetative criteria like habit and color." },
+{ "text": "Earlier systems grouped eukaryotic unicellular algae and prokaryotes together under Plantae." }
+],
+"correctAnswer": 3,
+"explanation": "Earlier systems placed bacteria, blue-green algae, fungi, mosses, and plants in one kingdom because they all possessed a cell wall, ignoring differences in cell structure."
+},
+{
+"id": 14,
+"subject": "Biology",
+"topic": "Kingdom Protista",
+"difficulty": "Easy",
+"text": "Which protozoan causes sleeping sickness and moves with the help of flagella?",
+"options": [
+{ "text": "Amoeba" },
+{ "text": "Entamoeba" },
+{ "text": "Trypanosoma" },
+{ "text": "Plasmodium" }
+],
+"correctAnswer": 2,
+"explanation": "Trypanosoma is a flagellated protozoan parasite responsible for causing sleeping sickness."
+},
+{
+"id": 15,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Moderate",
+"text": "In Basidiomycetes, sex organs are absent. Sexual reproduction is achieved through:",
+"options": [
+{ "text": "Isogamous fusion of motile gametes" },
+{ "text": "Somatogamy between two vegetative cells of different strains" },
+{ "text": "Formation of planogametes in zoosporangia" },
+{ "text": "Conidial fusion during favorable seasons" }
+],
+"correctAnswer": 1,
+"explanation": "Basidiomycetes lack sex organs; plasmogamy is brought about by somatogamy between two vegetative cells of different strains."
+},
+{
+"id": 16,
+"subject": "Biology",
+"topic": "Viruses, Viroids, Prions and Lichens",
+"difficulty": "Easy",
+"text": "Lichens are well-known symbiotic associations. The algal component is called ______ and the fungal component is called ______.",
+"options": [
+{ "text": "Mycobiont; Phycobiont" },
+{ "text": "Phycobiont; Mycobiont" },
+{ "text": "Haustoria; Rhizines" },
+{ "text": "Autobiont; Heterobiont" }
+],
+"correctAnswer": 1,
+"explanation": "In lichens, the autotrophic algal component is phycobiont and the heterotrophic fungal component is mycobiont."
+},
+{
+"id": 17,
+"subject": "Biology",
+"topic": "Kingdom Monera",
+"difficulty": "Challenging",
+"text": "Chemosynthetic autotrophic bacteria play a great role in recycling nutrients like nitrogen, phosphorus, iron, and sulfur by:",
+"options": [
+{ "text": "Utilizing solar energy directly to synthesize food" },
+{ "text": "Oxidizing various inorganic substances and utilizing released energy for ATP production" },
+{ "text": "Decomposing organic matter into humic acid" },
+{ "text": "Reducing nitrates into free atmospheric nitrogen gas" }
+],
+"correctAnswer": 1,
+"explanation": "Chemosynthetic bacteria oxidize inorganic compounds (e.g., nitrites, nitrates, ammonia) and use the released chemical energy to produce ATP."
+},
+{
+"id": 18,
+"subject": "Biology",
+"topic": "Kingdom Protista",
+"difficulty": "Easy",
+"text": "Red tides in oceans are caused by the rapid multiplication of which dinoflagellate?",
+"options": [
+{ "text": "Gonyaulax" },
+{ "text": "Euglena" },
+{ "text": "Paramecium" },
+{ "text": "Noctiluca" }
+],
+"correctAnswer": 0,
+"explanation": "Gonyaulax undergoes rapid multiplication, making the sea appear red (red tide) and releasing toxins."
+},
+{
+"id": 19,
+"subject": "Biology",
+"topic": "Viruses, Viroids, Prions and Lichens",
+"difficulty": "Moderate",
+"text": "Who demonstrated that the extract of infected tobacco plants could cause infection in healthy plants and called the fluid 'Contagium vivum fluidum'?",
+"options": [
+{ "text": "D.J. Ivanowsky" },
+{ "text": "M.W. Beijerinek" },
+{ "text": "W.M. Stanley" },
+{ "text": "Robert Hooke" }
+],
+"correctAnswer": 1,
+"explanation": "M.W. Beijerinek (1898) coined the term 'Contagium vivum fluidum' (infectious living fluid) for tobacco mosaic pathogen."
+},
+{
+"id": 20,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Moderate",
+"text": "Neurospora, extensively used in biochemical and genetic work, belongs to which class of fungi?",
+"options": [
+{ "text": "Phycomycetes" },
+{ "text": "Ascomycetes" },
+{ "text": "Basidiomycetes" },
+{ "text": "Deuteromycetes" }
+],
+"correctAnswer": 1,
+"explanation": "Neurospora is a member of Ascomycetes widely used in genetics and biochemical research."
+},
+{
+"id": 21,
+"subject": "Biology",
+"topic": "Kingdom Plantae & Animalia",
+"difficulty": "Easy",
+"text": "Insectivorous plants like Bladderwort and Venus flytrap, though photosynthetic, are classified under Kingdom Plantae. What mode of nutrition do they partially exhibit?",
+"options": [
+{ "text": "Complete Saprophytism" },
+{ "text": "Partial Heterotrophism" },
+{ "text": "Obligate Parasitism" },
+{ "text": "Symbiotic Mutualism" }
+],
+"correctAnswer": 1,
+"explanation": "Insectivorous plants are partially heterotrophic because they digest insects to fulfill their nitrogen requirements."
+},
+{
+"id": 22,
+"subject": "Biology",
+"topic": "Viruses, Viroids, Prions and Lichens",
+"difficulty": "Moderate",
+"text": "Viruses that infect bacteria (bacteriophages) usually possess:",
+"options": [
+{ "text": "Single-stranded RNA" },
+{ "text": "Double-stranded DNA" },
+{ "text": "Single-stranded DNA" },
+{ "text": "Double-stranded RNA" }
+],
+"correctAnswer": 1,
+"explanation": "Bacteriophages generally possess double-stranded DNA as their genetic material."
+},
+{
+"id": 23,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Challenging",
+"text": "Which sequence correctly represents the sexual cycle steps in fungi?",
+"options": [
+{ "text": "Karyogamy → Plasmogamy → Meiosis" },
+{ "text": "Plasmogamy → Karyogamy → Meiosis" },
+{ "text": "Meiosis → Plasmogamy → Karyogamy" },
+{ "text": "Plasmogamy → Meiosis → Karyogamy" }
+],
+"correctAnswer": 1,
+"explanation": "The sexual cycle involves: 1. Plasmogamy (fusion of protoplasms), 2. Karyogamy (fusion of nuclei), and 3. Meiosis resulting in haploid spores."
+},
+{
+"id": 24,
+"subject": "Biology",
+"topic": "Kingdom Fungi",
+"difficulty": "Easy",
+"text": "Which of the following fungi is unicellular?",
+"options": [
+{ "text": "Penicillium" },
+{ "text": "Mucor" },
+{ "text": "Saccharomyces" },
+{ "text": "Agaricus" }
+],
+"correctAnswer": 2,
+"explanation": "Saccharomyces (Yeast) is a unicellular fungus, unlike most other fungi which are multicellular and filamentous."
+},
+{
+"id": 25,
+"subject": "Biology",
+"topic": "Kingdom Monera",
+"difficulty": "Moderate",
+"text": "Archaebacteria differ from eubacteria in having:",
+"options": [
+{ "text": "A different cell wall structure" },
+{ "text": "Nuclear membrane" },
+{ "text": "70S ribosomes" },
+{ "text": "Circular naked DNA" }
+],
+"correctAnswer": 0,
+"explanation": "Archaebacteria possess a different cell wall structure (lack peptidoglycan), enabling them to survive under extreme conditions."
+}
+]

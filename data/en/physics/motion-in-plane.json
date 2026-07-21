@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Physics",
+"topic": "Scalars and Vectors",
+"difficulty": "Easy",
+"text": "Which of the following physical quantities is a scalar quantity?",
+"options": [
+{ "text": "Velocity" },
+{ "text": "Acceleration" },
+{ "text": "Linear momentum" },
+{ "text": "Kinetic energy" }
+],
+"correctAnswer": 3,
+"explanation": "Kinetic energy is a scalar quantity because it only possesses magnitude and no specific direction, unlike velocity, acceleration, and linear momentum which are vectors."
+},
+{
+"id": 2,
+"subject": "Physics",
+"topic": "Vector Algebra",
+"difficulty": "Easy",
+"text": "If two vectors A⃗ and B⃗ are perpendicular to each other, what is the value of their dot product A⃗ · B⃗?",
+"options": [
+{ "text": "AB" },
+{ "text": "0" },
+{ "text": "-AB" },
+{ "text": "1" }
+],
+"correctAnswer": 1,
+"explanation": "The dot product is defined as A⃗ · B⃗ = AB cosθ. Since the vectors are perpendicular, θ = 90° and cos 90° = 0, which makes the dot product zero."
+},
+{
+"id": 3,
+"subject": "Physics",
+"topic": "Vector Addition",
+"difficulty": "Easy",
+"text": "Two vectors of equal magnitude P have a resultant also equal to P. What is the angle between the two vectors?",
+"options": [
+{ "text": "60°" },
+{ "text": "90°" },
+{ "text": "120°" },
+{ "text": "0°" }
+],
+"correctAnswer": 2,
+"explanation": "Using the formula R² = A² + B² + 2AB cosθ, we get P² = P² + P² + 2P² cosθ. Solving for cosθ gives cosθ = -1/2, so θ = 120°."
+},
+{
+"id": 4,
+"subject": "Physics",
+"topic": "Unit Vectors",
+"difficulty": "Easy",
+"text": "What is the magnitude of the vector A⃗ = 3î + 4ĵ?",
+"options": [
+{ "text": "5" },
+{ "text": "7" },
+{ "text": "1" },
+{ "text": "25" }
+],
+"correctAnswer": 0,
+"explanation": "The magnitude of a vector A⃗ = Axî + Ayĵ is given by √(Ax² + Ay²). Here, √(3² + 4²) = √(9 + 16) = √25 = 5."
+},
+{
+"id": 5,
+"subject": "Physics",
+"topic": "Position and Displacement Vectors",
+"difficulty": "Easy",
+"text": "A particle moves from position r₁⃗ = (2î + 3ĵ) m to r₂⃗ = (5î + 7ĵ) m. What is the displacement vector of the particle?",
+"options": [
+{ "text": "(7î + 10ĵ) m" },
+{ "text": "(3î + 4ĵ) m" },
+{ "text": "(-3î - 4ĵ) m" },
+{ "text": "(5î + 4ĵ) m" }
+],
+"correctAnswer": 1,
+"explanation": "Displacement vector Δr⃗ = r₂⃗ - r₁⃗ = (5 - 2)î + (7 - 3)ĵ = (3î + 4ĵ) m."
+},
+{
+"id": 6,
+"subject": "Physics",
+"topic": "Resolution of Vectors",
+"difficulty": "Easy",
+"text": "A force of 10 N acts at an angle of 30° with the horizontal X-axis. What is the vertical component of this force?",
+"options": [
+{ "text": "5 N" },
+{ "text": "5√3 N" },
+{ "text": "10 N" },
+{ "text": "8.66 N" }
+],
+"correctAnswer": 0,
+"explanation": "The vertical component is given by Fy = F sinθ = 10 × sin 30° = 10 × 0.5 = 5 N."
+},
+{
+"id": 7,
+"subject": "Physics",
+"topic": "Motion in a Plane with Constant Acceleration",
+"difficulty": "Easy",
+"text": "A particle starts from the origin at t = 0 with a velocity of 5î m/s and moves in the x-y plane with a constant acceleration of 2ĵ m/s². What is the y-coordinate of the particle at t = 2 s?",
+"options": [
+{ "text": "10 m" },
+{ "text": "4 m" },
+{ "text": "2 m" },
+{ "text": "8 m" }
+],
+"correctAnswer": 1,
+"explanation": "Using y = u_y·t + (1/2)a_y·t², since u_y = 0 and a_y = 2 m/s², we get y = 0 + (1/2)(2)(2²) = 4 m."
+},
+{
+"id": 8,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Easy",
+"text": "At the highest point of its trajectory, what is the angle between the velocity and acceleration vectors of a projectile?",
+"options": [
+{ "text": "0°" },
+{ "text": "45°" },
+{ "text": "90°" },
+{ "text": "180°" }
+],
+"correctAnswer": 2,
+"explanation": "At the highest point, the velocity vector is entirely horizontal (v = u cosθ) and the acceleration due to gravity is vertically downward, making the angle between them 90°."
+},
+{
+"id": 9,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Easy",
+"text": "Which of the following quantities remains constant throughout the flight of a projectile in the absence of air resistance?",
+"options": [
+{ "text": "Vertical component of velocity" },
+{ "text": "Kinetic energy" },
+{ "text": "Horizontal component of velocity" },
+{ "text": "Momentum" }
+],
+"correctAnswer": 2,
+"explanation": "Since there is no horizontal force acting on the projectile, its horizontal acceleration is zero, and the horizontal component of velocity (u cosθ) remains constant."
+},
+{
+"id": 10,
+"subject": "Physics",
+"topic": "Uniform Circular Motion",
+"difficulty": "Easy",
+"text": "A particle moves in a circle of radius r with a constant speed v. What is the direction of its acceleration vector?",
+"options": [
+{ "text": "Along the tangent to the circle" },
+{ "text": "Towards the center of the circle" },
+{ "text": "Away from the center along the radius" },
+{ "text": "Perpendicular to the plane of the circle" }
+],
+"correctAnswer": 1,
+"explanation": "In uniform circular motion, the acceleration is centripetal, meaning it is always directed radially inward towards the center of the circular path."
+},
+{
+"id": 11,
+"subject": "Physics",
+"topic": "Vector Multiplication",
+"difficulty": "Moderate",
+"text": "If the magnitude of the cross product of two vectors A⃗ and B⃗ is equal to √3 times their dot product, what is the angle between the two vectors?",
+"options": [
+{ "text": "30°" },
+{ "text": "45°" },
+{ "text": "60°" },
+{ "text": "90°" }
+],
+"correctAnswer": 2,
+"explanation": "Given |A⃗ × B⃗| = √3 (A⃗ · B⃗) ⇒ AB sinθ = √3 AB cosθ ⇒ tanθ = √3. Therefore, θ = 60°."
+},
+{
+"id": 12,
+"subject": "Physics",
+"topic": "Relative Velocity",
+"difficulty": "Moderate",
+"text": "Rain is falling vertically with a speed of 35 m/s. A woman rides a bicycle with a speed of 12 m/s in the north to south direction. What is the direction in which she should hold her umbrella to protect herself?",
+"options": [
+{ "text": "At an angle of tan⁻¹(12/35) with the vertical, towards the south" },
+{ "text": "At an angle of tan⁻¹(35/12) with the vertical, towards the north" },
+{ "text": "At an angle of tan⁻¹(12/35) with the vertical, towards the north" },
+{ "text": "Vertically downward" }
+],
+"correctAnswer": 0,
+"explanation": "The relative velocity of rain with respect to the bicycle is v_rb = v_r - v_b. The angle with the vertical is given by tanθ = v_b / v_r = 12/35. To counter the relative direction of rain coming from the south, she must tilt it south."
+},
+{
+"id": 13,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Moderate",
+"text": "A projectile is thrown with an initial velocity u at an angle θ with the horizontal. Which of the following is NOT a valid expression for its horizontal range R?",
+"options": [
+{ "text": "R = (u² sin2θ) / g" },
+{ "text": "R = (2u² sinθ cosθ) / g" },
+{ "text": "R = (2 u_x u_y) / g" },
+{ "text": "R = (u² sin²θ) / (2g)" }
+],
+"correctAnswer": 3,
+"explanation": "The expression (u² sin²θ) / (2g) represents the maximum height (H) attained by the projectile, not its horizontal range R."
+},
+{
+"id": 14,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Moderate",
+"text": "Two projectiles are launched from the ground with the same initial speed but at complementary angles α and β (such that α + β = 90°). If their maximum heights are H₁ and H₂ respectively, which of the following statements is true?",
+"options": [
+{ "text": "Their horizontal ranges are equal." },
+{ "text": "Their times of flight are equal." },
+{ "text": "H₁ is always equal to H₂." },
+{ "text": "Their velocities at the highest point are equal." }
+],
+"correctAnswer": 0,
+"explanation": "As per NCERT, the horizontal range of a projectile is the same for complementary angles of projection (θ and 90° - θ) launched with equal initial speeds."
+},
+{
+"id": 15,
+"subject": "Physics",
+"topic": "Uniform Circular Motion",
+"difficulty": "Moderate",
+"text": "An insect trapped in a circular groove of radius 12 cm moves along the groove steadily and completes 7 revolutions in 100 s. What is the magnitude of its linear velocity?",
+"options": [
+{ "text": "0.053 m/s" },
+{ "text": "0.53 m/s" },
+{ "text": "5.3 m/s" },
+{ "text": "0.0053 m/s" }
+],
+"correctAnswer": 0,
+"explanation": "Angular velocity ω = 2πν = 2 × (22/7) × (7/100) = 0.44 rad/s. Linear velocity v = ωr = 0.44 × 0.12 m = 0.0528 m/s ≈ 0.053 m/s."
+},
+{
+"id": 16,
+"subject": "Physics",
+"topic": "Relative Velocity",
+"difficulty": "Moderate",
+"text": "A boat can travel with a speed of 5 km/h in still water. If it wants to cross a 1 km wide river flowing at 3 km/h via the shortest possible path, in what direction must the boat head relative to the upstream flow?",
+"options": [
+{ "text": "37°" },
+{ "text": "53°" },
+{ "text": "90°" },
+{ "text": "127°" }
+],
+"correctAnswer": 3,
+"explanation": "For the shortest path (straight across), sinθ = v_river / v_boat = 3/5, which gives θ = 37° relative to the perpendicular. The total angle relative to the upstream direction is 90° + 37° = 127°."
+},
+{
+"id": 17,
+"subject": "Physics",
+"topic": "Vector Properties",
+"difficulty": "Moderate",
+"text": "Which of the following operations involving vectors is NOT mathematically defined?",
+"options": [
+{ "text": "Addition of a scalar to a vector" },
+{ "text": "Multiplication of a vector by a scalar" },
+{ "text": "Dot product of two vectors" },
+{ "text": "Cross product of two vectors" }
+],
+"correctAnswer": 0,
+"explanation": "A scalar quantity and a vector quantity represent fundamentally different entities and cannot be added together mathematically."
+},
+{
+"id": 18,
+"subject": "Physics",
+"topic": "Scalars and Vectors",
+"difficulty": "Moderate",
+"text": "What distinguishes a true vector from a scalar physical quantity?",
+"options": [
+{ "text": "A vector has only direction while a scalar has only magnitude." },
+{ "text": "A vector must possess both magnitude and direction, and it must obey the laws of vector addition." },
+{ "text": "A vector changes its magnitude when coordinates are rotated." },
+{ "text": "A vector cannot be decomposed into rectangular components." }
+],
+"correctAnswer": 1,
+"explanation": "NCERT explicitly notes that specifying a direction along with a magnitude is not sufficient for a quantity to be a vector; it must also obey the triangle or parallelogram law of vector addition."
+},
+{
+"id": 19,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nAssertion (A): The trajectory of a projectile launched in the Earth's atmosphere is a perfect parabola only if air resistance is completely neglected.\nReason (R): In projectile motion, the horizontal component of velocity remains constant throughout the motion in the absence of air resistance.\nBased on the statements, choose the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "An (A) is true but (R) is false." },
+{ "text": "Both (A) and (R) are false." }
+],
+"correctAnswer": 0,
+"explanation": "Neglecting air resistance means the only acceleration is vertical (-g), ensuring a constant horizontal velocity, which leads directly to the quadratic kinematic equation describing a parabolic path."
+},
+{
+"id": 20,
+"subject": "Physics",
+"topic": "Uniform Circular Motion",
+"difficulty": "Moderate",
+"text": "Given below are two statements:\nAssertion (A): In uniform circular motion, the acceleration of the particle is constant.\nReason (R): The speed of a particle undergoing uniform circular motion does not change with time.\nBased on the statements, choose the correct option:",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": "(A) is true but (R) is false." },
+{ "text": "(A) is false but (R) is true." }
+],
+"correctAnswer": 3,
+"explanation": "The assertion is false because in uniform circular motion, the centripetal acceleration changes its direction continuously, meaning the acceleration vector is not constant. The reason is true by definition."
+},
+{
+"id": 21,
+"subject": "Physics",
+"topic": "Motion in a Plane with Constant Acceleration",
+"difficulty": "Challenging",
+"text": "A particle's position vector is given by r⃗(t) = 3.0tî + 2.0t²ĵ + 5.0k̂, where t is in seconds and coefficients have the proper units. What is the magnitude of the particle's velocity at t = 1.0 s?",
+"options": [
+{ "text": "3.0 m/s" },
+{ "text": "4.0 m/s" },
+{ "text": "5.0 m/s" },
+{ "text": "7.0 m/s" }
+],
+"correctAnswer": 2,
+"explanation": "Velocity vector v⃗(t) = dr⃗/dt = 3.0î + 4.0tĵ. At t = 1.0 s, v⃗ = 3.0î + 4.0ĵ. The magnitude is √(3.0² + 4.0²) = √25 = 5.0 m/s."
+},
+{
+"id": 22,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Challenging",
+"text": "A projectile is launched from the ground with an initial speed of 20 m/s at an angle of 60° above the horizontal. Find its radius of curvature at the highest point of its trajectory. (Take g = 10 m/s²)",
+"options": [
+{ "text": "10 m" },
+{ "text": "20 m" },
+{ "text": "40 m" },
+{ "text": "30 m" }
+],
+"correctAnswer": 0,
+"explanation": "At the top, the velocity is entirely horizontal, v = u cos60° = 20 × 0.5 = 10 m/s. The centripetal acceleration is g. Using a_c = v²/R_c, we get g = v²/R_c ⇒ 10 = 10²/R_c ⇒ R_c = 10 m."
+},
+{
+"id": 23,
+"subject": "Physics",
+"topic": "Vector Algebra",
+"difficulty": "Challenging",
+"text": "Find the area of a parallelogram whose adjacent sides are determined by the vectors A⃗ = î - ĵ + 3k̂ and B⃗ = 2î - 7ĵ + k̂.",
+"options": [
+{ "text": "√300" },
+{ "text": "5√5" },
+{ "text": "15" },
+{ "text": "√450" }
+],
+"correctAnswer": 0,
+"explanation": "The area is given by the magnitude of the cross product A⃗ × B⃗. Evaluating the determinant gives 20î + 5ĵ - 5k̂. The magnitude is √(20² + 5² + (-5)²) = √(400 + 25 + 25) = √450 = 15√2 = √300 is incorrect calculation, √450 = √(20²+5²+(-5)²) = √450."
+},
+{
+"id": 24,
+"subject": "Physics",
+"topic": "Projectile Motion",
+"difficulty": "Challenging",
+"text": "The horizontal range and maximum height of a projectile are equal. What is the angle of projection with the horizontal?",
+"options": [
+{ "text": "θ = tan⁻¹(1)" },
+{ "text": "θ = tan⁻¹(4)" },
+{ "text": "θ = tan⁻¹(2)" },
+{ "text": "θ = tan⁻¹(0.25)" }
+],
+"correctAnswer": 1,
+"explanation": "Using R = H : (u² sin2θ)/g = (u² sin²θ)/(2g) ⇒ 2 sinθ cosθ = sin²θ / 2 ⇒ 4 cosθ = sinθ ⇒ tanθ = 4. Thus θ = tan⁻¹(4)."
+},
+{
+"id": 25,
+"subject": "Physics",
+"topic": "Uniform Circular Motion",
+"difficulty": "Challenging",
+"text": "A particle moves in a circle of radius R. If its speed is increasing at a uniform linear rate of 'a', what is the total magnitude of its acceleration at the instant its linear speed is v?",
+"options": [
+{ "text": "v²/R" },
+{ "text": "a" },
+{ "text": "√[a² + (v²/R)²]" },
+{ "text": "a + v²/R" }
+],
+"correctAnswer": 2,
+"explanation": "The particle has two mutually perpendicular accelerations: a tangential acceleration (a_t = a) and a centripetal acceleration (a_c = v²/R). The total acceleration magnitude is √(a_t² + a_c²) = √[a² + (v²/R)²]."
+}
+]

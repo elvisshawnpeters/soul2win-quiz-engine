@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Chemistry",
+"topic": "Genesis of Periodic Classification",
+"difficulty": "Easy",
+"text": "According to Mendeleev's Periodic Law, the physical and chemical properties of elements are a periodic function of their:",
+"options": [
+{ "text": "Atomic number" },
+{ "text": "Atomic weight" },
+{ "text": "Electronegativity" },
+{ "text": "Atomic radius" }
+],
+"correctAnswer": 1,
+"explanation": "Mendeleev stated that the properties of elements are a periodic function of their atomic weights (atomic masses). Modern periodic law later modified this to atomic numbers."
+},
+{
+"id": 2,
+"subject": "Chemistry",
+"topic": "Modern Periodic Law and Long Form of Periodic Table",
+"difficulty": "Easy",
+"text": "Which physical property was used by Henry Moseley to show that atomic number is a more fundamental property of an element than its atomic mass?",
+"options": [
+{ "text": "Mass spectra of ions" },
+{ "text": "Frequencies of X-rays emitted" },
+{ "text": "Infrared absorption spectra" },
+{ "text": "Refractive index of crystals" }
+],
+"correctAnswer": 1,
+"explanation": "Moseley observed a linear relation between the square root of the frequency (√ν) of characteristic X-rays emitted by elements and their atomic numbers (Z)."
+},
+{
+"id": 3,
+"subject": "Chemistry",
+"topic": "Nomenclature of Elements with Z > 100",
+"difficulty": "Easy",
+"text": "What is the systematic IUPAC name for the element with atomic number Z = 120?",
+"options": [
+{ "text": "Unbinilium" },
+{ "text": "Ununinium" },
+{ "text": "Unbihexium" },
+{ "text": "Unnilbium" }
+],
+"correctAnswer": 0,
+"explanation": "For Z = 120, the roots for digits 1, 2, and 0 are 'un', 'bi', and 'nil' respectively. Adding the suffix 'ium' gives Unbinilium (symbol: Ubn)."
+},
+{
+"id": 4,
+"subject": "Chemistry",
+"topic": "Electronic Configurations of Elements",
+"difficulty": "Easy",
+"text": "An element has the valence shell electronic configuration 3s² 3p⁴. To which group and period in the periodic table does it belong?",
+"options": [
+{ "text": "Group 14, Period 3" },
+{ "text": "Group 16, Period 3" },
+{ "text": "Group 16, Period 4" },
+{ "text": "Group 6, Period 3" }
+],
+"correctAnswer": 1,
+"explanation": "The highest principal quantum number n = 3 indicates Period 3. For p-block elements, Group number = 12 + number of valence p-electrons = 12 + 4 = 16."
+},
+{
+"id": 5,
+"subject": "Chemistry",
+"topic": "Electronic Configurations and Types of Elements",
+"difficulty": "Easy",
+"text": "Which of the following electronic configurations represents a noble gas?",
+"options": [
+{ "text": "1s² 2s² 2p⁶ 3s²" },
+{ "text": "1s² 2s² 2p⁶ 3s² 3p⁵" },
+{ "text": "1s² 2s² 2p⁶ 3s² 3p⁶" },
+{ "text": "1s² 2s² 2p⁶ 3s¹" }
+],
+"correctAnswer": 2,
+"explanation": "Noble gases (except Helium: 1s²) have a completely filled ns² np⁶ valence shell configuration, which corresponds to 1s² 2s² 2p⁶ 3s² 3p⁶ (Argon)."
+},
+{
+"id": 6,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Atomic Radius",
+"difficulty": "Easy",
+"text": "How do the atomic radii generally vary across a period from left to right and down a group in the periodic table?",
+"options": [
+{ "text": "Increases across a period, decreases down a group" },
+{ "text": "Decreases across a period, increases down a group" },
+{ "text": "Increases across a period, increases down a group" },
+{ "text": "Decreases across a period, decreases down a group" }
+],
+"correctAnswer": 1,
+"explanation": "Atomic radius decreases across a period due to increasing effective nuclear charge, and increases down a group due to the addition of new electron shells."
+},
+{
+"id": 7,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Ionization Enthalpy",
+"difficulty": "Easy",
+"text": "Among the following first period and second period elements, which has the highest first ionization enthalpy?",
+"options": [
+{ "text": "Lithium" },
+{ "text": "Beryllium" },
+{ "text": "Helium" },
+{ "text": "Fluorine" }
+],
+"correctAnswer": 2,
+"explanation": "Helium has a 1s² stable duplet configuration with small size and high effective nuclear charge, giving it the highest first ionization enthalpy among all known elements."
+},
+{
+"id": 8,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Electronegativity",
+"difficulty": "Easy",
+"text": "According to the Pauling scale, which element is assigned the highest electronegativity value of 4.0?",
+"options": [
+{ "text": "Oxygen" },
+{ "text": "Chlorine" },
+{ "text": "Fluorine" },
+{ "text": "Helium" }
+],
+"correctAnswer": 2,
+"explanation": "Linus Pauling arbitrarily assigned a value of 4.0 to fluorine, the most electronegative element in the periodic table."
+},
+{
+"id": 9,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Chemical Reactivity",
+"difficulty": "Easy",
+"text": "Oxides formed by elements on the extreme left of the periodic table are generally:",
+"options": [
+{ "text": "Acidic" },
+{ "text": "Basic" },
+{ "text": "Amphoteric" },
+{ "text": "Neutral" }
+],
+"correctAnswer": 1,
+"explanation": "Elements on the extreme left are electropositive metals (Group 1 and 2), which form basic oxides (e.g., Na₂O, CaO)."
+},
+{
+"id": 10,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Valence / Oxidation States",
+"difficulty": "Easy",
+"text": "What is the maximum valence of an element belonging to Group 15 towards oxygen?",
+"options": [
+{ "text": "3" },
+{ "text": "5" },
+{ "text": "2" },
+{ "text": "6" }
+],
+"correctAnswer": 1,
+"explanation": "The maximum valence (or group valence) for p-block elements is equal to the number of valence electrons (Group number - 10). For Group 15, maximum valence = 15 - 10 = 5 (e.g., P₂O₅)."
+},
+{
+"id": 11,
+"subject": "Chemistry",
+"topic": "Ionic Radius and Isoelectronic Species",
+"difficulty": "Moderate",
+"text": "Consider the isoelectronic species: N³⁻, O²⁻, F⁻, and Na⁺. The correct decreasing order of their ionic radii is:",
+"options": [
+{ "text": "Na⁺ > F⁻ > O²⁻ > N³⁻" },
+{ "text": "N³⁻ > O²⁻ > F⁻ > Na⁺" },
+{ "text": "O²⁻ > N³⁻ > F⁻ > Na⁺" },
+{ "text": "N³⁻ > F⁻ > O²⁻ > Na⁺" }
+],
+"correctAnswer": 1,
+"explanation": "For isoelectronic species, ionic radius decreases as nuclear charge (Z) increases. The nuclear charges are N (Z=7), O (Z=8), F (Z=9), and Na (Z=11), making N³⁻ the largest and Na⁺ the smallest."
+},
+{
+"id": 12,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Ionization Enthalpy",
+"difficulty": "Moderate",
+"text": "Which of the following represents the correct order of first ionization enthalpy (ΔᵢH₁) for the elements B, C, N, and O?",
+"options": [
+{ "text": "B < C < O < N" },
+{ "text": "B < C < N < O" },
+{ "text": "C < B < N < O" },
+{ "text": "B < N < C < O" }
+],
+"correctAnswer": 0,
+"explanation": "Across Period 2, ΔᵢH₁ generally increases, but Nitrogen (2p³) has a stable half-filled electronic configuration, giving it a higher first ionization enthalpy than Oxygen (2p⁴). Thus, the order is B < C < O < N."
+},
+{
+"id": 13,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Ionization Enthalpy",
+"difficulty": "Moderate",
+"text": "Beryllium has a higher first ionization enthalpy than Boron because:",
+"options": [
+{ "text": "Boron has a higher nuclear charge than Beryllium." },
+{ "text": "It is easier to remove a 2p electron from Boron than a 2s electron from Beryllium." },
+{ "text": "2p electrons penetrate closer to the nucleus than 2s electrons." },
+{ "text": "Beryllium has a larger atomic radius than Boron." }
+],
+"correctAnswer": 1,
+"explanation": "Beryllium (1s² 2s²) has a fully filled 2s orbital, whereas Boron (1s² 2s² 2p¹) has a single electron in a 2p orbital, which is less penetrating and higher in energy than 2s electrons."
+},
+{
+"id": 14,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Electron Gain Enthalpy",
+"difficulty": "Moderate",
+"text": "Which of the following statements is NOT correct regarding electron gain enthalpy (ΔₑgH)?",
+"options": [
+{ "text": "Halogens have the most negative electron gain enthalpies in their respective periods." },
+{ "text": "Noble gases have large positive electron gain enthalpies." },
+{ "text": "Oxygen has a more negative electron gain enthalpy than Sulfur." },
+{ "text": "Electron gain enthalpy generally becomes less negative down a group." }
+],
+"correctAnswer": 2,
+"explanation": "Due to the small size of the 2p subshell in Oxygen, inter-electronic repulsions are high when an electron is added. Thus, Oxygen has a LESS negative electron gain enthalpy (-141 kJ mol⁻¹) than Sulfur (-200 kJ mol⁻¹)."
+},
+{
+"id": 15,
+"subject": "Chemistry",
+"topic": "Electronegativity and Bond Polarity",
+"difficulty": "Moderate",
+"text": "Using Mulliken's scale, calculate the electronegativity of an atom X if its ionization enthalpy is 14.0 eV and its electron gain enthalpy is 2.0 eV.",
+"options": [
+{ "text": "16.0" },
+{ "text": "8.0" },
+{ "text": "2.8" },
+{ "text": "5.6" }
+],
+"correctAnswer": 2,
+"explanation": "According to Mulliken-Pauling conversion, Electronegativity (χ) = (IE + EA) / 5.6 where IE and EA are in eV. Substituting values: χ = (14.0 + 2.0) / 5.6 = 16.0 / 5.6 ≈ 2.86 (or on Mulliken scale directly EN = (14 + 2)/2 = 8.0, but when converted to Pauling units it is (IE + EA)/5.6 = 2.86)."
+},
+{
+"id": 16,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Chemical Reactivity",
+"difficulty": "Moderate",
+"text": "Which of the following set of oxides contains an acidic, a basic, and an amphoteric oxide respectively?",
+"options": [
+{ "text": "Cl₂O₇, Na₂O, Al₂O₃" },
+{ "text": "Na₂O, Cl₂O₇, Al₂O₃" },
+{ "text": "Al₂O₃, Cl₂O₇, Na₂O" },
+{ "text": "CO, CaO, SiO₂" }
+],
+"correctAnswer": 0,
+"explanation": "Cl₂O₇ is strongly acidic (non-metal oxide), Na₂O is strongly basic (alkali metal oxide), and Al₂O₃ is amphoteric (reacts with both acids and bases)."
+},
+{
+"id": 17,
+"subject": "Chemistry",
+"topic": "Anomalous Properties of Second Period Elements",
+"difficulty": "Moderate",
+"text": "The first element of Group 1 (Lithium) and Group 2 (Beryllium) show properties similar to the second element of the neighboring group (Magnesium and Aluminium respectively). This phenomenon is known as:",
+"options": [
+{ "text": "Inert pair effect" },
+{ "text": "Diagonal relationship" },
+{ "text": "Lanthanoid contraction" },
+{ "text": "Screening effect" }
+],
+"correctAnswer": 1,
+"explanation": "The similarity in properties between elements placed diagonally across adjacent periods and groups (e.g., Li-Mg, Be-Al, B-Si) is called a diagonal relationship, arising due to similar ionic sizes and charge-to-radius ratios."
+},
+{
+"id": 18,
+"subject": "Chemistry",
+"topic": "Electronic Configurations and Types of Elements",
+"difficulty": "Moderate",
+"text": "Assertion (A): The first ionization enthalpy of Nitrogen is greater than that of Oxygen.\nReason (R): Nitrogen has a half-filled 2p subshell configuration, which imparts extra stability.",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": " (A) is true but (R) is false." },
+{ "text": " (A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "Nitrogen has electronic configuration 1s² 2s² 2p³, where 2p is half-filled. Extra stability of half-filled subshells makes it harder to remove an electron from Nitrogen compared to Oxygen (1s² 2s² 2p⁴)."
+},
+{
+"id": 19,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Electron Gain Enthalpy",
+"difficulty": "Moderate",
+"text": "Which of the following elements has the most negative electron gain enthalpy?",
+"options": [
+{ "text": "Fluorine" },
+{ "text": "Chlorine" },
+{ "text": "Bromine" },
+{ "text": "Iodine" }
+],
+"correctAnswer": 1,
+"explanation": "Chlorine (-349 kJ mol⁻¹) has a more negative electron gain enthalpy than Fluorine (-328 kJ mol⁻¹) because Chlorine's 3p orbital is larger, resulting in less electron-electron repulsion when an incoming electron is added."
+},
+{
+"id": 20,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Chemical Reactivity",
+"difficulty": "Moderate",
+"text": "Which of the following compounds is NOT amphoteric in nature?",
+"options": [
+{ "text": "Al₂O₃" },
+{ "text": "ZnO" },
+{ "text": "Be(OH)₂" },
+{ "text": "CaO" }
+],
+"correctAnswer": 3,
+"explanation": "CaO is a strongly basic oxide because Calcium is an electropositive alkaline earth metal. Al₂O₃, ZnO, and Be(OH)₂ are amphoteric and react with both acids and bases."
+},
+{
+"id": 21,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Ionization Enthalpy",
+"difficulty": "Challenging",
+"text": "The first four ionization enthalpies (IE₁, IE₂, IE₃, IE₄) of an element are 738, 1451, 7733, and 10540 kJ mol⁻¹ respectively. To which group of the periodic table does this element most likely belong?",
+"options": [
+{ "text": "Group 1" },
+{ "text": "Group 2" },
+{ "text": "Group 13" },
+{ "text": "Group 14" }
+],
+"correctAnswer": 1,
+"explanation": "A massive jump occurs between IE₂ (1451 kJ mol⁻¹) and IE₃ (7733 kJ mol⁻¹), indicating that the element has 2 valence electrons. Removing the third electron requires breaking a stable noble gas core. Thus, it belongs to Group 2 (Alkaline earth metals, e.g., Mg)."
+},
+{
+"id": 22,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Atomic Radius and Screening Effect",
+"difficulty": "Challenging",
+"text": "Assertion (A): Atomic radius of Gallium (135 pm) is slightly smaller than that of Aluminium (143 pm).\nReason (R): The presence of 10 d-electrons in Gallium offers poor screening effect for the outer electrons.",
+"options": [
+{ "text": "Both (A) and (R) are true and (R) is the correct explanation of (A)." },
+{ "text": "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)." },
+{ "text": " (A) is true but (R) is false." },
+{ "text": " (A) is false but (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "Gallium has electronic configuration [Ar] 3d¹⁰ 4s² 4p¹. The 3d electrons shield the outer 4s and 4p electrons poorly from nuclear charge, resulting in an increased effective nuclear charge (Z_eff) and a smaller atomic radius than Aluminium."
+},
+{
+"id": 23,
+"subject": "Chemistry",
+"topic": "Screening Effect and Effective Nuclear Charge",
+"difficulty": "Challenging",
+"text": "According to Slater's rules, the effective nuclear charge (Z*) experienced by a 4s electron in a Zinc atom (Z = 30) is calculated as Z* = Z - S. What is the calculated value of Z* for a 4s electron in Zinc?",
+"options": [
+{ "text": "4.35" },
+{ "text": "8.85" },
+{ "text": "25.65" },
+{ "text": "1.65" }
+],
+"correctAnswer": 0,
+"explanation": "Formula: Z* = Z - S. For Zn (1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s²), shielding constant S for a 4s electron: S = (1 × 0.35) + (18 × 0.85) + (10 × 1.00) = 0.35 + 15.30 + 10.00 = 25.65. Therefore, Z* = 30 - 25.65 = 4.35."
+},
+{
+"id": 24,
+"subject": "Chemistry",
+"topic": "Electronic Configurations and Periodic Position",
+"difficulty": "Challenging",
+"text": "An element X has atomic number Z = 57. In which block, period, and group of the long form of the periodic table is element X placed?",
+"options": [
+{ "text": "f-block, Period 6, Group 3" },
+{ "text": "d-block, Period 6, Group 3" },
+{ "text": "d-block, Period 5, Group 3" },
+{ "text": "p-block, Period 6, Group 13" }
+],
+"correctAnswer": 1,
+"explanation": "Element Z = 57 is Lanthanum (La). Its outer electronic configuration is [Xe] 5d¹ 6s². The last entering electron goes into the 5d subshell, so it belongs to d-block, Period 6, and Group 3."
+},
+{
+"id": 25,
+"subject": "Chemistry",
+"topic": "Periodic Trends in Ionization Enthalpy and Electron Gain Enthalpy",
+"difficulty": "Challenging",
+"text": "The energy required to convert 1 mole of neutral isolated gaseous lithium atoms into Li⁺ ions is 520 kJ mol⁻¹. If the electron gain enthalpy of Li⁺(g) is −520 kJ mol⁻¹, how much energy is released when 0.5 mol of Li⁺(g) ions are converted to Li(g) atoms?",
+"options": [
+{ "text": "+260 kJ" },
+{ "text": "-260 kJ" },
+{ "text": "+520 kJ" },
+{ "text": "-520 kJ" }
+],
+"correctAnswer": 1,
+"explanation": "Li⁺(g) + e⁻ → Li(g) is the reverse of ionization, so ΔH = −520 kJ mol⁻¹. For 0.5 mol, ΔH = 0.5 × (−520) = −260 kJ. Hence, 260 kJ of energy is released."
+}
+]

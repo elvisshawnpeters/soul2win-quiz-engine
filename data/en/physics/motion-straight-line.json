@@ -1,0 +1,377 @@
+[
+{
+"id": 1,
+"subject": "Physics",
+"topic": "Position, Path Length and Displacement",
+"difficulty": "Easy",
+"text": "A particle moves along a circular path of radius R from point A to point B, covering a semicircular arc. What are the path length and the magnitude of displacement, respectively?",
+"options": [
+{ "text": "πR, 2R" },
+{ "text": "2R, πR" },
+{ "text": "2πR, R" },
+{ "text": "πR, zero" }
+],
+"correctAnswer": 0,
+"explanation": "Path length is the actual distance travelled along the semicircle, which is πR. Displacement is the shortest straight-line distance between the initial and final positions across the diameter, which is 2R."
+},
+{
+"id": 2,
+"subject": "Physics",
+"topic": "Position, Path Length and Displacement",
+"difficulty": "Easy",
+"text": "Which of the following statements regarding path length and displacement is NOT correct?",
+"options": [
+{ "text": "Path length is a scalar quantity, whereas displacement is a vector quantity." },
+{ "text": "The magnitude of displacement can be greater than the path length for a moving object." },
+{ "text": "Displacement can be positive, negative, or zero." },
+{ "text": "Path length is always positive or zero for a moving body." }
+],
+"correctAnswer": 1,
+"explanation": "Path length is always greater than or equal to the magnitude of displacement. The magnitude of displacement can never exceed the path length."
+},
+{
+"id": 3,
+"subject": "Physics",
+"topic": "Average Velocity and Average Speed",
+"difficulty": "Easy",
+"text": "A car travels the first half of a total distance d at a constant speed v₁ and the second half at a constant speed v₂. What is the average speed of the car for the entire journey?",
+"options": [
+{ "text": "(v₁ + v₂)/2" },
+{ "text": "2v₁v₂ / (v₁ + v₂)" },
+{ "text": "√(v₁v₂)" },
+{ "text": "(v₁ - v₂)/(v₁ + v₂)" }
+],
+"correctAnswer": 1,
+"explanation": "Average speed = Total distance / Total time = d / (t₁ + t₂). Since t₁ = (d/2)/v₁ and t₂ = (d/2)/v₂, average speed = d / [(d/2v₁) + (d/2v₂)] = 2v₁v₂ / (v₁ + v₂)."
+},
+{
+"id": 4,
+"subject": "Physics",
+"topic": "Average Velocity and Average Speed",
+"difficulty": "Easy",
+"text": "Under what condition is the magnitude of average velocity equal to the average speed of an object?",
+"options": [
+{ "text": "When the object moves along a curved path without changing direction." },
+{ "text": "When the object moves along a straight line in a fixed direction." },
+{ "text": "When the object moves in a circle with constant speed." },
+{ "text": "When the object reverses its direction of motion along a straight line." }
+],
+"correctAnswer": 1,
+"explanation": "When an object moves along a straight line in a single direction without turning back, the path length equals the magnitude of displacement, making average speed equal to average velocity magnitude."
+},
+{
+"id": 5,
+"subject": "Physics",
+"topic": "Instantaneous Velocity and Speed",
+"difficulty": "Easy",
+"text": "The position x of a particle moving along the x-axis varies with time t as x(t) = 3t² - 5t + 2, where x is in meters and t is in seconds. The instantaneous velocity of the particle at t = 2 s is:",
+"options": [
+{ "text": "5 m/s" },
+{ "text": "7 m/s" },
+{ "text": "12 m/s" },
+{ "text": "4 m/s" }
+],
+"correctAnswer": 1,
+"explanation": "Velocity v = dx/dt = d(3t² - 5t + 2)/dt = 6t - 5. Substituting t = 2 s gives v = 6(2) - 5 = 7 m/s."
+},
+{
+"id": 6,
+"subject": "Physics",
+"topic": "Instantaneous Velocity and Speed",
+"difficulty": "Easy",
+"text": "On a position-time (x-t) graph of a particle, what does the slope of the tangent at any given instant represent?",
+"options": [
+{ "text": "Average acceleration" },
+{ "text": "Instantaneous velocity" },
+{ "text": "Instantaneous acceleration" },
+{ "text": "Total displacement" }
+],
+"correctAnswer": 1,
+"explanation": "The slope of the tangent to the x-t graph at any instant gives the rate of change of position with respect to time, which is the instantaneous velocity v = dx/dt."
+},
+{
+"id": 7,
+"subject": "Physics",
+"topic": "Acceleration",
+"difficulty": "Easy",
+"text": "A particle moves in a straight line with a constant acceleration of 2 m/s². If its initial velocity is 4 m/s, what is its velocity at t = 3 s?",
+"options": [
+{ "text": "6 m/s" },
+{ "text": "8 m/s" },
+{ "text": "10 m/s" },
+{ "text": "12 m/s" }
+],
+"correctAnswer": 2,
+"explanation": "Using the kinematic equation v = u + at: v = 4 + 2(3) = 10 m/s."
+},
+{
+"id": 8,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Easy",
+"text": "A vehicle starting from rest moves with a uniform acceleration of 3 m/s² along a straight track. The distance covered by it in the first 4 seconds is:",
+"options": [
+{ "text": "12 m" },
+{ "text": "24 m" },
+{ "text": "36 m" },
+{ "text": "48 m" }
+],
+"correctAnswer": 1,
+"explanation": "Using x = ut + (1/2)at² with u = 0: x = 0 + (1/2)(3)(4)² = (1/2)(3)(16) = 24 m."
+},
+{
+"id": 9,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Easy",
+"text": "A bullet enters a wooden block with a speed of 20 m/s and comes to rest after penetrating a distance of 0.1 m. Assuming uniform retardation, the magnitude of its acceleration is:",
+"options": [
+{ "text": "1000 m/s²" },
+{ "text": "2000 m/s²" },
+{ "text": "500 m/s²" },
+{ "text": "4000 m/s²" }
+],
+"correctAnswer": 1,
+"explanation": "Using v² = u² + 2ax with v = 0, u = 20 m/s, and x = 0.1 m: 0 = (20)² + 2a(0.1) ⇒ 0.2a = -400 ⇒ a = -2000 m/s². The magnitude of retardation is 2000 m/s²."
+},
+{
+"id": 10,
+"subject": "Physics",
+"topic": "Relative Velocity in One Dimension",
+"difficulty": "Easy",
+"text": "Two trains A and B of length 100 m each are moving on parallel tracks in the same direction with uniform speeds of 20 m/s and 15 m/s, respectively. The relative velocity of train A with respect to train B is:",
+"options": [
+{ "text": "35 m/s" },
+{ "text": "5 m/s" },
+{ "text": "-5 m/s" },
+{ "text": "20 m/s" }
+],
+"correctAnswer": 1,
+"explanation": "Relative velocity v_AB = v_A - v_B = 20 m/s - 15 m/s = 5 m/s in the direction of motion."
+},
+{
+"id": 11,
+"subject": "Physics",
+"topic": "Position, Path Length and Displacement",
+"difficulty": "Moderate",
+"text": "A runner completes one full round of a square track of side 50 m in 40 seconds. What will be the magnitude of displacement of the runner at the end of 2 minutes 20 seconds?",
+"options": [
+{ "text": "200 m" },
+{ "text": "50 m" },
+{ "text": "50√2 m" },
+{ "text": "zero" }
+],
+"correctAnswer": 2,
+"explanation": "Total time = 2 min 20 s = 140 s. Number of rounds = 140 / 40 = 3.5 rounds. After 3.5 rounds, the runner is at the opposite corner of the square. Displacement = diagonal of square = √(50² + 50²) = 50√2 m."
+},
+{
+"id": 12,
+"subject": "Physics",
+"topic": "Instantaneous Velocity and Speed",
+"difficulty": "Moderate",
+"text": "An object moves along a straight line with velocity varying as follows:\n• From 0–2 s, the velocity increases uniformly from 0 m/s to 10 m/s.\n• From 2–4 s, the velocity decreases uniformly from 10 m/s to −10 m/s, crossing zero at t = 3 s.\n• From 4–6 s, the velocity increases uniformly from −10 m/s to 0 m/s.\nThe total distance travelled by the object in 6 s is:",
+"options": [
+{ "text": "10 m" },
+{ "text": "20 m" },
+{ "text": "30 m" },
+{ "text": "40 m" }
+],
+"correctAnswer": 2,
+"explanation": "The total distance equals the sum of the magnitudes of the areas under the velocity–time graph.\n0–2 s: ½ × 2 × 10 = 10 m\n2–4 s: Two equal triangles, each of area ½ × 1 × 10 = 5 m; total = 10 m\n4–6 s: ½ × 2 × 10 = 10 m\nTotal distance = 10 + 10 + 10 = 30 m."
+},
+{
+"id": 13,
+"subject": "Physics",
+"topic": "Acceleration",
+"difficulty": "Moderate",
+"text": "A particle moves along a straight line such that its displacement x at time t is given by x² = t² + 1. The acceleration of the particle at any instant is proportional to:",
+"options": [
+{ "text": "1/x" },
+{ "text": "1/x²" },
+{ "text": "1/x³" },
+{ "text": "x³" }
+],
+"correctAnswer": 2,
+"explanation": "Differentiating x² = t² + 1 gives 2x(dx/dt) = 2t ⇒ xv = t. Differentiating again: v + x(dv/dt) = 1 ⇒ x a = 1 - v². Substitute v = t/x: x a = 1 - (t²/x²) = (x² - t²)/x² = 1/x². Thus, acceleration a = 1/x³."
+},
+{
+"id": 14,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Moderate",
+"text": "A ball is dropped from a height H above the ground. It takes time T₁ to cover the first half of the distance and time T₂ to cover the second half. The ratio T₁/T₂ is:",
+"options": [
+{ "text": "1" },
+{ "text": "√2 - 1" },
+{ "text": "1 / (√2 - 1)" },
+{ "text": "√2 + 1" }
+],
+"correctAnswer": 2,
+"explanation": "For first half: H/2 = (1/2)g T₁² ⇒ T₁ = √(H/g). For total height: H = (1/2)g (T₁ + T₂)² ⇒ T₁ + T₂ = √(2H/g) = √2 T₁. Therefore, T₂ = (√2 - 1)T₁, which gives T₁/T₂ = 1 / (√2 - 1)."
+},
+{
+"id": 15,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Moderate",
+"text": "Assertion (A): For a body thrown vertically upwards, the acceleration at the highest point of its motion is zero.\nReason (R): At the highest point, the velocity of the body momentarily becomes zero.",
+"options": [
+{ "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)." },
+{ "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A)." },
+{ "text": "Assertion (A) is true but Reason (R) is false." },
+{ "text": "Assertion (A) is false but Reason (R) is true." }
+],
+"correctAnswer": 3,
+"explanation": "The acceleration throughout free fall is constant and equal to g (directed downwards), even at the highest point where velocity is momentarily zero. Thus, Assertion is false and Reason is true."
+},
+{
+"id": 16,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Moderate",
+"text": "Galileo’s law of odd numbers states that the distances traversed, during equal intervals of time, by a body falling freely from rest, stand to one another in the simple ratio of:",
+"options": [
+{ "text": "1 : 2 : 3 : 4 : ..." },
+{ "text": "1 : 3 : 5 : 7 : ..." },
+{ "text": "1 : 4 : 9 : 16 : ..." },
+{ "text": "1 : 2 : 4 : 8 : ..." }
+],
+"correctAnswer": 1,
+"explanation": "Galileo's law of odd numbers states that the distances covered by a body falling from rest in successive equal time intervals t are in the ratio of consecutive odd numbers, i.e., 1 : 3 : 5 : 7 : ..."
+},
+{
+"id": 17,
+"subject": "Physics",
+"topic": "Motion under Gravity",
+"difficulty": "Moderate",
+"text": "A stone is thrown vertically upward from the top of a tower with a speed of 10 m/s. It reaches the ground at the base of the tower in 4 seconds. The height of the tower is (take g = 10 m/s²):",
+"options": [
+{ "text": "40 m" },
+{ "text": "60 m" },
+{ "text": "80 m" },
+{ "text": "120 m" }
+],
+"correctAnswer": 0,
+"explanation": "Taking upward direction as positive: u = +10 m/s, a = -10 m/s², t = 4 s. Displacement y = ut + (1/2)at² = 10(4) + (1/2)(-10)(4)² = 40 - 80 = -40 m. The negative sign indicates displacement is downwards, so height of tower = 40 m."
+},
+{
+"id": 18,
+"subject": "Physics",
+"topic": "Relative Velocity in One Dimension",
+"difficulty": "Moderate",
+"text": "Two parallel rail tracks run north-south. Train A moves north with a speed of 54 km/h, and train B moves south with a speed of 90 km/h. What is the velocity of train B with respect to train A?",
+"options": [
+{ "text": "40 m/s towards North" },
+{ "text": "40 m/s towards South" },
+{ "text": "10 m/s towards South" },
+{ "text": "144 m/s towards South" }
+],
+"correctAnswer": 1,
+"explanation": "v_A = +54 km/h = +15 m/s (taking North as positive). v_B = -90 km/h = -25 m/s. Velocity of B with respect to A = v_B - v_A = -25 - 15 = -40 m/s, which means 40 m/s towards South."
+},
+{
+"id": 19,
+"subject": "Physics",
+"topic": "Graph Interpretation",
+"difficulty": "Moderate",
+"text": "Which of the following position-time (x-t) graphs correctly represents a particle moving along a straight line with a constant negative acceleration?",
+"options": [
+{ "text": "A straight line sloping upwards with a positive gradient." },
+{ "text": "A parabola opening upwards." },
+{ "text": "A parabola opening downwards." },
+{ "text": "A horizontal straight line parallel to the time axis." }
+],
+"correctAnswer": 2,
+"explanation": "Since x = ut + (1/2)at², a constant negative acceleration (a < 0) gives a quadratic relationship where the curvature of the x-t graph is concave downwards (parabola opening downwards)."
+},
+{
+"id": 20,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Moderate",
+"text": "A body starting from rest covers a distance S₁ in the first 2 seconds and a distance S₂ in the next 2 seconds under uniform acceleration. The relation between S₁ and S₂ is:",
+"options": [
+{ "text": "S₂ = S₁" },
+{ "text": "S₂ = 2S₁" },
+{ "text": "S₂ = 3S₁" },
+{ "text": "S₂ = 4S₁" }
+],
+"correctAnswer": 2,
+"explanation": "Distance in first 2 s: S₁ = (1/2)a(2)² = 2a. Distance in first 4 s: S_total = (1/2)a(4)² = 8a. Distance in next 2 s: S₂ = S_total - S₁ = 8a - 2a = 6a. Therefore, S₂ = 3S₁."
+},
+{
+"id": 21,
+"subject": "Physics",
+"topic": "Instantaneous Velocity and Speed",
+"difficulty": "Challenging",
+"text": "The position x of a particle varies with time t according to the equation x = a t - b t³, where a and b are positive constants. The velocity of the particle when its acceleration becomes zero is:",
+"options": [
+{ "text": "a" },
+{ "text": "a/2" },
+{ "text": "a/3" },
+{ "text": "zero" }
+],
+"correctAnswer": 0,
+"explanation": "Velocity v = dx/dt = a - 3bt². Acceleration accel = dv/dt = -6bt. Setting accel = 0 gives t = 0. Substituting t = 0 into velocity equation gives v = a - 3b(0)² = a."
+},
+{
+"id": 22,
+"subject": "Physics",
+"topic": "Motion under Gravity",
+"difficulty": "Challenging",
+"text": "A body is thrown vertically upwards with velocity u. It passes a point P at height h above the ground at times t₁ and t₂ during its journey. Which of the following relationships is correct?",
+"options": [
+{ "text": "t₁ + t₂ = u/g" },
+{ "text": "t₁ t₂ = 2h/g" },
+{ "text": "t₁ t₂ = h/g" },
+{ "text": "t₁ - t₂ = 2u/g" }
+],
+"correctAnswer": 1,
+"explanation": "Using h = ut - (1/2)gt², we get quadratic equation gt² - 2ut + 2h = 0. The roots t₁ and t₂ represent times to reach height h. Product of roots t₁t₂ = 2h/g (and sum of roots t₁ + t₂ = 2u/g)."
+},
+{
+"id": 23,
+"subject": "Physics",
+"topic": "Kinematic Equations for Uniformly Accelerated Motion",
+"difficulty": "Challenging",
+"text": "Assertion (A): The area under the acceleration-time (a-t) graph for a given time interval represents the change in velocity of the object.\nReason (R): Acceleration is defined as the rate of change of velocity with respect to time.",
+"options": [
+{ "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A)." },
+{ "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A)." },
+{ "text": "Assertion (A) is true but Reason (R) is false." },
+{ "text": "Assertion (A) is false but Reason (R) is true." }
+],
+"correctAnswer": 0,
+"explanation": "Since a = dv/dt, integrating gives ∫ a dt = ∫ dv = Δv (change in velocity). The integral ∫ a dt is the area under the a-t graph, making Reason the correct explanation of Assertion."
+},
+{
+"id": 24,
+"subject": "Physics",
+"topic": "Relative Velocity in One Dimension",
+"difficulty": "Challenging",
+"text": "A police van moving on a highway with a speed of 36 km/h fires a bullet at a thief’s car speeding away in the same direction with a speed of 108 km/h. If the muzzle speed of the bullet is 140 m/s, with what speed does the bullet hit the thief’s car?",
+"options": [
+{ "text": "120 m/s" },
+{ "text": "130 m/s" },
+{ "text": "140 m/s" },
+{ "text": "150 m/s" }
+],
+"correctAnswer": 0,
+"explanation": "Speed of police van v_p = 36 km/h = 10 m/s. Muzzle speed of bullet = 140 m/s. Speed of bullet w.r.t ground v_b = 140 + 10 = 150 m/s. Speed of thief car v_t = 108 km/h = 30 m/s. Speed of bullet w.r.t thief car = v_b - v_t = 150 - 30 = 120 m/s."
+},
+{
+"id": 25,
+"subject": "Physics",
+"topic": "Position, Path Length and Displacement",
+"difficulty": "Challenging",
+"text": "Which of the following speed-time (v-t) or position-time (x-t) graphs is physically IMPOSSIBLE for a real object moving in a straight line?",
+"options": [
+{ "text": "A position-time graph that shows two different positions for an object at the same instant of time." },
+{ "text": "A speed-time graph with a non-zero slope." },
+{ "text": "A position-time graph showing negative displacement values." },
+{ "text": "A velocity-time graph showing a sudden change in sign of velocity upon bouncing." }
+],
+"correctAnswer": 0,
+"explanation": "An object cannot occupy two different positions at the exact same instant of time, as that would imply infinite speed or teleportation, which is physically impossible."
+}
+]
