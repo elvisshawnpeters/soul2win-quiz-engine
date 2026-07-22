@@ -13,13 +13,33 @@ document.addEventListener('DOMContentLoaded', function () {
 	const beginBtnText = beginBtn.innerHTML;
 
   async function loadQuestions() {
-    const configResponse = await fetch(`${DATA_PATH}/configs/daily-test.json`);
-    const config = await configResponse.json();
+    const promises = [];
 
-    const promises = config.subjects.map(subject => {
-        return fetch(
-            `${DATA_PATH}/${selectedLanguage}/${subject.name}/${subject.file}.json`
+    const [currentResponse, testsResponse, chaptersResponse] = await Promise.all([
+      fetch(`${DATA_PATH}/configs/current-test.json`),
+      fetch(`${DATA_PATH}/configs/tests.json`),
+      fetch(`${DATA_PATH}/configs/chapters.json`)
+    ]);
+     
+    const [currentTest, allTests, allChapters] = await Promise.all([
+      currentResponse.json(),
+      testsResponse.json(),
+      chaptersResponse.json()
+    ]);
+
+    const currentAssessment = allTests.find(test => test.id === currentTest.id);
+    
+    currentAssessment.chapters.forEach(subjectConfig => {
+      subjectConfig.chapters.forEach(id => {
+        const chapterMetadata = allChapters[subjectConfig.subject].find(c => c.id === id);
+        if (!chapterMetadata) {
+            console.error("Please check the Chapter ID");
+            return;
+        }
+        promises.push( 
+          fetch(`${DATA_PATH}/${selectedLanguage}/${subjectConfig.subject}/${chapterMetadata.file}.json`)
         );
+      });
     });
     const responses = await Promise.all(promises);
     const jsonPromises = responses.map(response => response.json());

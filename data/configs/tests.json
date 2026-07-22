@@ -1,0 +1,96 @@
+[
+  {
+    "id": "day-01",
+    "title": "Day 1",
+    "chapters": [
+      {
+        "subject": "biology",
+        "chapters": [1]
+      },
+      {
+        "subject": "physics",
+        "chapters": [1]
+      },
+      {
+        "subject": "chemistry",
+        "chapters": [1]
+      }
+    ]
+  },
+
+  {
+    "id": "day-02",
+    "title": "Day 2",
+    "chapters": [
+      {
+        "subject": "biology",
+        "chapters": [2]
+      },
+      {
+        "subject": "physics",
+        "chapters": [2]
+      },
+      {
+        "subject": "chemistry",
+        "chapters": [2]
+      }
+    ]
+  },
+
+  {
+    "id": "day-03",
+    "title": "Day 3",
+    "chapters": [
+      {
+        "subject": "biology",
+        "chapters": [3]
+      },
+      {
+        "subject": "physics",
+        "chapters": [3]
+      },
+      {
+        "subject": "chemistry",
+        "chapters": [3]
+      }
+    ]
+  },
+
+  {
+    "id": "day-04",
+    "title": "Day 4",
+    "chapters": [
+      {
+        "subject": "biology",
+        "chapters": [4]
+      },
+      {
+        "subject": "physics",
+        "chapters": [4]
+      },
+      {
+        "subject": "chemistry",
+        "chapters": [4]
+      }
+    ]
+  },
+
+  {
+    "id": "day-05",
+    "title": "Day 5",
+    "chapters": [
+      {
+        "subject": "biology",
+        "chapters": [1, 5]
+      },
+      {
+        "subject": "physics",
+        "chapters": [5]
+      },
+      {
+        "subject": "chemistry",
+        "chapters": [5]
+      }
+    ]
+  }
+]
